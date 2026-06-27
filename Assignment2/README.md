@@ -1,156 +1,262 @@
-# E-Commerce Sales Database Analysis
-### Celebal Summer Internship 2026 — Week 2
+# 📊 SQL Sales Data Analysis
+### Celebal Technologies Summer Internship 2026 | Week 2 Assignment
 
-**Intern:** Kashish
-**Track:** Data Engineering
-**Week:** 2 — SQL & Relational Databases
-**Dataset:** Superstore Sales (9,994 rows) + ShopEase Sample Tables
+> End-to-end SQL analysis of an E-Commerce Sales Database demonstrating data exploration, filtering, aggregation, joins, transactions, and business insights.
 
 ---
 
-## Overview
+## 📌 Project Overview
 
-This project is a complete SQL-based analysis of an e-commerce sales database. The goal was to take raw transactional data, load it into a relational database, and extract meaningful business insights using SQL queries — covering everything from basic filtering to multi-table joins and full ACID-compliant transactions.
+This project was completed as part of the **Celebal Technologies Summer Internship 2026 (Week 2)**.
 
-The analysis is built on two datasets:
-- **ShopEase tables** — a custom 4-table relational schema designed for the assignment (customers, products, orders, order_items)
-- **Superstore dataset** — a real-world e-commerce dataset with 9,994 rows used for extended analysis
+The objective was to analyze an **E-Commerce Sales Database** using SQL by applying real-world database concepts such as filtering, aggregation, joins, constraints, indexing, transactions, and business reporting.
+
+The project also extends the assignment by performing additional sales analysis and visualizations using Python and SQL to derive actionable business insights.
 
 ---
 
-## Project Structure
+## 🎯 Assignment Objectives
+
+✔ Load the dataset into a SQL database
+
+✔ Explore the database schema and sample data
+
+✔ Filter records using SQL
+
+✔ Perform aggregations using GROUP BY
+
+✔ Rank and sort business metrics
+
+✔ Solve business use cases
+
+✔ Validate data quality
+
+✔ Generate insights through SQL queries and visualizations
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| SQL (SQLite) | Database Queries |
+| Python | Data Analysis |
+| Pandas | Data Manipulation |
+| SQLite3 | Database Connectivity |
+| Matplotlib | Data Visualization |
+| Jupyter Notebook | Implementation |
+
+---
+
+# 📂 Repository Structure
 
 ```
-week2_assignment/
+Assignment2
 │
-├── analysis.ipynb       — main notebook with all queries and outputs
-├── schema.sql           — CREATE TABLE statements with constraints and indexes
-├── data.sql             — INSERT statements for ShopEase sample data
-├── superstore.csv       — Superstore dataset (9,994 rows)
-├── SETUP.env            — step-by-step setup and run instructions
-└── README.md            — this file
+├── data/
+│   ├── Superstore.csv
+│   ├── schema.sql
+│   ├── data.sql
+│   └── shopease.db
+│
+├── notebook/
+│   └── SQL_Assignment.ipynb
+│
+├── requirements.txt
+│
+└── README.md
 ```
 
 ---
 
-## Database Schema
+# 🗂 Database Schema
 
-Four tables with proper constraints, foreign keys, and indexes:
+The project is based on a relational database consisting of four interconnected tables.
+
+| Table | Description |
+|--------|-------------|
+| Customers | Customer information |
+| Products | Product catalog |
+| Orders | Customer orders |
+| Order Items | Product-level order details |
+
+### Entity Relationship
 
 ```
-customers       products
-    │               │
-    │               │
-    ▼               ▼
-  orders ──────▶ order_items
+Customers
+     │
+     │ 1 : N
+     ▼
+Orders
+     │
+     │ 1 : N
+     ▼
+Order_Items
+     ▲
+     │
+Products
 ```
 
-| Table | Rows | Description |
-|---|---|---|
-| customers | 8 | Customer profiles — city, state, premium status |
-| products | 8 | Product catalog — category, brand, price, stock |
-| orders | 10 | Order headers — status, date, total amount |
-| order_items | 15 | Line items linking orders to products with discount |
+---
+
+# 📚 SQL Concepts Covered
+
+### ✅ Data Retrieval
+
+- SELECT
+- DISTINCT
+- LIMIT
+
+### ✅ Filtering
+
+- WHERE
+- BETWEEN
+- LIKE
+- IN
+- AND / OR / NOT
+
+### ✅ Aggregation
+
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- GROUP BY
+- HAVING
+
+### ✅ Sorting
+
+- ORDER BY
+- LIMIT
+
+### ✅ Joins
+
+- INNER JOIN
+- LEFT JOIN
+
+### ✅ Constraints
+
+- Primary Key
+- Foreign Key
+- UNIQUE
+- CHECK
+- NOT NULL
+
+### ✅ Advanced SQL
+
+- CASE
+- Transactions
+- COMMIT
+- ROLLBACK
+- ACID Properties
+- Indexes
+- SARGable Queries
 
 ---
 
-## What I Did
+# 📈 Business Analysis Performed
 
-### Section A — SQL Basics
-- Retrieved all records and specific columns from tables
-- Listed distinct product categories
-- Identified primary keys across all tables and explained uniqueness and NOT NULL requirements
-- Demonstrated UNIQUE constraint on email — attempted duplicate insert and captured the error
-- Demonstrated CHECK constraint on unit_price — attempted negative price insert and captured the error
+The notebook includes SQL-based business analysis such as:
 
-### Section B — Filtering & Optimization
-- Filtered orders by status, category, price, state, and date ranges
-- Used `BETWEEN` and `<>` operators for inclusive/exclusive filtering
-- Explained how `idx_orders_date` improves date-range query performance using B-Tree indexing
-- Rewrote a non-SARGable query (`YEAR(join_date) = 2024`) into an index-friendly range comparison
-
-### Section C — Aggregation
-- Counted total orders and computed total delivered revenue
-- Calculated average unit price per product category
-- Grouped orders by status and sorted by total revenue descending
-- Found most expensive and cheapest products per category using MAX and MIN
-- Used HAVING to filter categories where average price exceeds ₹2000
-
-### Section D — Joins
-- INNER JOIN across orders and customers to show order details with customer names
-- LEFT JOIN to list all customers including those with no orders
-- 3-table JOIN across orders → order_items → products to show full line-item details with computed totals
-- Explained LEFT vs RIGHT vs FULL OUTER JOIN with examples from the schema
-- Verified all foreign key relationships and demonstrated FK constraint violation
-
-### Section E — Advanced Concepts
-- Used CASE WHEN to classify products into Budget, Mid-Range, and Premium tiers
-- Used CASE inside an aggregate to count Delivered vs Not Delivered orders in a single row
-- Explained all four ACID properties with real-world examples
-- Wrote a complete transaction — new order insert, two order items, stock deduction — with BEGIN, COMMIT, and ROLLBACK handling
-
-### Extended Analysis — Superstore Dataset
-- Sales and profit breakdown by region with a dual-axis chart
-- Category-level revenue and profit margin analysis
-- Monthly revenue trend from 2014 to 2017
-- Top 10 customers by total spend
-- Top 10 products by total sales
-- Duplicate detection at order + product level
-- Full data quality report — null checks, negative values, invalid quantities
+- 📍 Sales by Region
+- 📦 Sales by Category
+- 📅 Monthly Sales Trend
+- 👤 Top Customers
+- 🛒 Top Selling Products
+- 💰 Revenue Analysis
+- 🔍 Duplicate Detection
+- ✔ Data Quality Validation
 
 ---
 
-## Key Findings
+# 📊 Sample Insights
 
-- **60% delivery rate** — 6 out of 10 ShopEase orders were Delivered
-- **Shipped orders have the highest average value** — ₹6,798 vs ₹2,865 for Delivered
-- **Electronics and Clothing** both exceed the ₹2,000 average price threshold
-- **3 products are Budget** (under ₹1,000), 3 Mid-Range, 2 Premium
-- **Superstore — West region** leads in total sales across all four years
-- **Technology category** has the highest profit margin despite fewer transactions
-- **No duplicate records** found in the Superstore dataset at order + product level
+Some key insights obtained from the analysis:
 
----
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|---|---|
-| Python 3 | Scripting and notebook execution |
-| SQLite | Local relational database engine |
-| Pandas | Data loading, SQL query results as DataFrames |
-| Matplotlib | Charts and visualizations |
-| Jupyter / VS Code | Development environment |
+- Regional sales performance varies significantly.
+- Technology products generate the highest revenue.
+- Monthly trends reveal seasonal demand patterns.
+- A small percentage of customers contribute a major share of sales.
+- No duplicate transactional records were found after validation.
+- SQL aggregations provide quick business summaries for decision-making.
 
 ---
 
-## How to Run
+# ✔ Data Validation
 
-**1. Install dependencies**
+The project includes validation checks to ensure data integrity.
+
+- Total row counts
+- Duplicate records
+- Missing values
+- Unique customers
+- Unique orders
+- Data consistency checks
+
+---
+
+# 🎓 Learning Outcomes
+
+Through this assignment, I strengthened my understanding of:
+
+- Relational Database Design
+- SQL Query Writing
+- Data Filtering
+- Aggregation Techniques
+- SQL Joins
+- Transactions
+- Constraints
+- Index Optimization
+- Business Analytics
+- Data Validation
+
+---
+
+# ▶ How to Run
+
+### Clone the Repository
+
 ```bash
-pip install pandas matplotlib jupyter ipykernel
+git clone <repository-url>
 ```
 
-**2. Open in VS Code**
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
 ```
-File → Open Folder → select this folder
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook
 ```
 
-**3. Open `analysis.ipynb`**
-
-**4. Select kernel** — top right corner → Python 3.x
-
-**5. Run All** — click ▶▶ at the top of the notebook
-
-All outputs, tables, and charts will appear inline. The database is created automatically on first run.
-
-> Full step-by-step instructions with error fixes are in `SETUP.env`
+Open **SQL_Assignment.ipynb** and run all cells.
 
 ---
 
-## SQL Concepts Covered
+# 📌 Assignment Information
 
-`SELECT` `WHERE` `DISTINCT` `BETWEEN` `GROUP BY` `HAVING` `ORDER BY` `LIMIT`
-`COUNT` `SUM` `AVG` `MIN` `MAX` `CASE WHEN` `INNER JOIN` `LEFT JOIN`
-`PRIMARY KEY` `FOREIGN KEY` `CHECK` `UNIQUE` `NOT NULL` `INDEX`
-`BEGIN` `COMMIT` `ROLLBACK` `ACID`
+**Organization:** Celebal Technologies
+
+**Internship:** Summer Internship 2026
+
+**Task:** Week 2 – E-Commerce Sales Database Analysis
+
+---
+
+# 👩‍💻 Author
+
+### Kashish Chadha
+
+**B.Tech Computer Science Engineering**
+
+DIT University, Dehradun
+
+Summer Intern @ Celebal Technologies
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
