@@ -156,3 +156,72 @@ FROM order_totals ot
 JOIN customers c ON c.customer_id = ot.customer_id
 GROUP BY c.customer_id, c.customer_name
 ORDER BY highest_order_value DESC;
+
+
+-- Validation checks
+
+-- V1. Row counts for core tables
+SELECT 'customers' AS table_name, COUNT(*) AS row_count FROM customers
+UNION ALL
+SELECT 'products', COUNT(*) FROM products
+UNION ALL
+SELECT 'orders', COUNT(*) FROM orders;
+
+
+-- V2. Null checks on key fields
+SELECT 'customers.customer_id_nulls' AS check_name, COUNT(*) AS issue_count
+FROM customers
+WHERE customer_id IS NULL OR TRIM(customer_id) = ''
+UNION ALL
+SELECT 'products.product_id_nulls', COUNT(*)
+FROM products
+WHERE product_id IS NULL OR TRIM(product_id) = ''
+UNION ALL
+SELECT 'orders.order_id_nulls', COUNT(*)
+FROM orders
+WHERE order_id IS NULL OR TRIM(order_id) = ''
+UNION ALL
+SELECT 'orders.customer_id_nulls', COUNT(*)
+FROM orders
+WHERE customer_id IS NULL OR TRIM(customer_id) = ''
+UNION ALL
+SELECT 'orders.product_id_nulls', COUNT(*)
+FROM orders
+WHERE product_id IS NULL OR TRIM(product_id) = '';
+
+
+-- V3. Duplicate IDs in dimension tables
+SELECT 'duplicate_customer_ids' AS check_name, COUNT(*) AS issue_count
+FROM (
+    SELECT customer_id
+    FROM customers
+    GROUP BY customer_id
+    HAVING COUNT(*) > 1
+)
+UNION ALL
+SELECT 'duplicate_product_ids', COUNT(*)
+FROM (
+    SELECT product_id
+    FROM products
+    GROUP BY product_id
+    HAVING COUNT(*) > 1
+);
+
+
+-- V4. Foreign-key style orphan checks from orders to dimensions
+SELECT 'orders_without_customer' AS check_name, COUNT(*) AS issue_count
+FROM orders o
+LEFT JOIN customers c ON c.customer_id = o.customer_id
+WHERE c.customer_id IS NULL
+UNION ALL
+SELECT 'orders_without_product', COUNT(*)
+FROM orders o
+LEFT JOIN products p ON p.product_id = o.product_id
+WHERE p.product_id IS NULL;
+
+
+-- V5. Basic order_date format check (YYYY-MM-DD)
+SELECT 'order_date_bad_format' AS check_name, COUNT(*) AS issue_count
+FROM orders
+WHERE order_date IS NULL
+   OR order_date NOT GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]';

@@ -67,6 +67,21 @@ If you only want the raw SQL, `sql/schema.sql` and `sql/queries.sql` can be run 
 any SQLite database (for example with the SQLite extension in VS Code, or the
 `sqlite3` command line).
 
+## Results summary (latest run)
+
+After running `notebook/analysis.ipynb` end-to-end on the included dataset, the
+generated `output/superstore.db` contains:
+
+- `customers`: 793 rows
+- `products`: 1,894 rows
+- `orders`: 9,994 rows
+
+Sample business result from the same run:
+
+- Top customer by total sales: `Sean Miller` (`25043.05`)
+
+You can re-check these quickly using the validation section in `sql/queries.sql`.
+
 ## Queries covered
 
 Step 2:
