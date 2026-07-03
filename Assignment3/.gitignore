@@ -1,4 +1,5 @@
 output/*.db
+!output/superstore.db
 __pycache__/
 .ipynb_checkpoints/
 .venv/
