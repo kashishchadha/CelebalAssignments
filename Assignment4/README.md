@@ -1,87 +1,138 @@
-# Azure Cloud Fundamentals & Data Pipeline using Azure Data Factory
+# 🚀 Azure Data Pipeline using Azure Data Factory
 
 **Week 4 Assignment — Celebal Technologies Summer Internship (Data Engineering)**
 
-## Overview
+---
 
-This repository documents an end-to-end data pipeline built on Microsoft Azure. It uses a
-Storage Account as the landing zone for a CSV dataset, and Azure Data Factory (ADF) to
-validate and copy that file from source to destination using a metadata-check-then-copy
-pattern.
+## 📋 Overview
 
-Pipeline: **`PL_CopyAndValidate`**
+This project demonstrates an **end-to-end data pipeline** built on Microsoft Azure, showcasing cloud best practices for data engineering. The pipeline implements a **metadata-check-then-copy** pattern using Azure Data Factory to validate and securely transfer CSV data from source to destination.
+
+### Core Pipeline: `PL_CopyAndValidate`
+
 ```
-Get Metadata1  ─────▶  Copy data1
-(validate source)      (copy to destination)
+┌──────────────────┐         ┌─────────────────┐
+│  Get Metadata1   │────────▶│  Copy data1     │
+│ (Validate Source)│         │ (Copy to Dest)  │
+└──────────────────┘         └─────────────────┘
 ```
 
-## Architecture
+---
+
+## 🏗️ Architecture Overview
 
 | Component | Purpose |
-|---|---|
-| Resource Group | Logical container for all resources used in this project |
-| Storage Account + Blob Container | Landing zone for the raw CSV file |
-| Azure Data Factory | Orchestrates validation + copy of the file |
-| Linked Service | Authenticated connection between ADF and Blob Storage |
-| Datasets (`DS_RawCSV`, `DS_ProcessedCSV`) | Pointers to the source and destination files |
-| IAM Roles (Reader, Storage Blob Data Contributor) | Scoped, least-privilege access for ADF's managed identity on the storage account |
+|-----------|---------|
+| **Resource Group** | Logical container for all Azure resources |
+| **Storage Account + Blob Container** | Cloud landing zone for raw CSV data |
+| **Azure Data Factory** | Serverless data orchestration engine |
+| **Linked Service** | Authenticated ADF ↔ Blob Storage connection |
+| **Datasets** (`DS_RawCSV`, `DS_ProcessedCSV`) | Named data pointers (source & destination) |
+| **IAM Roles** | Least-privilege managed identity access |
 
-## Dataset
+---
 
-Source data: [Sample Superstore dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+## 📸 Pipeline Design & Execution
 
-## What the pipeline does
+### Pipeline Architecture
+![Pipeline Design](screenshots/09_pipeline_design.png)
+*Visual representation of the data flow through Get Metadata and Copy Data activities*
 
-1. **Get Metadata1** checks the source file in Blob Storage — confirms it exists and reads
-   properties such as size and last-modified timestamp.
-2. On success, **Copy data1** copies the file from the source container to a destination
-   location in Blob Storage.
-3. The pipeline run status, activity durations, and metadata output are all visible in the
-   ADF Monitor / Output pane.
+### Successful Pipeline Run
+![Pipeline Run Succeeded](screenshots/10_pipeline_run_succeeded.png)
+*Confirmed successful execution with activity durations and metadata validation*
 
-## Repository structure
+---
+
+## 📊 Dataset
+
+**Source:** [Sample Superstore dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+The dataset contains retail transaction data with multiple attributes for analysis and processing.
+
+---
+
+## ⚙️ How It Works
+
+### Step-by-Step Execution
+
+1. **Get Metadata1** — Validates source file existence
+   - Confirms file presence in Blob Storage
+   - Reads metadata (size, last-modified timestamp)
+   - Fails fast if source is missing or corrupted
+
+2. **Copy data1** — Transfers validated data
+   - Copies file from source to destination container
+   - Executes only after metadata validation succeeds
+   - Maintains data integrity throughout transfer
+
+3. **Monitoring & Insights**
+   - Real-time pipeline run status via ADF Monitor
+   - Per-activity execution times and error logs
+   - Complete output audit trail in ADF console
+
+---
+
+## 📁 Repository Structure
 
 ```
-.
-├── README.md
+Assignment4/
+├── README.md                           # This file
 ├── report/
-│   └── Week4_Assignment_Report.docx     # Full write-up with explanations & screenshots
+│   └── Week4_Assignment_Report.docx    # Comprehensive write-up with all screenshots
 └── screenshots/
-    ├── 01_resource_group.png
-    ├── 02_storage_account.png
-    ├── 03_blob_container.png
-    ├── 04_adf_overview.png
-    ├── 05_linked_service.png
-    ├── 06_dataset_source.png
-    ├── 07_dataset_destination.png
-    ├── 08_get_metadata_output.png
-    ├── 09_pipeline_design.png
-    ├── 10_pipeline_run_succeeded.png
-    └── 11_pipeline_run_details.png
+    ├── 01_resource_group.png           # Azure Resource Group setup
+    ├── 02_storage_account.png          # Storage Account configuration
+    ├── 03_blob_container.png           # Blob Container structure
+    ├── 04_adf_overview.png             # Azure Data Factory overview
+    ├── 05_linked_service.png           # Linked Service configuration
+    ├── 06_dataset_source.png           # Source dataset definition
+    ├── 07_dataset_destination.png      # Destination dataset definition
+    ├── 08_get_metadata_output.png      # Metadata validation output
+    ├── 09_pipeline_design.png          # Pipeline visual design ⭐
+    ├── 10_pipeline_run_succeeded.png   # Successful execution result ⭐
+    └── 11_pipeline_run_details.png     # Detailed run analytics
 ```
 
-## Key learnings
+---
 
-- Resource Groups make IAM scoping, cost tracking, and cleanup much simpler once more
-  than one resource is involved.
-- Linked Services (the connection) and Datasets (a named pointer to a specific file/table)
-  are deliberately separate concepts in ADF.
-- `Get Metadata` is a cheap, effective way to fail a pipeline early if the source file is
-  missing or malformed.
-- Azure IAM has a control-plane vs. data-plane distinction: the built-in **Contributor**
-  role manages the storage account resource itself but does **not** grant permission to
-  read/write blob data — that requires **Storage Blob Data Contributor** separately.
-- ADF Debug runs are useful for fast iteration since they surface per-activity status and
-  duration without publishing or triggering a full pipeline run.
+## 🎓 Key Learnings
 
-## IAM roles assigned to ADF's managed identity (on the Storage Account)
+### Cloud & Infrastructure
+- ✅ **Resource Groups** simplify IAM scoping, cost tracking, and resource cleanup
+- ✅ **Managed Identities** provide secure, keyless authentication
 
-| Role | Why |
-|---|---|
-| Reader | View the storage account and its configuration |
-| Storage Blob Data Contributor | Actual read/write access to blob data (required for Copy Data to work) |
+### Data Factory Design
+- ✅ **Linked Services** and **Datasets** are separate concerns in ADF — enables reusability
+- ✅ **Get Metadata** is a lightweight validation step to fail fast on missing sources
+- ✅ **Debug Runs** iterate quickly without publishing full pipelines
 
-## Author
+### Security & Access Control
+- ✅ **Control-plane vs. Data-plane distinction** — `Contributor` role ≠ blob data access
+- ✅ **Least-privilege principle** — assign only required IAM roles
+- ✅ **Storage Blob Data Contributor** required for actual read/write blob operations
 
-**Kashish Chadha**
-Data Engineering Intern · B.Tech (CSE), DIT University · Batch 1
+---
+
+## 🔐 IAM Roles & Permissions
+
+### Managed Identity Roles (on Storage Account)
+
+| Role | Permission | Why It Matters |
+|------|-----------|---|
+| **Reader** | View storage account & configuration | Read-only metadata access |
+| **Storage Blob Data Contributor** | Full read/write blob data | Enables Copy activity to transfer files |
+
+**Why both?** Azure separates resource management (control-plane) from data access (data-plane). The pipeline needs both to function properly.
+
+---
+
+## 👤 Author
+
+**Kashish Chadha**  
+Data Engineering Intern · B.Tech (CSE), DIT University · Batch 1  
+*Celebal Technologies Summer Internship 2024*
+
+---
+
+**📚 Full documentation** available in [Week4_Assignment_Report.docx](report/Week4_Assignment_Report.docx)
