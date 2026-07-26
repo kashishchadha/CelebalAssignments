@@ -1,0 +1,6 @@
+product_id,category,price,old_name,status,amount,base_price,region,priority,user_id
+P901,Electronics,1200.0,Legacy Alpha,Completed,2400.0,1000.0,North,High,U201
+P903,Electronics,450.0,Legacy Gamma,Pending,450.0,400.0,South,High,U203
+P904,Clothing,35.5,Legacy Delta,Cancelled,71.0,30.0,North,Low,
+P906,Electronics,99.99,Legacy Zeta,Completed,199.98,80.0,North,High,
+P909,Clothing,95.0,Legacy Iota,Completed,190.0,80.0,North,High,U209

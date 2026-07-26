@@ -1,0 +1,11 @@
+product_id,category,price,old_name,status,amount,base_price,region,priority,user_id
+P901,Electronics,1200.00,Legacy Alpha,Completed,2400.00,1000.00,North,High,U201
+P902,Furniture,85.00,Legacy Beta,Completed,170.00,75.00,East,Medium,U202
+P903,Electronics,450.00,Legacy Gamma,Pending,450.00,400.00,South,High,U203
+P904,Clothing,35.50,Legacy Delta,Cancelled,71.00,30.00,North,Low,
+P905,Office Supplies,12.99,Legacy Epsilon,Completed,12.99,10.00,West,Low,U205
+P906,Electronics,99.99,Legacy Zeta,Completed,199.98,80.00,North,High,
+P907,Furniture,300.00,Legacy Eta,Completed,1500.00,250.00,West,Medium,U207
+P908,Electronics,150.00,Legacy Theta,Pending,300.00,130.00,East,Low,U208
+P909,Clothing,95.00,Legacy Iota,Completed,190.00,80.00,North,High,U209
+P910,Office Supplies,8.50,Legacy Kappa,Completed,17.00,7.00,South,Low,
