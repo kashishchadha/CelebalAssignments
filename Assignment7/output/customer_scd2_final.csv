@@ -1,0 +1,23 @@
+customer_id,name,email,city,segment,phone,updated_at,start_date,end_date,is_current
+C001,Aarav Sharma,aarav.sharma@example.com,Mumbai,Consumer,9810000001,2024-01-10,2024-01-10,,True
+C002,Bhavna Mehta,bhavna.mehta@example.com,Pune,Corporate,9810000002,2024-01-10,2024-01-10,2024-03-02,False
+C002,Bhavna Mehta,bhavna.mehta@example.com,Bengaluru,Corporate,9810000002,2024-03-02,2024-03-02,,True
+C003,Chirag Iyer,chirag.iyer@example.com,Bengaluru,Consumer,9810000003,2024-01-11,2024-01-11,,True
+C004,Divya Nair,divya.nair@example.com,Kochi,Home Office,9810000004,2024-01-11,2024-01-11,,True
+C005,Esha Khan,esha.khan@example.com,Delhi,Corporate,0000000000,2024-01-12,2024-01-12,2024-03-02,False
+C005,Esha Khan,esha.khan@corp.com,Delhi,Home Office,9820000005,2024-03-02,2024-03-02,,True
+C006,Farhan Ali,farhan.ali@example.com,Hyderabad,Consumer,9810000006,2024-01-12,2024-01-12,,True
+C007,Gita Verma,unknown@example.com,Jaipur,Consumer,9810000007,2024-01-13,2024-01-13,,True
+C008,Harsh Patel,harsh.patel@example.com,Ahmedabad,Corporate,9810000008,2024-01-13,2024-01-13,,True
+C009,Ishita Rao,ishita.rao@example.com,Unknown,Home Office,9810000009,2024-01-14,2024-01-14,2024-03-03,False
+C009,Ishita Rao,ishita.rao@example.com,Goa,Home Office,9810000009,2024-03-03,2024-03-03,,True
+C010,Jatin Grover,jatin.grover@example.com,Chandigarh,Consumer,9810000010,2024-01-14,2024-01-14,,True
+C011,Kavya Menon,kavya.menon@example.com,Chennai,Corporate,9810000011,2024-01-15,2024-01-15,,True
+C012,Lakshay Bhatia,lakshay.b@example.com,Meerut,Consumer,9810000012,2024-01-15,2024-01-15,2024-03-03,False
+C012,Lakshay Bhatia,lakshay.b@example.com,Noida,Corporate,9810000012,2024-03-03,2024-03-03,,True
+C013,Meera Joshi,meera.joshi@example.com,Indore,Home Office,9810000013,2024-01-16,2024-01-16,,True
+C014,Nikhil Bose,nikhil.bose@example.com,Kolkata,Consumer,9810000014,2024-01-16,2024-01-16,,True
+C015,Ojas Kulkarni,ojas.k@example.com,Nagpur,Corporate,9810000015,2024-01-17,2024-01-17,,True
+C016,Priya Deshmukh,priya.d@example.com,Surat,Consumer,9810000016,2024-03-04,2024-03-04,,True
+C017,Rahul Sinha,rahul.sinha@example.com,Lucknow,Corporate,9810000017,2024-03-05,2024-03-05,,True
+C018,Sneha Kapoor,unknown@example.com,Bhopal,Consumer,9810000018,2024-03-05,2024-03-05,,True

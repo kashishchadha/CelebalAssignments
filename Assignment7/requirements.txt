@@ -1,0 +1,14 @@
+# --- Assignment 1: Pandas -------------------------------------------------
+pandas>=2.0,<3.0
+numpy>=1.24,<2.2
+matplotlib>=3.7
+
+# --- Assignment 2: Delta Lake ---------------------------------------------
+# These two versions MUST stay paired. delta-spark 3.2.x targets Spark 3.5.x.
+# Other known-good pairs: pyspark 3.4.x + delta-spark 2.4.0
+pyspark==3.5.1
+delta-spark==3.2.0
+
+# --- Notebook tooling -----------------------------------------------------
+jupyter>=1.0
+ipykernel>=6.25

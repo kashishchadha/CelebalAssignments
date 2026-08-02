@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Spark / Delta generated artefacts
+output/delta/
+output/spark-warehouse/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+.ivy2/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/

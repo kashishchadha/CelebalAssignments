@@ -1,0 +1,11 @@
+customer_id,name,email,city,segment,phone,updated_at
+C002,Bhavna Mehta,bhavna.mehta@example.com,Bengaluru,Corporate,9810000002,2024-03-02
+C005,Esha Khan,esha.khan@corp.com,Delhi,Home Office,9820000005,2024-03-02
+C009,Ishita Rao,ishita.rao@example.com,Goa,Home Office,9810000009,2024-03-03
+C012,Lakshay Bhatia,lakshay.b@example.com,Noida,Corporate,9810000012,2024-03-03
+C001,Aarav Sharma,aarav.sharma@example.com,Mumbai,Consumer,9810000001,2024-03-04
+C016,Priya Deshmukh,priya.d@example.com,Surat,Consumer,9810000016,2024-03-04
+C017,Rahul Sinha,rahul.sinha@example.com,Lucknow,Corporate,9810000017,2024-03-05
+C018,Sneha Kapoor,,Bhopal,Consumer,9810000018,2024-03-05
+C002,Bhavna Mehta,bhavna.mehta@example.com,Pune,Corporate,9810000002,2024-02-28
+C017,Rahul Sinha,rahul.sinha@example.com,Lucknow,Corporate,9810000017,2024-03-05

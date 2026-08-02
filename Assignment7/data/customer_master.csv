@@ -1,0 +1,19 @@
+customer_id,name,email,city,segment,phone,updated_at
+C001,Aarav Sharma,aarav.sharma@example.com,Mumbai,Consumer,9810000001,2024-01-10
+C002,Bhavna Mehta,bhavna.mehta@example.com,Pune,Corporate,9810000002,2024-01-10
+C003,Chirag Iyer,chirag.iyer@example.com,Bengaluru,Consumer,9810000003,2024-01-11
+C004,Divya Nair,divya.nair@example.com,Kochi,Home Office,9810000004,2024-01-11
+C005,Esha Khan,esha.khan@example.com,Delhi,Corporate,,2024-01-12
+C006,Farhan Ali,farhan.ali@example.com,Hyderabad,Consumer,9810000006,2024-01-12
+C007,Gita Verma,,Jaipur,Consumer,9810000007,2024-01-13
+C008,Harsh Patel,harsh.patel@example.com,Ahmedabad,Corporate,9810000008,2024-01-13
+C009,Ishita Rao,ishita.rao@example.com,,Home Office,9810000009,2024-01-14
+C010,Jatin Grover,jatin.grover@example.com,Chandigarh,Consumer,9810000010,2024-01-14
+C011,Kavya Menon,kavya.menon@example.com,Chennai,Corporate,9810000011,2024-01-15
+C012,Lakshay Bhatia,lakshay.b@example.com,Meerut,Consumer,9810000012,2024-01-15
+C013,Meera Joshi,meera.joshi@example.com,Indore,Home Office,9810000013,2024-01-16
+C014,Nikhil Bose,nikhil.bose@example.com,Kolkata,Consumer,9810000014,2024-01-16
+C015,Ojas Kulkarni,ojas.k@example.com,Nagpur,Corporate,9810000015,2024-01-17
+C003,Chirag Iyer,chirag.iyer@example.com,Bengaluru,Consumer,9810000003,2024-01-11
+C010,Jatin Grover,jatin.grover@example.com,Chandigarh,Consumer,9810000010,2024-01-14
+,Unknown Person,ghost@example.com,Nowhere,Consumer,9999999999,2024-01-17

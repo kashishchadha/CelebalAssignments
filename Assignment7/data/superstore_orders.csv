@@ -1,0 +1,346 @@
+row_id,order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,region,product_id,category,sub_category,product_name,unit_price,quantity,discount
+114,IN-2023-100114,22/06/2023,23/06/2023,Standard Class,CU-1024,Ishan Grant,Home Office,United States,Dallas,Central,FUR-TA-2054,Furniture,Tables,Tables Model 894,422.5,12.0,0.3
+81,IN-2023-100081,03/11/2023,04/11/2023,Standard Class,CU-1081,Aaron Nair,Corporate,United States,San Francisco,West,OFF-PA-2021,Office Supplies,Paper,Paper Model 483,,4.0,0.15
+197,IN-2024-100197,01/11/2024,07/11/2024,Same Day,CU-1017,Farah Blake,Home Office,United States,Boston,East,OFF-AP-2017,Office Supplies,Appliances,Appliances Model 571,206.04,6.0,0.0
+239,IN-2023-100239,18/12/2023,24/12/2023,Standard Class,CU-1059,Manav Sharma,Consumer,United States,Boston,East,TEC-CO-2059,Technology,Copiers,Copiers Model 116,153.46,3.0,0.1
+143,IN-2024-100143,27/10/2024,30/10/2024,Standard Class,CU-1053,Divya Mehta,Home Office,United States,Dallas,Central,OFF-ST-2023,Office Supplies,Storage,Storage Model 611,623.71,9.0,0.0
+7,IN-2023-100007,27/02/2023,01/03/2023,First Class,CU-1007,Nisha Sharma,Corporate,United States,Newark,East,TEC-AC-2007,Technology,Accessories,Accessories Model 167,257.12,10.0,0.2
+1,IN-2023-100001,08/09/2023,10/09/2023,Standard Class,CU-1001,Chris Verma,Home Office,United States,Los Angeles,West,FUR-TA-2001,Furniture,Tables,Tables Model 704,509.2,1.0,0.0
+259,IN-2024-100259,24/02/2024,25/02/2024,First Class,CU-1079,Divya Sullivan,Home Office,United States,New York City,East,FUR-BO-2019,Furniture,Bookcases,Bookcases Model 443,6.75,11.0,0.1
+103,IN-2024-100103,23/08/2024,28/08/2024,Standard Class,CU-1013,Ishan Nair,Corporate,United States,Houston,Central,FUR-BO-2043,Furniture,Bookcases,Bookcases Model 994,800.08,7.0,0.3
+205,IN-2023-100205,16/06/2023,21/06/2023,Same Day,CU-1025,Divya Patel,Home Office,United States,Richmond,South,FUR-TA-2025,Furniture,Tables,Tables Model 493,907.95,3.0,0.3
+57,IN-2023-100057,04/09/2023,10/09/2023,Same Day,CU-1057,Hina Grant,Corporate,United States,,South,OFF-AP-2057,Office Supplies,Appliances,Appliances Model 195,356.61,7.0,0.2
+149,IN-2023-100149,08/11/2023,10/11/2023,  SECOND CLASS ,CU-1059,Chris Nair,Corporate,United States,San Francisco,West,FUR-CH-2029,Furniture,Chairs,Chairs Model 966,99.24,4.0,0.2
+246,IN-2024-100246,22/10/2024,23/10/2024,First Class,CU-1066,Divya Sullivan,Home Office,United States,,East,FUR-TA-2006,Furniture,Tables,Tables Model 968,1017.25,5.0,0.0
+139,IN-2024-100139,12/07/2024,15/07/2024,  STANDARD CLASS ,CU-1049,Farah Mehta,Corporate,United States,Richmond,South,TEC-MA-2019,Technology,Machines,Machines Model 413,537.87,12.0,0.1
+115,IN-2023-100115,30/05/2023,02/06/2023,Second Class,CU-1025,Divya Coleman,Home Office,United States,,East,FUR-BO-2055,Furniture,Bookcases,Bookcases Model 281,1141.79,11.0,0.1
+120,IN-2023-100120,17/10/2023,21/10/2023,Standard Class,CU-1030,Gopal Nair,Home Office,United States,Newark,East,OFF-ST-2000,Office Supplies,Storage,Storage Model 167,398.98,9.0,0.2
+89,IN-2024-100089,23/11/2024,29/11/2024,First Class,CU-1089,Karan Rossi,Consumer,United States,Phoenix,West,FUR-CH-2029,Furniture,Chairs,Chairs Model 114,,2.0,0.1
+171,IN-2023-100171,22/10/2023,25/10/2023,  STANDARD CLASS ,CU-1081,Ethan Grant,Consumer,United States,Atlanta,South,OFF-PA-2051,Office Supplies,Paper,Paper Model 647,887.73,1.0,0.0
+148,IN-2024-100148,05/04/2024,09/04/2024,First Class,CU-1058,Karan Sullivan,Consumer,United States,Philadelphia,East,OFF-BI-2028,Office Supplies,Binders,Binders Model 886,1159.69,7.0,0.15
+329,IN-2024-100167,15/05/2024,18/05/2024,First Class,CU-1077,Hina Nair,Corporate,United States,Chicago,Central,TEC-MA-2047,Technology,Machines,Machines Model 687,813.56,,0.1
+200,IN-2024-100200,26/06/2024,02/07/2024,First Class,CU-1020,Ethan Sullivan,Consumer,United States,Jacksonville,South,FUR-BO-2020,Furniture,Bookcases,Bookcases Model 925,1127.96,3.0,0.0
+131,IN-2024-100131,15/07/2024,21/07/2024,Same Day,CU-1041,Julia Sullivan,Consumer,United States,Houston,Central,FUR-CH-2011,Furniture,Chairs,Chairs Model 343,364.88,1.0,0.0
+230,IN-2023-100230,14/08/2023,17/08/2023,Second Class,CU-1050,Aaron Blake,Home Office,United States,Newark,East,FUR-BO-2050,Furniture,Bookcases,Bookcases Model 272,937.98,10.0,0.2
+53,IN-2024-100053,14/03/2024,20/03/2024,First Class,CU-1053,Farah Mehta,Consumer,United States,Phoenix,West,OFF-AP-2053,Office Supplies,Appliances,Appliances Model 942,590.79,7.0,0.0
+48,IN-2023-100048,24/09/2023,28/09/2023,Same Day,CU-1048,Farah Iyer,,United States,Richmond,South,FUR-BO-2048,Furniture,Bookcases,Bookcases Model 879,1056.17,5.0,0.3
+241,IN-2023-100241,23/02/2023,27/02/2023,Second Class,CU-1061,Karan Blake,Corporate,United States,Chicago,Central,TEC-MA-2001,Technology,Machines,Machines Model 820,118.74,,0.1
+321,IN-2023-100032,24/07/2023,31/07/2023,First Class,CU-1032,Hina Nair,Consumer,United States,Seattle,West,OFF-PA-2032,Office Supplies,Paper,Paper Model 124,793.74,7.0,0.0
+2,IN-2024-100002,28/07/2024,30/07/2024,Same Day,CU-1002,Lena Grant,Consumer,United States,Boston,East,FUR-BO-2002,Furniture,Bookcases,Bookcases Model 703,337.44,1.0,0.3
+323,IN-2023-100110,05/08/2023,12/08/2023,First Class,CU-1020,Chris Blake,Corporate,United States,,West,FUR-TA-2050,Furniture,Tables,Tables Model 107,599.38,7.0,0.0
+228,IN-2024-100228,16/05/2024,19/05/2024,First Class,CU-1048,Chris Coleman,Corporate,United States,New York City,East,TEC-MA-2048,Technology,Machines,Machines Model 986,434.05,1.0,0.1
+213,IN-2024-100213,25/01/2024,01/02/2024,Same Day,CU-1033,Nisha Nair,Corporate,United States,Jacksonville,South,OFF-AP-2033,Office Supplies,Appliances,Appliances Model 935,989.12,11.0,0.15
+207,IN-2023-100207,31/12/2023,05/01/2024,Second Class,CU-1027,Gopal Rossi,Home Office,United States,Jacksonville,South,OFF-PA-2027,Office Supplies,Paper,Paper Model 187,927.74,5.0,0.3
+318,IN-2023-100318,05/11/2023,09/11/2023,  FIRST CLASS ,CU-1048,Karan Mehta,Home Office,United States,Philadelphia,East,FUR-BO-2018,Furniture,Bookcases,Bookcases Model 528,997.63,2.0,0.15
+93,IN-2024-100093,22/02/2024,25/02/2024,First Class,CU-1003,Aaron Verma,Consumer,United States,Phoenix,West,OFF-AP-2033,Office Supplies,Appliances,Appliances Model 555,,6.0,0.0
+299,IN-2024-100299,12/10/2024,13/10/2024,  SECOND CLASS ,CU-1029,Karan Sharma,Corporate,United States,Jacksonville,South,TEC-CO-2059,Technology,Copiers,Copiers Model 708,538.09,8.0,0.15
+153,IN-2024-100153,10/05/2024,14/05/2024,Second Class,CU-1063,Divya Nair,Corporate,United States,Newark,East,OFF-AR-2033,Office Supplies,Art,Art Model 851,1185.69,6.0,0.1
+27,IN-2024-100027,01/06/2024,05/06/2024,Standard Class,CU-1027,Ethan Sharma,Home Office,United States,Detroit,Central,FUR-TA-2027,Furniture,Tables,Tables Model 949,335.63,1.0,0.0
+65,IN-2023-100065,10/06/2023,11/06/2023,Same Day,CU-1065,Gopal Khan,Corporate,United States,New York City,East,TEC-PH-2005,Technology,Phones,Phones Model 337,349.29,5.0,0.2
+248,IN-2023-100248,16/05/2023,20/05/2023,Same Day,CU-1068,Nisha Patel,Corporate,United States,Seattle,West,OFF-ST-2008,Office Supplies,Storage,Storage Model 881,,2.0,0.0
+44,IN-2023-100044,22/05/2023,24/05/2023,Second Class,CU-1044,Divya Rossi,Home Office,United States,Dallas,Central,TEC-PH-2044,Technology,Phones,Phones Model 165,500.77,6.0,0.15
+147,IN-2023-100147,09/03/2023,12/03/2023,Same Day,CU-1057,Gopal Verma,Home Office,United States,Boston,East,TEC-PH-2027,Technology,Phones,Phones Model 887,494.27,10.0,0.0
+25,IN-2023-100025,08/09/2023,11/09/2023,Same Day,CU-1025,Ethan Coleman,Home Office,United States,Newark,East,OFF-BI-2025,Office Supplies,Binders,Binders Model 726,1180.7,11.0,0.15
+176,IN-2023-100176,01/10/2023,04/10/2023,Standard Class,CU-1086,Ethan Patel,Corporate,United States,Richmond,South,FUR-FU-2056,Furniture,Furnishings,Furnishings Model 809,287.38,11.0,0.0
+173,IN-2024-100173,20/06/2024,24/06/2024,Same Day,CU-1083,Chris Sullivan,,United States,Dallas,Central,OFF-AP-2053,Office Supplies,Appliances,Appliances Model 928,139.61,3.0,0.2
+164,IN-2023-100164,18/11/2023,22/11/2023,  SECOND CLASS ,CU-1074,Chris Rossi,Corporate,United States,Boston,East,FUR-FU-2044,Furniture,Furnishings,Furnishings Model 993,1018.81,12.0,0.0
+214,IN-2024-100214,09/09/2024,15/09/2024,First Class,CU-1034,Divya Khan,Consumer,United States,Boston,East,OFF-ST-2034,Office Supplies,Storage,Storage Model 426,353.28,12.0,0.2
+66,IN-2023-100066,28/09/2023,05/10/2023,Second Class,CU-1066,Manav Grant,Corporate,United States,Miami,South,FUR-CH-2006,Furniture,Chairs,Chairs Model 657,273.65,,0.0
+302,IN-2024-100302,07/09/2024,14/09/2024,First Class,CU-1032,Aaron Iyer,,United States,Richmond,South,FUR-CH-2002,Furniture,Chairs,Chairs Model 829,1160.59,11.0,0.0
+286,IN-2024-100286,06/05/2024,08/05/2024,Second Class,CU-1016,Bella Sharma,Consumer,United States,San Francisco,West,OFF-AP-2046,Office Supplies,Appliances,Appliances Model 183,570.92,2.0,
+28,IN-2023-100028,15/06/2023,21/06/2023,Same Day,CU-1028,Hina Sullivan,Home Office,United States,New York City,East,TEC-AC-2028,Technology,Accessories,Accessories Model 214,94.92,12.0,0.0
+260,IN-2024-100260,26/06/2024,28/06/2024,Standard Class,CU-1080,Gopal Khan,Consumer,United States,,Central,FUR-CH-2020,Furniture,Chairs,Chairs Model 195,,4.0,
+99,IN-2023-100099,04/03/2023,08/03/2023,Same Day,CU-1009,Nisha Rossi,Home Office,United States,Chicago,Central,OFF-BI-2039,Office Supplies,Binders,Binders Model 602,856.32,,0.0
+304,IN-2023-100304,02/11/2023,08/11/2023,Standard Class,CU-1034,Bella Khan,Corporate,United States,Houston,Central,TEC-AC-2004,Technology,Accessories,Accessories Model 755,393.54,5.0,0.0
+311,IN-2023-100311,24/03/2023,28/03/2023,Second Class,CU-1041,Farah Grant,Corporate,United States,Chicago,Central,TEC-MA-2011,Technology,Machines,Machines Model 104,545.2,4.0,0.3
+253,IN-2023-100253,31/01/2023,03/02/2023,First Class,CU-1073,Manav Rossi,Home Office,United States,,Central,TEC-PH-2013,Technology,Phones,Phones Model 369,856.23,10.0,
+35,IN-2023-100035,02/01/2023,07/01/2023,Second Class,CU-1035,Manav Sullivan,Corporate,United States,Phoenix,West,TEC-CO-2035,Technology,Copiers,Copiers Model 171,1138.91,6.0,0.15
+211,IN-2024-100211,25/01/2024,27/01/2024,First Class,CU-1031,Chris Blake,Corporate,United States,Boston,East,TEC-MA-2031,Technology,Machines,Machines Model 249,80.6,7.0,0.0
+111,IN-2023-100111,24/08/2023,29/08/2023,First Class,CU-1021,Ishan Grant,Consumer,United States,Boston,East,OFF-AP-2051,Office Supplies,Appliances,Appliances Model 982,,7.0,0.0
+58,IN-2024-100058,13/01/2024,17/01/2024,  FIRST CLASS ,CU-1058,Ishan Sullivan,Corporate,United States,Newark,East,OFF-AP-2058,Office Supplies,Appliances,Appliances Model 460,844.91,5.0,0.0
+267,IN-2024-100267,07/10/2024,13/10/2024,First Class,CU-1087,Bella Patel,Consumer,United States,New York City,East,OFF-ST-2027,Office Supplies,Storage,Storage Model 166,241.31,11.0,0.1
+208,IN-2023-100208,26/03/2023,29/03/2023,Second Class,CU-1028,Chris Rossi,Home Office,United States,,East,TEC-PH-2028,Technology,Phones,Phones Model 424,436.04,2.0,0.0
+273,IN-2023-100273,11/09/2023,17/09/2023,  STANDARD CLASS ,CU-1003,Divya Blake,Consumer,United States,Boston,East,FUR-BO-2033,Furniture,Bookcases,Bookcases Model 463,1122.57,3.0,0.0
+149,IN-2023-100149,08/11/2023,10/11/2023,  SECOND CLASS ,CU-1059,Chris Nair,Corporate,United States,San Francisco,West,FUR-CH-2029,Furniture,Chairs,Chairs Model 966,99.24,4.0,0.2
+192,IN-2024-100192,02/07/2024,08/07/2024,Standard Class,CU-1012,Nisha Iyer,Corporate,United States,Jacksonville,South,OFF-BI-2012,Office Supplies,Binders,Binders Model 789,727.94,1.0,0.3
+140,IN-2023-100140,26/12/2023,30/12/2023,First Class,CU-1050,Aaron Verma,Home Office,United States,Boston,East,TEC-CO-2020,Technology,Copiers,Copiers Model 381,,1.0,0.0
+98,IN-2024-100098,30/08/2024,31/08/2024,  SECOND CLASS ,CU-1008,Hina Sullivan,Home Office,United States,Miami,South,OFF-AP-2038,Office Supplies,Appliances,Appliances Model 844,940.96,11.0,0.15
+168,IN-2023-100168,13/02/2023,16/02/2023,First Class,CU-1078,Lena Mehta,Corporate,United States,Houston,Central,FUR-TA-2048,Furniture,Tables,Tables Model 865,577.5,4.0,0.3
+112,IN-2024-100112,12/08/2024,16/08/2024,Same Day,CU-1022,Julia Rossi,Corporate,United States,Miami,South,FUR-TA-2052,Furniture,Tables,Tables Model 514,29.92,6.0,0.0
+256,IN-2023-100256,18/08/2023,21/08/2023,First Class,CU-1076,Divya Rossi,Corporate,United States,Los Angeles,West,TEC-CO-2016,Technology,Copiers,Copiers Model 685,450.51,9.0,0.2
+122,IN-2023-100122,14/11/2023,19/11/2023,First Class,CU-1032,Gopal Grant,Consumer,United States,Miami,South,FUR-BO-2002,Furniture,Bookcases,Bookcases Model 761,806.19,9.0,0.0
+212,IN-2023-100212,20/03/2023,23/03/2023,Same Day,CU-1032,Ethan Iyer,Home Office,United States,Atlanta,South,OFF-AR-2032,Office Supplies,Art,Art Model 568,132.83,5.0,0.0
+274,IN-2024-100274,03/01/2024,08/01/2024,First Class,CU-1004,Aaron Verma,Home Office,United States,Philadelphia,East,TEC-AC-2034,Technology,Accessories,Accessories Model 676,1138.3,8.0,0.15
+79,IN-2023-100079,18/03/2023,22/03/2023,First Class,CU-1079,,Home Office,United States,Boston,East,OFF-PA-2019,Office Supplies,Paper,Paper Model 765,100.98,6.0,0.3
+174,IN-2023-100174,10/07/2023,11/07/2023,First Class,CU-1084,Lena Nair,Home Office,United States,Atlanta,South,TEC-AC-2054,Technology,Accessories,Accessories Model 279,735.09,11.0,0.1
+26,IN-2024-100026,10/11/2024,11/11/2024,Standard Class,CU-1026,Chris Blake,Consumer,United States,Seattle,West,TEC-AC-2026,Technology,Accessories,Accessories Model 378,341.7,4.0,0.2
+195,IN-2024-100195,22/04/2024,23/04/2024,Same Day,CU-1015,Manav Verma,Corporate,United States,Dallas,Central,TEC-CO-2015,Technology,Copiers,Copiers Model 479,378.94,1.0,0.15
+277,IN-2023-100277,27/11/2023,29/11/2023,Same Day,CU-1007,Chris Verma,Home Office,United States,,West,OFF-ST-2037,Office Supplies,Storage,Storage Model 764,384.15,12.0,0.15
+184,IN-2024-100184,31/10/2024,07/11/2024,Second Class,CU-1004,Farah Mehta,Home Office,United States,Phoenix,West,TEC-MA-2004,Technology,Machines,Machines Model 641,157.18,4.0,0.3
+60,IN-2023-100060,31/10/2023,02/11/2023,First Class,CU-1060,Farah Coleman,Consumer,United States,Dallas,Central,FUR-CH-2000,Furniture,Chairs,Chairs Model 380,59.39,1.0,0.15
+132,IN-2023-100132,06/03/2023,07/03/2023,Standard Class,CU-1042,Nisha Khan,Home Office,United States,Atlanta,South,TEC-CO-2012,Technology,Copiers,Copiers Model 835,,7.0,0.0
+38,IN-2024-100038,28/03/2024,03/04/2024,  SAME DAY ,CU-1038,Divya Sullivan,Home Office,United States,Dallas,Central,OFF-AR-2038,Office Supplies,Art,Art Model 774,106.33,9.0,0.2
+317,IN-2024-100317,31/10/2024,07/11/2024,Standard Class,CU-1047,Aaron Sharma,Corporate,United States,,West,TEC-PH-2017,Technology,Phones,Phones Model 489,152.7,5.0,0.1
+299,IN-2024-100299,12/10/2024,13/10/2024,  SECOND CLASS ,CU-1029,Karan Sharma,Corporate,United States,Jacksonville,South,TEC-CO-2059,Technology,Copiers,Copiers Model 708,538.09,8.0,0.15
+242,IN-2024-100242,15/06/2024,21/06/2024,Standard Class,CU-1062,Hina Sharma,Home Office,United States,San Francisco,West,FUR-CH-2002,Furniture,Chairs,Chairs Model 936,149.11,7.0,
+237,IN-2023-100237,03/01/2023,10/01/2023,Standard Class,CU-1057,Manav Verma,Home Office,United States,Jacksonville,South,OFF-AP-2057,Office Supplies,Appliances,Appliances Model 750,798.65,6.0,0.3
+177,IN-2024-100177,20/02/2024,26/02/2024,  FIRST CLASS ,CU-1087,Ishan Verma,Home Office,United States,Miami,South,OFF-PA-2057,Office Supplies,Paper,Paper Model 754,1099.78,5.0,0.0
+218,IN-2024-100218,31/08/2024,06/09/2024,  SECOND CLASS ,CU-1038,Bella Mehta,Home Office,United States,San Francisco,West,OFF-AP-2038,Office Supplies,Appliances,Appliances Model 270,778.16,1.0,0.15
+190,IN-2024-100190,02/03/2024,06/03/2024,Same Day,CU-1010,Chris Blake,Consumer,United States,Jacksonville,South,TEC-AC-2010,Technology,Accessories,Accessories Model 346,1019.96,5.0,0.3
+106,IN-2023-100106,07/01/2023,09/01/2023,Same Day,CU-1016,Nisha Coleman,Consumer,United States,Dallas,Central,OFF-ST-2046,Office Supplies,Storage,Storage Model 858,761.64,1.0,0.0
+231,IN-2024-100231,09/08/2024,10/08/2024,First Class,CU-1051,Ethan Sullivan,Home Office,United States,Miami,South,TEC-PH-2051,Technology,Phones,Phones Model 878,864.18,9.0,0.0
+182,IN-2023-100182,12/08/2023,17/08/2023,Same Day,CU-1002,Bella Sharma,Corporate,United States,Miami,South,OFF-BI-2002,Office Supplies,Binders,Binders Model 654,1192.98,2.0,0.1
+203,IN-2023-100203,26/03/2023,30/03/2023,First Class,CU-1023,Nisha Rossi,Home Office,United States,Los Angeles,West,TEC-MA-2023,Technology,Machines,Machines Model 640,1103.39,4.0,0.0
+37,IN-2024-100037,24/11/2024,30/11/2024,First Class,CU-1037,Chris Patel,Corporate,United States,Miami,South,TEC-CO-2037,Technology,Copiers,Copiers Model 411,347.86,7.0,0.3
+11,IN-2023-100011,25/04/2023,28/04/2023,Same Day,CU-1011,Gopal Coleman,Consumer,United States,Houston,Central,TEC-AC-2011,Technology,Accessories,Accessories Model 612,915.54,9.0,0.0
+246,IN-2024-100246,22/10/2024,23/10/2024,First Class,CU-1066,Divya Sullivan,Home Office,United States,,East,FUR-TA-2006,Furniture,Tables,Tables Model 968,1017.25,5.0,0.0
+82,IN-2023-100082,24/06/2023,26/06/2023,Same Day,CU-1082,Bella Patel,Home Office,United States,Atlanta,South,TEC-MA-2022,Technology,Machines,Machines Model 609,1095.83,3.0,0.0
+101,IN-2024-100101,16/03/2024,20/03/2024,First Class,CU-1011,Divya Rossi,Corporate,United States,Phoenix,West,TEC-MA-2041,Technology,Machines,Machines Model 525,876.89,6.0,0.1
+308,IN-2024-100308,01/11/2024,02/11/2024,Second Class,CU-1038,Divya Nair,Home Office,United States,Newark,East,TEC-AC-2008,Technology,Accessories,Accessories Model 530,946.77,6.0,0.0
+232,IN-2023-100232,01/11/2023,08/11/2023,First Class,CU-1052,Aaron Khan,Corporate,United States,Miami,South,FUR-CH-2052,Furniture,Chairs,Chairs Model 549,1039.02,2.0,0.3
+18,IN-2023-100018,14/12/2023,21/12/2023,Second Class,CU-1018,Nisha Mehta,Consumer,United States,Seattle,West,FUR-FU-2018,Furniture,Furnishings,Furnishings Model 649,541.09,7.0,0.0
+255,IN-2023-100255,15/02/2023,22/02/2023,  SECOND CLASS ,CU-1075,Nisha Sharma,Consumer,United States,Phoenix,West,FUR-BO-2015,Furniture,Bookcases,Bookcases Model 472,462.66,3.0,0.0
+279,IN-2023-100279,06/07/2023,11/07/2023,Second Class,CU-1009,Farah Patel,Home Office,United States,Miami,South,TEC-PH-2039,Technology,Phones,Phones Model 608,173.07,12.0,0.0
+158,IN-2024-100158,06/08/2024,11/08/2024,First Class,CU-1068,Divya Nair,Consumer,United States,,West,OFF-BI-2038,Office Supplies,Binders,Binders Model 616,543.17,9.0,0.0
+36,IN-2023-100036,04/11/2023,09/11/2023,Same Day,CU-1036,Ethan Grant,Corporate,United States,Detroit,Central,TEC-PH-2036,Technology,Phones,Phones Model 813,358.31,3.0,0.0
+216,IN-2023-100216,03/08/2023,07/08/2023,Standard Class,CU-1036,Manav Blake,Corporate,United States,Phoenix,West,TEC-CO-2036,Technology,Copiers,Copiers Model 242,761.84,4.0,0.0
+297,IN-2024-100297,12/06/2024,19/06/2024,Second Class,CU-1027,Farah Sharma,Consumer,United States,Newark,East,OFF-AR-2057,Office Supplies,Art,Art Model 826,610.62,3.0,0.3
+20,IN-2023-100020,07/08/2023,14/08/2023,Second Class,CU-1020,Gopal Sharma,Corporate,United States,Miami,South,OFF-AR-2020,Office Supplies,Art,Art Model 499,321.92,8.0,0.0
+26,IN-2024-100026,10/11/2024,11/11/2024,Standard Class,CU-1026,Chris Blake,Consumer,United States,Seattle,West,TEC-AC-2026,Technology,Accessories,Accessories Model 378,341.7,4.0,0.2
+199,IN-2023-100199,10/01/2023,12/01/2023,First Class,CU-1019,Ishan Khan,Consumer,United States,Boston,East,FUR-CH-2019,Furniture,Chairs,Chairs Model 775,587.99,1.0,0.15
+296,IN-2024-100296,29/03/2024,05/04/2024,First Class,CU-1026,Nisha Nair,Home Office,United States,Boston,East,FUR-TA-2056,Furniture,Tables,Tables Model 719,,4.0,0.1
+251,IN-2023-100251,02/09/2023,03/09/2023,Same Day,CU-1071,Divya Mehta,Consumer,United States,Phoenix,West,OFF-AR-2011,Office Supplies,Art,Art Model 726,732.55,5.0,0.2
+127,IN-2023-100127,14/09/2023,15/09/2023,First Class,CU-1037,Karan Khan,Home Office,United States,New York City,East,FUR-CH-2007,Furniture,Chairs,Chairs Model 828,1015.84,2.0,0.0
+62,IN-2023-100062,27/04/2023,04/05/2023,Same Day,CU-1062,Bella Rossi,Consumer,United States,Los Angeles,West,OFF-AR-2002,Office Supplies,Art,Art Model 255,183.29,10.0,0.0
+71,IN-2024-100071,10/04/2024,11/04/2024,  FIRST CLASS ,CU-1071,Farah Blake,Consumer,United States,Jacksonville,South,TEC-PH-2011,Technology,Phones,Phones Model 985,619.94,1.0,0.2
+109,IN-2023-100109,20/12/2023,24/12/2023,Same Day,CU-1019,Bella Blake,Home Office,United States,Newark,East,TEC-PH-2049,Technology,Phones,Phones Model 146,268.52,10.0,0.0
+6,IN-2024-100006,15/09/2024,21/09/2024,Second Class,CU-1006,Chris Sullivan,Consumer,United States,Detroit,Central,TEC-PH-2006,Technology,Phones,Phones Model 488,327.59,11.0,0.2
+21,IN-2023-100021,08/06/2023,10/06/2023,Standard Class,CU-1021,Ethan Iyer,Home Office,United States,Miami,South,TEC-CO-2021,Technology,Copiers,Copiers Model 865,379.76,1.0,0.15
+263,IN-2023-100263,09/06/2023,10/06/2023,Same Day,CU-1083,Chris Khan,Corporate,United States,Boston,East,FUR-BO-2023,Furniture,Bookcases,Bookcases Model 223,645.43,4.0,0.1
+152,IN-2023-100152,24/10/2023,30/10/2023,Second Class,CU-1062,Ethan Khan,Home Office,United States,Phoenix,West,OFF-AP-2032,Office Supplies,Appliances,Appliances Model 404,546.99,12.0,0.0
+70,IN-2023-100070,23/12/2023,27/12/2023,Standard Class,CU-1070,Farah Nair,Consumer,United States,Richmond,South,FUR-FU-2010,Furniture,Furnishings,Furnishings Model 521,833.94,5.0,0.2
+30,IN-2024-100030,13/11/2024,14/11/2024,Same Day,CU-1030,Farah Sullivan,Home Office,United States,Philadelphia,East,TEC-MA-2030,Technology,Machines,Machines Model 342,1038.2,3.0,0.1
+18,IN-2023-100018,14/12/2023,21/12/2023,Second Class,CU-1018,Nisha Mehta,Consumer,United States,Seattle,West,FUR-FU-2018,Furniture,Furnishings,Furnishings Model 649,541.09,7.0,0.0
+88,IN-2024-100088,27/06/2024,02/07/2024,First Class,CU-1088,Ethan Coleman,Corporate,United States,Newark,East,TEC-AC-2028,Technology,Accessories,Accessories Model 864,1045.12,2.0,0.1
+77,IN-2023-100077,13/07/2023,19/07/2023,Same Day,CU-1077,Divya Patel,Consumer,United States,Jacksonville,South,OFF-ST-2017,Office Supplies,Storage,Storage Model 144,385.22,8.0,0.2
+316,IN-2023-100316,07/05/2023,10/05/2023,Standard Class,CU-1046,Lena Grant,Corporate,United States,San Francisco,West,TEC-MA-2016,Technology,Machines,Machines Model 889,644.01,1.0,0.15
+189,IN-2023-100189,09/10/2023,10/10/2023,  SECOND CLASS ,CU-1009,Ishan Patel,Home Office,United States,Boston,East,OFF-ST-2009,Office Supplies,Storage,Storage Model 669,597.27,6.0,0.2
+105,IN-2024-100105,10/08/2024,12/08/2024,Standard Class,CU-1015,Manav Rossi,Home Office,United States,Houston,Central,FUR-TA-2045,Furniture,Tables,Tables Model 129,220.6,12.0,0.3
+261,IN-2024-100261,14/04/2024,20/04/2024,Standard Class,CU-1081,Bella Patel,Home Office,United States,Atlanta,South,TEC-AC-2021,Technology,Accessories,Accessories Model 752,984.86,2.0,0.15
+250,IN-2023-100250,14/11/2023,15/11/2023,Second Class,CU-1070,Ishan Iyer,Home Office,United States,Newark,East,OFF-BI-2010,Office Supplies,Binders,Binders Model 500,705.79,11.0,0.2
+61,IN-2024-100061,15/10/2024,22/10/2024,Standard Class,CU-1061,Manav Khan,Consumer,United States,Houston,Central,TEC-MA-2001,Technology,Machines,Machines Model 580,577.06,6.0,0.0
+22,IN-2023-100022,28/02/2023,05/03/2023,Standard Class,CU-1022,Bella Coleman,Home Office,United States,Miami,South,TEC-MA-2022,Technology,Machines,Machines Model 791,1034.87,7.0,0.0
+262,IN-2023-100262,31/08/2023,03/09/2023,Same Day,CU-1082,Ethan Nair,Home Office,United States,San Francisco,West,OFF-PA-2022,Office Supplies,Paper,Paper Model 425,546.05,4.0,0.0
+107,IN-2024-100107,09/04/2024,12/04/2024,First Class,CU-1017,Chris Nair,Home Office,United States,Newark,East,OFF-AR-2047,Office Supplies,Art,Art Model 895,1129.98,10.0,0.0
+128,IN-2024-100128,05/04/2024,10/04/2024,Standard Class,CU-1038,Chris Rossi,Consumer,United States,Phoenix,West,FUR-TA-2008,Furniture,Tables,Tables Model 457,1116.91,7.0,0.0
+50,IN-2023-100050,21/01/2023,26/01/2023,Second Class,CU-1050,Chris Iyer,Corporate,United States,Los Angeles,West,FUR-CH-2050,Furniture,Chairs,Chairs Model 677,1137.57,8.0,0.2
+196,IN-2023-100196,17/01/2023,20/01/2023,Same Day,CU-1016,Ishan Patel,Corporate,United States,Philadelphia,East,TEC-MA-2016,Technology,Machines,Machines Model 300,399.19,7.0,0.15
+59,IN-2023-100059,17/07/2023,20/07/2023,Second Class,CU-1059,Bella Verma,Consumer,United States,Dallas,Central,FUR-BO-2059,Furniture,Bookcases,Bookcases Model 856,,12.0,0.15
+76,IN-2023-100076,02/11/2023,09/11/2023,Same Day,CU-1076,Julia Patel,Consumer,United States,Detroit,Central,FUR-TA-2016,Furniture,Tables,Tables Model 651,583.79,6.0,0.15
+95,IN-2023-100095,07/09/2023,09/09/2023,  SECOND CLASS ,CU-1005,Manav Patel,Consumer,United States,Seattle,West,FUR-TA-2035,Furniture,Tables,Tables Model 700,263.06,4.0,0.0
+187,IN-2024-100187,19/11/2024,25/11/2024,Second Class,CU-1007,Nisha Sharma,Home Office,United States,Los Angeles,West,OFF-AP-2007,Office Supplies,Appliances,Appliances Model 511,529.56,9.0,0.0
+39,IN-2024-100039,19/11/2024,22/11/2024,Second Class,CU-1039,Divya Iyer,Consumer,United States,Chicago,Central,FUR-CH-2039,Furniture,Chairs,Chairs Model 350,1180.8,10.0,0.3
+265,IN-2023-100265,31/12/2023,04/01/2024,First Class,CU-1085,Ishan Sharma,Corporate,United States,Seattle,West,TEC-MA-2025,Technology,Machines,Machines Model 131,1142.76,8.0,0.15
+220,IN-2024-100220,09/05/2024,10/05/2024,Standard Class,CU-1040,Ethan Rossi,Consumer,United States,Philadelphia,East,OFF-BI-2040,Office Supplies,Binders,Binders Model 456,377.71,8.0,0.3
+175,IN-2023-100175,30/03/2023,03/04/2023,Second Class,CU-1085,Karan Mehta,Consumer,United States,Jacksonville,South,TEC-AC-2055,Technology,Accessories,Accessories Model 431,1123.31,1.0,0.0
+155,IN-2024-100155,04/03/2024,06/03/2024,First Class,CU-1065,Nisha Coleman,Home Office,United States,,Central,OFF-AP-2035,Office Supplies,Appliances,Appliances Model 294,,8.0,0.15
+133,IN-2023-100133,11/07/2023,17/07/2023,First Class,CU-1043,Karan Mehta,Consumer,United States,Chicago,Central,FUR-FU-2013,Furniture,Furnishings,Furnishings Model 499,,1.0,0.2
+227,IN-2024-100227,18/01/2024,24/01/2024,Same Day,CU-1047,Chris Sullivan,Corporate,United States,Dallas,Central,FUR-CH-2047,Furniture,Chairs,Chairs Model 688,463.53,3.0,0.1
+264,IN-2023-100264,03/05/2023,04/05/2023,First Class,CU-1084,Chris Grant,Home Office,United States,Chicago,Central,OFF-ST-2024,Office Supplies,Storage,Storage Model 320,1003.93,6.0,0.0
+69,IN-2024-100069,13/08/2024,14/08/2024,Same Day,CU-1069,Manav Coleman,Home Office,United States,Phoenix,West,TEC-AC-2009,Technology,Accessories,Accessories Model 384,221.88,10.0,0.1
+225,IN-2023-100225,27/04/2023,30/04/2023,First Class,CU-1045,Karan Khan,Home Office,United States,Detroit,Central,FUR-FU-2045,Furniture,Furnishings,Furnishings Model 725,474.09,2.0,0.0
+1,IN-2023-100001,08/09/2023,10/09/2023,Standard Class,CU-1001,Chris Verma,Home Office,United States,Los Angeles,West,FUR-TA-2001,Furniture,Tables,Tables Model 704,509.2,1.0,0.0
+51,IN-2024-100051,12/09/2024,17/09/2024,Standard Class,CU-1051,Lena Verma,Consumer,United States,Houston,Central,OFF-PA-2051,Office Supplies,Paper,Paper Model 210,696.53,5.0,0.15
+188,IN-2023-100188,28/08/2023,04/09/2023,First Class,CU-1008,Lena Patel,Home Office,United States,San Francisco,West,FUR-TA-2008,Furniture,Tables,Tables Model 342,365.61,3.0,0.2
+165,IN-2024-100165,28/07/2024,31/07/2024,Same Day,CU-1075,Karan Khan,Corporate,United States,Philadelphia,East,TEC-MA-2045,Technology,Machines,Machines Model 570,1094.99,6.0,0.15
+320,IN-2023-100320,01/08/2023,07/08/2023,Second Class,CU-1050,Hina Nair,Consumer,United States,Los Angeles,West,TEC-CO-2020,Technology,Copiers,Copiers Model 787,111.36,2.0,0.3
+56,IN-2023-100056,22/09/2023,25/09/2023,First Class,CU-1056,Ethan Patel,Home Office,United States,Miami,South,FUR-TA-2056,Furniture,Tables,Tables Model 629,1137.93,2.0,0.0
+288,IN-2023-100288,27/09/2023,29/09/2023,  STANDARD CLASS ,CU-1018,Nisha Blake,Consumer,United States,Chicago,Central,OFF-AR-2048,Office Supplies,Art,Art Model 187,803.43,9.0,0.1
+194,IN-2024-100194,11/02/2024,13/02/2024,First Class,CU-1014,Ishan Nair,Corporate,United States,Jacksonville,South,FUR-CH-2014,Furniture,Chairs,Chairs Model 646,780.22,5.0,0.0
+84,IN-2023-100084,14/09/2023,18/09/2023,Second Class,CU-1084,Nisha Blake,Corporate,United States,Detroit,Central,TEC-CO-2024,Technology,Copiers,Copiers Model 209,288.46,10.0,
+275,IN-2023-100275,08/02/2023,09/02/2023,Second Class,CU-1005,Aaron Iyer,Consumer,United States,Detroit,Central,FUR-FU-2035,Furniture,Furnishings,Furnishings Model 100,401.42,10.0,0.0
+226,IN-2023-100226,26/06/2023,03/07/2023,First Class,CU-1046,Karan Verma,Home Office,United States,Chicago,Central,OFF-AP-2046,Office Supplies,Appliances,Appliances Model 788,165.07,2.0,0.0
+229,IN-2024-100229,29/07/2024,03/08/2024,Same Day,CU-1049,Karan Khan,Home Office,United States,Boston,East,FUR-FU-2049,Furniture,Furnishings,Furnishings Model 525,853.62,8.0,0.1
+64,IN-2024-100064,27/09/2024,28/09/2024,Standard Class,CU-1064,Julia Verma,Consumer,United States,Atlanta,South,OFF-AP-2004,Office Supplies,Appliances,Appliances Model 370,794.21,3.0,0.0
+130,IN-2023-100130,21/10/2023,28/10/2023,Second Class,CU-1040,Hina Verma,Home Office,United States,Boston,East,FUR-BO-2010,Furniture,Bookcases,Bookcases Model 559,740.34,2.0,0.0
+294,IN-2024-100294,17/02/2024,19/02/2024,Same Day,CU-1024,Julia Patel,Consumer,United States,Phoenix,West,FUR-TA-2054,Furniture,Tables,Tables Model 439,830.16,1.0,0.2
+303,IN-2024-100303,15/04/2024,18/04/2024,First Class,CU-1033,Divya Khan,Home Office,United States,Jacksonville,South,OFF-ST-2003,Office Supplies,Storage,Storage Model 698,127.26,9.0,0.2
+271,IN-2024-100271,27/01/2024,03/02/2024,Same Day,CU-1001,Lena Nair,Home Office,United States,Boston,East,TEC-PH-2031,Technology,Phones,Phones Model 452,1095.65,9.0,0.0
+185,IN-2024-100185,19/04/2024,25/04/2024,Same Day,CU-1005,Lena Sullivan,Home Office,United States,Phoenix,West,FUR-TA-2005,Furniture,Tables,Tables Model 943,279.45,8.0,0.0
+87,IN-2023-100087,04/02/2023,09/02/2023,Second Class,CU-1087,Farah Verma,Consumer,United States,San Francisco,West,OFF-AR-2027,Office Supplies,Art,Art Model 434,898.24,3.0,0.0
+198,IN-2023-100198,08/07/2023,13/07/2023,Standard Class,CU-1018,Karan Sharma,Consumer,United States,New York City,East,TEC-CO-2018,Technology,Copiers,Copiers Model 882,12.63,,0.3
+161,IN-2024-100161,30/08/2024,02/09/2024,Same Day,CU-1071,Ishan Sullivan,Home Office,United States,Richmond,South,TEC-AC-2041,Technology,Accessories,Accessories Model 586,979.82,,0.0
+47,IN-2024-100047,23/04/2024,25/04/2024,Standard Class,CU-1047,Julia Sullivan,Corporate,United States,Miami,South,TEC-MA-2047,Technology,Machines,Machines Model 185,773.09,3.0,0.3
+223,IN-2024-100223,06/10/2024,08/10/2024,Same Day,CU-1043,Chris Grant,Corporate,United States,Miami,South,FUR-FU-2043,Furniture,Furnishings,Furnishings Model 855,738.86,4.0,0.1
+163,IN-2024-100163,20/08/2024,24/08/2024,Same Day,CU-1073,Chris Sullivan,Consumer,United States,Philadelphia,East,TEC-PH-2043,Technology,Phones,Phones Model 132,689.22,12.0,0.0
+274,IN-2024-100274,03/01/2024,08/01/2024,First Class,CU-1004,Aaron Verma,Home Office,United States,Philadelphia,East,TEC-AC-2034,Technology,Accessories,Accessories Model 676,1138.3,8.0,0.15
+85,IN-2023-100085,23/01/2023,30/01/2023,  FIRST CLASS ,CU-1085,Karan Rossi,Consumer,United States,,Central,TEC-AC-2025,Technology,Accessories,Accessories Model 720,895.48,,0.3
+315,IN-2023-100315,17/12/2023,21/12/2023,  SECOND CLASS ,CU-1045,Farah Iyer,Corporate,United States,,Central,OFF-PA-2015,Office Supplies,Paper,Paper Model 333,273.06,3.0,0.0
+327,IN-2023-100014,05/08/2023,10/08/2023,Second Class,CU-1014,Manav Verma,Home Office,United States,Houston,Central,TEC-CO-2014,Technology,Copiers,Copiers Model 508,1194.2,11.0,0.0
+224,IN-2023-100224,08/08/2023,10/08/2023,Standard Class,CU-1044,Ethan Verma,Home Office,United States,Miami,South,OFF-BI-2044,Office Supplies,Binders,Binders Model 918,1047.02,3.0,0.0
+3,IN-2023-100003,15/12/2023,18/12/2023,First Class,CU-1003,Chris Iyer,Consumer,United States,New York City,East,TEC-CO-2003,Technology,Copiers,Copiers Model 489,120.58,6.0,0.15
+138,IN-2023-100138,11/07/2023,15/07/2023,First Class,CU-1048,,Home Office,United States,Richmond,South,OFF-ST-2018,Office Supplies,Storage,Storage Model 920,103.72,7.0,0.0
+206,IN-2023-100206,24/02/2023,25/02/2023,Standard Class,CU-1026,Gopal Iyer,Corporate,United States,Phoenix,West,TEC-AC-2026,Technology,Accessories,Accessories Model 892,395.02,11.0,0.0
+306,IN-2024-100306,04/03/2024,08/03/2024,Standard Class,CU-1036,Gopal Verma,Home Office,United States,Atlanta,South,OFF-ST-2006,Office Supplies,Storage,Storage Model 451,873.23,4.0,0.2
+117,IN-2023-100117,27/02/2023,02/03/2023,First Class,CU-1027,Ishan Mehta,Corporate,United States,Detroit,Central,OFF-AP-2057,Office Supplies,Appliances,Appliances Model 138,72.98,5.0,0.0
+121,IN-2024-100121,03/11/2024,08/11/2024,First Class,CU-1031,Nisha Coleman,Consumer,United States,Atlanta,South,OFF-ST-2001,Office Supplies,Storage,Storage Model 458,375.73,11.0,0.2
+319,IN-2023-100319,19/04/2023,23/04/2023,  SECOND CLASS ,CU-1049,,Corporate,United States,Seattle,West,OFF-BI-2019,Office Supplies,Binders,Binders Model 466,,5.0,0.0
+181,IN-2024-100181,09/06/2024,13/06/2024,Standard Class,CU-1001,Hina Patel,Home Office,United States,Phoenix,West,OFF-PA-2001,Office Supplies,Paper,Paper Model 788,969.26,,0.0
+252,IN-2023-100252,21/05/2023,27/05/2023,Same Day,CU-1072,Aaron Coleman,Corporate,United States,Newark,East,FUR-BO-2012,Furniture,Bookcases,Bookcases Model 270,449.38,12.0,0.3
+330,IN-2023-100144,08/08/2023,13/08/2023,Same Day,CU-1054,Ethan Verma,Consumer,United States,Chicago,Central,OFF-AR-2024,Office Supplies,Art,Art Model 238,1024.13,8.0,0.0
+33,IN-2023-100033,26/12/2023,01/01/2024,First Class,CU-1033,Ishan Rossi,Consumer,United States,Chicago,Central,FUR-TA-2033,Furniture,Tables,Tables Model 998,1164.63,3.0,0.15
+283,IN-2023-100283,18/04/2023,19/04/2023,Same Day,CU-1013,Farah Coleman,Consumer,United States,Los Angeles,West,OFF-ST-2043,Office Supplies,Storage,Storage Model 660,1130.49,2.0,0.0
+8,IN-2024-100008,10/02/2024,16/02/2024,First Class,CU-1008,Hina Coleman,Consumer,United States,Dallas,Central,FUR-FU-2008,Furniture,Furnishings,Furnishings Model 862,675.83,,0.2
+10,IN-2024-100010,30/01/2024,03/02/2024,First Class,CU-1010,Julia Khan,Home Office,United States,Miami,South,TEC-PH-2010,Technology,Phones,Phones Model 796,866.26,11.0,0.15
+104,IN-2023-100104,16/11/2023,19/11/2023,Second Class,CU-1014,,Consumer,United States,Phoenix,West,OFF-AP-2044,Office Supplies,Appliances,Appliances Model 329,1017.49,6.0,0.3
+92,IN-2023-100092,29/08/2023,03/09/2023,Same Day,CU-1002,Chris Rossi,Corporate,United States,Jacksonville,South,FUR-BO-2032,Furniture,Bookcases,Bookcases Model 701,892.01,3.0,0.1
+40,IN-2024-100040,06/10/2024,11/10/2024,Same Day,CU-1040,Divya Verma,Corporate,United States,Phoenix,West,OFF-AR-2040,Office Supplies,Art,Art Model 349,181.35,12.0,0.0
+29,IN-2024-100029,19/07/2024,21/07/2024,Standard Class,CU-1029,Gopal Coleman,Corporate,United States,San Francisco,West,OFF-AP-2029,Office Supplies,Appliances,Appliances Model 915,1166.77,1.0,0.0
+309,IN-2024-100309,19/04/2024,26/04/2024,  STANDARD CLASS ,CU-1039,Bella Khan,Home Office,United States,Chicago,Central,TEC-AC-2009,Technology,Accessories,Accessories Model 583,,9.0,0.0
+292,IN-2023-100292,13/01/2023,20/01/2023,Same Day,CU-1022,Lena Patel,Consumer,United States,Detroit,Central,TEC-CO-2052,Technology,Copiers,Copiers Model 253,182.1,10.0,0.15
+219,IN-2023-100219,19/04/2023,20/04/2023,Second Class,CU-1039,Bella Blake,,United States,Atlanta,South,OFF-AR-2039,Office Supplies,Art,Art Model 556,452.07,8.0,0.3
+170,IN-2024-100170,28/02/2024,02/03/2024,Standard Class,CU-1080,Lena Khan,Home Office,United States,Philadelphia,East,FUR-BO-2050,Furniture,Bookcases,Bookcases Model 105,1157.6,3.0,0.1
+280,IN-2023-100280,21/06/2023,27/06/2023,First Class,CU-1010,Bella Verma,Corporate,United States,New York City,East,OFF-ST-2040,Office Supplies,Storage,Storage Model 371,255.57,12.0,0.0
+289,IN-2024-100289,01/02/2024,08/02/2024,Same Day,CU-1019,Ishan Rossi,Home Office,United States,Philadelphia,East,TEC-PH-2049,Technology,Phones,Phones Model 587,362.13,7.0,0.3
+154,IN-2024-100154,29/07/2024,30/07/2024,Same Day,CU-1064,Farah Iyer,Consumer,United States,Newark,East,OFF-AP-2034,Office Supplies,Appliances,Appliances Model 560,301.26,2.0,0.0
+326,IN-2024-100166,16/09/2024,20/09/2024,First Class,CU-1076,Divya Iyer,Home Office,United States,Houston,Central,TEC-AC-2046,Technology,Accessories,Accessories Model 330,1130.08,5.0,0.3
+295,IN-2023-100295,21/01/2023,24/01/2023,First Class,CU-1025,Nisha Blake,Corporate,United States,Jacksonville,South,OFF-ST-2055,Office Supplies,Storage,Storage Model 978,836.94,2.0,0.3
+110,IN-2023-100110,05/08/2023,12/08/2023,First Class,CU-1020,Chris Blake,Corporate,United States,,West,FUR-TA-2050,Furniture,Tables,Tables Model 107,599.38,7.0,0.0
+307,IN-2024-100307,03/06/2024,06/06/2024,Second Class,CU-1037,Nisha Coleman,Corporate,United States,Miami,South,TEC-AC-2007,Technology,Accessories,Accessories Model 582,157.89,5.0,0.2
+73,IN-2024-100073,11/05/2024,12/05/2024,Second Class,CU-1073,Aaron Grant,Home Office,United States,Philadelphia,East,OFF-AR-2013,Office Supplies,Art,Art Model 418,663.25,9.0,0.1
+137,IN-2023-100137,20/10/2023,23/10/2023,First Class,CU-1047,Nisha Sharma,Corporate,United States,Chicago,Central,FUR-CH-2017,Furniture,Chairs,Chairs Model 918,444.78,7.0,0.2
+291,IN-2024-100291,01/09/2024,04/09/2024,Standard Class,CU-1021,Farah Verma,Consumer,United States,Jacksonville,South,FUR-CH-2051,Furniture,Chairs,Chairs Model 669,479.84,6.0,0.3
+254,IN-2024-100254,07/06/2024,10/06/2024,Second Class,CU-1074,Aaron Khan,Corporate,United States,Seattle,West,OFF-AR-2014,Office Supplies,Art,Art Model 361,929.13,10.0,0.2
+305,IN-2024-100305,13/06/2024,20/06/2024,Same Day,CU-1035,Divya Sharma,Home Office,United States,Houston,Central,FUR-CH-2005,Furniture,Chairs,Chairs Model 797,172.22,1.0,0.2
+245,IN-2023-100245,11/08/2023,12/08/2023,Standard Class,CU-1065,Bella Coleman,Home Office,United States,Jacksonville,South,TEC-CO-2005,Technology,Copiers,Copiers Model 459,1156.08,6.0,0.3
+169,IN-2023-100169,21/05/2023,22/05/2023,Second Class,CU-1079,Julia Verma,Consumer,United States,Chicago,Central,TEC-AC-2049,Technology,Accessories,Accessories Model 785,1086.7,4.0,0.2
+322,IN-2023-100096,11/10/2023,18/10/2023,First Class,CU-1006,Chris Coleman,Consumer,United States,New York City,East,TEC-PH-2036,Technology,Phones,Phones Model 776,1040.41,3.0,0.0
+172,IN-2024-100172,11/02/2024,18/02/2024,First Class,CU-1082,Hina Coleman,Consumer,United States,Miami,South,FUR-BO-2052,Furniture,Bookcases,Bookcases Model 405,683.71,2.0,0.0
+258,IN-2024-100258,31/07/2024,07/08/2024,Second Class,CU-1078,Ethan Verma,Corporate,United States,,Central,FUR-TA-2018,Furniture,Tables,Tables Model 705,1166.37,4.0,0.2
+162,IN-2023-100162,12/11/2023,19/11/2023,Standard Class,CU-1072,Lena Verma,Home Office,United States,Phoenix,West,OFF-AP-2042,Office Supplies,Appliances,Appliances Model 371,1160.65,10.0,0.15
+150,IN-2024-100150,21/09/2024,26/09/2024,Second Class,CU-1060,Bella Sullivan,Home Office,United States,Dallas,Central,FUR-TA-2030,Furniture,Tables,Tables Model 275,792.19,12.0,0.15
+282,IN-2024-100282,14/08/2024,20/08/2024,Second Class,CU-1012,Manav Grant,Consumer,United States,Jacksonville,South,FUR-FU-2042,Furniture,Furnishings,Furnishings Model 175,960.04,1.0,0.0
+280,IN-2023-100280,21/06/2023,27/06/2023,First Class,CU-1010,Bella Verma,Corporate,United States,New York City,East,OFF-ST-2040,Office Supplies,Storage,Storage Model 371,255.57,12.0,0.0
+215,IN-2023-100215,30/11/2023,04/12/2023,First Class,CU-1035,Ethan Rossi,Consumer,United States,Atlanta,South,TEC-MA-2035,Technology,Machines,Machines Model 706,,3.0,0.2
+116,IN-2024-100116,28/11/2024,03/12/2024,First Class,CU-1026,Karan Grant,Home Office,United States,Richmond,South,TEC-CO-2056,Technology,Copiers,Copiers Model 254,530.52,8.0,0.1
+298,IN-2023-100298,25/07/2023,01/08/2023,Standard Class,CU-1028,Aaron Iyer,Corporate,United States,Los Angeles,West,FUR-CH-2058,Furniture,Chairs,Chairs Model 469,847.04,5.0,0.0
+324,IN-2023-100311,24/03/2023,28/03/2023,Second Class,CU-1041,Farah Grant,Corporate,United States,Chicago,Central,TEC-MA-2011,Technology,Machines,Machines Model 104,545.2,4.0,0.3
+118,IN-2024-100118,18/04/2024,23/04/2024,Standard Class,CU-1028,Ishan Verma,Corporate,United States,Seattle,West,TEC-CO-2058,Technology,Copiers,Copiers Model 429,727.98,9.0,0.0
+49,IN-2024-100049,26/04/2024,27/04/2024,Standard Class,CU-1049,Lena Sullivan,Corporate,United States,Atlanta,South,OFF-BI-2049,Office Supplies,Binders,Binders Model 765,87.0,11.0,0.0
+108,IN-2024-100108,24/09/2024,25/09/2024,First Class,CU-1018,Karan Mehta,Corporate,United States,Phoenix,West,FUR-CH-2048,Furniture,Chairs,Chairs Model 597,730.46,7.0,0.0
+310,IN-2024-100310,28/02/2024,29/02/2024,Second Class,CU-1040,Nisha Coleman,Consumer,United States,Richmond,South,TEC-AC-2010,Technology,Accessories,Accessories Model 519,1184.69,8.0,0.0
+278,IN-2024-100278,23/01/2024,26/01/2024,First Class,CU-1008,Lena Verma,Consumer,United States,Dallas,Central,FUR-CH-2038,Furniture,Chairs,Chairs Model 846,7.15,12.0,0.15
+83,IN-2024-100083,15/04/2024,18/04/2024,Same Day,CU-1083,Karan Sharma,Corporate,United States,Atlanta,South,TEC-AC-2023,Technology,Accessories,Accessories Model 175,532.87,6.0,0.15
+156,IN-2024-100156,24/05/2024,25/05/2024,Same Day,CU-1066,Bella Rossi,Consumer,United States,Atlanta,South,OFF-ST-2036,Office Supplies,Storage,Storage Model 697,426.71,1.0,0.0
+100,IN-2023-100100,01/06/2023,02/06/2023,  FIRST CLASS ,CU-1010,Chris Blake,Corporate,United States,San Francisco,West,OFF-AP-2040,Office Supplies,Appliances,Appliances Model 564,609.13,,0.0
+96,IN-2023-100096,11/10/2023,18/10/2023,First Class,CU-1006,Chris Coleman,Consumer,United States,New York City,East,TEC-PH-2036,Technology,Phones,Phones Model 776,1040.41,3.0,0.0
+191,IN-2024-100191,29/07/2024,02/08/2024,Second Class,CU-1011,Gopal Sullivan,Corporate,United States,Philadelphia,East,OFF-BI-2011,Office Supplies,Binders,Binders Model 361,247.99,,0.0
+68,IN-2024-100068,24/03/2024,25/03/2024,Same Day,CU-1068,Julia Sharma,Home Office,United States,Houston,Central,TEC-CO-2008,Technology,Copiers,Copiers Model 718,304.19,,0.0
+67,IN-2023-100067,19/06/2023,26/06/2023,  FIRST CLASS ,CU-1067,Ethan Patel,Corporate,United States,New York City,East,FUR-BO-2007,Furniture,Bookcases,Bookcases Model 579,827.97,12.0,0.1
+97,IN-2023-100097,17/01/2023,19/01/2023,Second Class,CU-1007,Ethan Sharma,Home Office,United States,Detroit,Central,FUR-TA-2037,Furniture,Tables,Tables Model 638,140.81,2.0,0.1
+23,IN-2024-100023,26/09/2024,27/09/2024,First Class,CU-1023,Gopal Grant,Corporate,United States,Philadelphia,East,TEC-PH-2023,Technology,Phones,Phones Model 785,860.85,4.0,0.0
+167,IN-2024-100167,15/05/2024,18/05/2024,First Class,CU-1077,Hina Nair,Corporate,United States,Chicago,Central,TEC-MA-2047,Technology,Machines,Machines Model 687,813.56,,0.1
+125,IN-2023-100125,14/02/2023,18/02/2023,Second Class,CU-1035,Farah Grant,Corporate,United States,Newark,East,TEC-CO-2005,Technology,Copiers,Copiers Model 870,899.5,8.0,0.0
+193,IN-2024-100193,05/05/2024,07/05/2024,First Class,CU-1013,Nisha Nair,Consumer,United States,Seattle,West,FUR-CH-2013,Furniture,Chairs,Chairs Model 294,1154.68,2.0,0.2
+270,IN-2024-100270,25/05/2024,29/05/2024,Standard Class,CU-1000,Ishan Khan,Consumer,United States,,East,TEC-AC-2030,Technology,Accessories,Accessories Model 492,169.0,4.0,0.2
+102,IN-2024-100102,19/01/2024,21/01/2024,Standard Class,CU-1012,Karan Khan,Consumer,United States,Chicago,Central,TEC-AC-2042,Technology,Accessories,Accessories Model 195,521.09,12.0,0.2
+160,IN-2023-100160,08/12/2023,15/12/2023,  SAME DAY ,CU-1070,Hina Sullivan,Consumer,United States,Seattle,West,FUR-CH-2040,Furniture,Chairs,Chairs Model 435,1117.99,6.0,0.0
+268,IN-2023-100268,06/05/2023,07/05/2023,Second Class,CU-1088,Hina Sharma,Home Office,United States,Boston,East,FUR-TA-2028,Furniture,Tables,Tables Model 941,870.69,8.0,0.0
+145,IN-2024-100145,14/11/2024,17/11/2024,First Class,CU-1055,Lena Mehta,Corporate,United States,Atlanta,South,FUR-TA-2025,Furniture,Tables,Tables Model 828,852.93,12.0,0.2
+300,IN-2023-100300,22/09/2023,28/09/2023,Standard Class,CU-1030,Nisha Verma,Corporate,United States,Chicago,Central,OFF-PA-2000,Office Supplies,Paper,Paper Model 495,64.33,10.0,0.3
+210,IN-2024-100210,21/07/2024,22/07/2024,First Class,CU-1030,Julia Patel,Corporate,United States,Los Angeles,West,FUR-TA-2030,Furniture,Tables,Tables Model 398,499.5,2.0,0.2
+31,IN-2024-100031,26/02/2024,04/03/2024,  SECOND CLASS ,CU-1031,Karan Verma,Corporate,United States,Seattle,West,FUR-TA-2031,Furniture,Tables,Tables Model 906,843.03,7.0,0.3
+243,IN-2023-100243,23/08/2023,27/08/2023,Standard Class,CU-1063,Bella Verma,Consumer,United States,Newark,East,OFF-BI-2003,Office Supplies,Binders,Binders Model 476,,3.0,0.1
+13,IN-2023-100013,04/09/2023,09/09/2023,Same Day,CU-1013,Bella Mehta,Consumer,United States,Dallas,Central,FUR-BO-2013,Furniture,Bookcases,Bookcases Model 231,793.4,9.0,0.0
+91,IN-2024-100091,12/10/2024,19/10/2024,First Class,CU-1001,Hina Verma,Home Office,United States,Boston,East,TEC-PH-2031,Technology,Phones,Phones Model 219,,1.0,0.0
+42,IN-2024-100042,29/03/2024,03/04/2024,Same Day,CU-1042,Nisha Verma,Home Office,United States,Jacksonville,South,TEC-AC-2042,Technology,Accessories,Accessories Model 262,893.67,8.0,0.1
+209,IN-2023-100209,04/10/2023,05/10/2023,Second Class,CU-1029,Chris Mehta,Corporate,United States,Detroit,Central,OFF-ST-2029,Office Supplies,Storage,Storage Model 670,667.91,7.0,0.0
+234,IN-2023-100234,28/11/2023,04/12/2023,First Class,CU-1054,Ethan Blake,Home Office,United States,Chicago,Central,TEC-MA-2054,Technology,Machines,Machines Model 238,1155.51,7.0,0.0
+313,IN-2024-100313,30/06/2024,02/07/2024,  STANDARD CLASS ,CU-1043,Lena Nair,Corporate,United States,Atlanta,South,FUR-BO-2013,Furniture,Bookcases,Bookcases Model 118,813.71,,0.2
+54,IN-2024-100054,21/03/2024,23/03/2024,First Class,CU-1054,Lena Sullivan,Home Office,United States,Jacksonville,South,TEC-MA-2054,Technology,Machines,Machines Model 576,525.51,12.0,0.15
+179,IN-2024-100179,22/06/2024,26/06/2024,First Class,CU-1089,Ishan Verma,Consumer,United States,New York City,East,FUR-BO-2059,Furniture,Bookcases,Bookcases Model 163,995.38,9.0,0.0
+67,IN-2023-100067,19/06/2023,26/06/2023,  FIRST CLASS ,CU-1067,Ethan Patel,Corporate,United States,New York City,East,FUR-BO-2007,Furniture,Bookcases,Bookcases Model 579,827.97,12.0,0.1
+276,IN-2023-100276,28/11/2023,29/11/2023,Second Class,CU-1006,Aaron Coleman,Consumer,United States,Newark,East,OFF-PA-2036,Office Supplies,Paper,Paper Model 174,,11.0,0.1
+52,IN-2023-100052,19/03/2023,24/03/2023,Second Class,CU-1052,Lena Grant,Consumer,United States,Richmond,South,OFF-PA-2052,Office Supplies,Paper,Paper Model 970,822.69,2.0,0.3
+15,IN-2023-100015,04/05/2023,06/05/2023,First Class,CU-1015,Divya Mehta,Consumer,United States,Atlanta,South,TEC-CO-2015,Technology,Copiers,Copiers Model 702,268.16,2.0,0.2
+281,IN-2023-100281,02/01/2023,03/01/2023,Same Day,CU-1011,Gopal Khan,Consumer,United States,Detroit,Central,OFF-BI-2041,Office Supplies,Binders,Binders Model 604,1058.72,6.0,0.15
+4,IN-2024-100004,03/07/2024,04/07/2024,First Class,CU-1004,Gopal Mehta,Home Office,United States,Houston,Central,FUR-FU-2004,Furniture,Furnishings,Furnishings Model 691,234.78,2.0,0.0
+24,IN-2024-100024,13/04/2024,16/04/2024,Standard Class,CU-1024,Manav Mehta,Corporate,United States,Miami,South,FUR-TA-2024,Furniture,Tables,Tables Model 175,647.47,9.0,0.0
+129,IN-2023-100129,30/08/2023,03/09/2023,Second Class,CU-1039,Bella Nair,Consumer,United States,Richmond,South,TEC-AC-2009,Technology,Accessories,Accessories Model 201,1007.82,,0.0
+166,IN-2024-100166,16/09/2024,20/09/2024,First Class,CU-1076,Divya Iyer,Home Office,United States,Houston,Central,TEC-AC-2046,Technology,Accessories,Accessories Model 330,1130.08,5.0,0.3
+202,IN-2023-100202,20/08/2023,23/08/2023,Standard Class,CU-1022,Karan Mehta,Consumer,United States,Jacksonville,South,TEC-MA-2022,Technology,Machines,Machines Model 488,455.72,8.0,0.0
+46,IN-2024-100046,13/07/2024,20/07/2024,Same Day,CU-1046,Julia Iyer,,United States,Richmond,South,OFF-AP-2046,Office Supplies,Appliances,Appliances Model 546,585.34,7.0,0.0
+236,IN-2023-100236,19/03/2023,25/03/2023,Same Day,CU-1056,Manav Mehta,Home Office,United States,Richmond,South,OFF-AR-2056,Office Supplies,Art,Art Model 811,1123.92,6.0,0.1
+238,IN-2023-100238,12/08/2023,16/08/2023,Same Day,CU-1058,Nisha Iyer,Corporate,United States,San Francisco,West,TEC-CO-2058,Technology,Copiers,Copiers Model 948,343.89,9.0,0.15
+43,IN-2024-100043,17/06/2024,21/06/2024,First Class,CU-1043,Karan Iyer,Corporate,United States,Chicago,Central,FUR-TA-2043,Furniture,Tables,Tables Model 830,346.45,5.0,
+233,IN-2024-100233,16/09/2024,22/09/2024,Second Class,CU-1053,Gopal Coleman,Consumer,United States,Philadelphia,East,FUR-TA-2053,Furniture,Tables,Tables Model 924,75.93,6.0,0.15
+80,IN-2024-100080,08/07/2024,09/07/2024,Second Class,CU-1080,Julia Mehta,Home Office,United States,Richmond,South,OFF-AR-2020,Office Supplies,Art,Art Model 332,897.39,7.0,0.0
+186,IN-2023-100186,26/04/2023,27/04/2023,Same Day,CU-1006,Manav Grant,Home Office,United States,New York City,East,OFF-PA-2006,Office Supplies,Paper,Paper Model 346,251.27,2.0,0.15
+197,IN-2024-100197,01/11/2024,07/11/2024,Same Day,CU-1017,Farah Blake,Home Office,United States,Boston,East,OFF-AP-2017,Office Supplies,Appliances,Appliances Model 571,206.04,6.0,0.0
+221,IN-2023-100221,23/12/2023,27/12/2023,Same Day,CU-1041,Bella Khan,Corporate,United States,New York City,East,TEC-CO-2041,Technology,Copiers,Copiers Model 407,58.4,12.0,0.0
+269,IN-2023-100269,26/06/2023,29/06/2023,First Class,CU-1089,Divya Coleman,Corporate,United States,Jacksonville,South,TEC-CO-2029,Technology,Copiers,Copiers Model 252,46.41,10.0,0.15
+113,IN-2023-100113,01/04/2023,05/04/2023,Second Class,CU-1023,Nisha Mehta,Corporate,United States,Jacksonville,South,TEC-AC-2053,Technology,Accessories,Accessories Model 636,98.98,5.0,0.2
+12,IN-2023-100012,06/06/2023,09/06/2023,Standard Class,CU-1012,Manav Coleman,Home Office,United States,Houston,Central,TEC-MA-2012,Technology,Machines,Machines Model 600,28.27,6.0,0.3
+151,IN-2023-100151,30/01/2023,31/01/2023,First Class,CU-1061,Aaron Grant,Home Office,United States,Dallas,Central,TEC-PH-2031,Technology,Phones,Phones Model 885,688.7,10.0,0.2
+235,IN-2023-100235,16/05/2023,18/05/2023,First Class,CU-1055,Chris Verma,Consumer,United States,Detroit,Central,TEC-MA-2055,Technology,Machines,Machines Model 601,174.9,11.0,0.0
+86,IN-2023-100086,13/08/2023,19/08/2023,First Class,CU-1086,Divya Patel,Home Office,United States,Philadelphia,East,TEC-AC-2026,Technology,Accessories,Accessories Model 743,,11.0,0.2
+247,IN-2023-100247,30/10/2023,05/11/2023,Same Day,CU-1067,Aaron Iyer,Corporate,United States,New York City,East,TEC-CO-2007,Technology,Copiers,Copiers Model 346,602.0,10.0,0.0
+135,IN-2023-100135,13/12/2023,20/12/2023,Same Day,CU-1045,Karan Coleman,Home Office,United States,Phoenix,West,OFF-AP-2015,Office Supplies,Appliances,Appliances Model 746,222.82,3.0,0.0
+144,IN-2023-100144,08/08/2023,13/08/2023,Same Day,CU-1054,Ethan Verma,Consumer,United States,Chicago,Central,OFF-AR-2024,Office Supplies,Art,Art Model 238,1024.13,8.0,0.0
+272,IN-2023-100272,27/01/2023,30/01/2023,Standard Class,CU-1002,Julia Iyer,,United States,Miami,South,OFF-PA-2032,Office Supplies,Paper,Paper Model 928,1189.88,9.0,0.0
+183,IN-2023-100183,04/07/2023,11/07/2023,Same Day,CU-1003,Chris Grant,Corporate,United States,Phoenix,West,OFF-AR-2003,Office Supplies,Art,Art Model 559,1044.2,7.0,0.1
+301,IN-2024-100301,24/11/2024,26/11/2024,Same Day,CU-1031,Ethan Grant,Home Office,United States,New York City,East,FUR-CH-2001,Furniture,Chairs,Chairs Model 985,937.46,11.0,0.0
+5,IN-2023-100005,27/08/2023,03/09/2023,First Class,CU-1005,Bella Rossi,Corporate,United States,Newark,East,OFF-BI-2005,Office Supplies,Binders,Binders Model 266,447.37,4.0,0.2
+134,IN-2023-100134,17/01/2023,20/01/2023,First Class,CU-1044,Manav Mehta,,United States,Miami,South,OFF-ST-2014,Office Supplies,Storage,Storage Model 890,700.37,6.0,0.0
+45,IN-2023-100045,31/07/2023,07/08/2023,Standard Class,CU-1045,Gopal Rossi,Home Office,United States,Jacksonville,South,OFF-BI-2045,Office Supplies,Binders,Binders Model 588,12.05,6.0,0.0
+251,IN-2023-100251,02/09/2023,03/09/2023,Same Day,CU-1071,Divya Mehta,Consumer,United States,Phoenix,West,OFF-AR-2011,Office Supplies,Art,Art Model 726,732.55,5.0,0.2
+290,IN-2023-100290,04/05/2023,11/05/2023,Second Class,CU-1020,Hina Coleman,Consumer,United States,Seattle,West,TEC-MA-2050,Technology,Machines,Machines Model 229,56.0,2.0,0.2
+285,IN-2023-100285,01/11/2023,03/11/2023,Same Day,CU-1015,Bella Sharma,,United States,,Central,TEC-AC-2045,Technology,Accessories,Accessories Model 257,70.13,1.0,0.1
+204,IN-2023-100204,18/03/2023,24/03/2023,Standard Class,CU-1024,Ethan Sullivan,Consumer,United States,Richmond,South,OFF-BI-2024,Office Supplies,Binders,Binders Model 116,1153.96,10.0,0.0
+136,IN-2023-100136,26/07/2023,27/07/2023,Standard Class,CU-1046,Manav Iyer,Corporate,United States,Richmond,South,FUR-TA-2016,Furniture,Tables,Tables Model 627,480.88,9.0,0.1
+146,IN-2023-100146,18/08/2023,19/08/2023,Second Class,CU-1056,Divya Coleman,Corporate,United States,New York City,East,OFF-AP-2026,Office Supplies,Appliances,Appliances Model 469,667.06,6.0,0.1
+72,IN-2023-100072,12/07/2023,17/07/2023,Same Day,CU-1072,Farah Patel,Home Office,United States,Jacksonville,South,OFF-BI-2012,Office Supplies,Binders,Binders Model 878,66.68,5.0,0.15
+119,IN-2023-100119,18/12/2023,24/12/2023,  SECOND CLASS ,CU-1029,Bella Sullivan,Consumer,United States,Seattle,West,OFF-BI-2059,Office Supplies,Binders,Binders Model 824,528.12,8.0,0.15
+312,IN-2024-100312,16/05/2024,23/05/2024,Second Class,CU-1042,Manav Mehta,Home Office,United States,Boston,East,TEC-MA-2012,Technology,Machines,Machines Model 748,518.14,7.0,0.1
+328,IN-2024-100197,01/11/2024,07/11/2024,Same Day,CU-1017,Farah Blake,Home Office,United States,Boston,East,OFF-AP-2017,Office Supplies,Appliances,Appliances Model 571,206.04,6.0,0.0
+217,IN-2024-100217,22/01/2024,23/01/2024,Same Day,CU-1037,Hina Patel,Home Office,United States,Boston,East,TEC-CO-2037,Technology,Copiers,Copiers Model 647,610.4,12.0,0.1
+75,IN-2024-100075,12/04/2024,17/04/2024,  SECOND CLASS ,CU-1075,Chris Rossi,Home Office,United States,Atlanta,South,OFF-PA-2015,Office Supplies,Paper,Paper Model 984,88.42,7.0,0.0
+325,IN-2023-100099,04/03/2023,08/03/2023,Same Day,CU-1009,Nisha Rossi,Home Office,United States,Chicago,Central,OFF-BI-2039,Office Supplies,Binders,Binders Model 602,856.32,,0.0
+249,IN-2023-100249,09/08/2023,10/08/2023,First Class,CU-1069,Aaron Rossi,Home Office,United States,Phoenix,West,FUR-TA-2009,Furniture,Tables,Tables Model 533,843.66,2.0,0.2
+95,IN-2023-100095,07/09/2023,09/09/2023,  SECOND CLASS ,CU-1005,Manav Patel,Consumer,United States,Seattle,West,FUR-TA-2035,Furniture,Tables,Tables Model 700,263.06,4.0,0.0
+296,IN-2024-100296,29/03/2024,05/04/2024,First Class,CU-1026,Nisha Nair,Home Office,United States,Boston,East,FUR-TA-2056,Furniture,Tables,Tables Model 719,,4.0,0.1
+94,IN-2023-100094,04/03/2023,08/03/2023,Standard Class,CU-1004,Ethan Iyer,Corporate,United States,Chicago,Central,TEC-AC-2034,Technology,Accessories,Accessories Model 778,,11.0,0.15
+19,IN-2023-100019,19/03/2023,23/03/2023,Standard Class,CU-1019,Manav Sullivan,,United States,Chicago,Central,OFF-PA-2019,Office Supplies,Paper,Paper Model 195,1112.01,4.0,0.0
+284,IN-2024-100284,17/03/2024,23/03/2024,  SAME DAY ,CU-1014,Chris Patel,Consumer,United States,Miami,South,TEC-PH-2044,Technology,Phones,Phones Model 203,400.66,4.0,0.1
+293,IN-2023-100293,20/10/2023,27/10/2023,Same Day,CU-1023,Ishan Nair,Corporate,United States,Phoenix,West,FUR-BO-2053,Furniture,Bookcases,Bookcases Model 770,585.27,10.0,0.1
+314,IN-2023-100314,16/11/2023,18/11/2023,First Class,CU-1044,Bella Rossi,Consumer,United States,New York City,East,FUR-TA-2014,Furniture,Tables,Tables Model 943,59.63,5.0,0.1
+32,IN-2023-100032,24/07/2023,31/07/2023,First Class,CU-1032,Hina Nair,Consumer,United States,Seattle,West,OFF-PA-2032,Office Supplies,Paper,Paper Model 124,793.74,7.0,0.0
+141,IN-2024-100141,26/11/2024,28/11/2024,Same Day,CU-1051,Aaron Coleman,Consumer,United States,Atlanta,South,OFF-AP-2021,Office Supplies,Appliances,Appliances Model 168,287.01,11.0,0.0
+90,IN-2024-100090,21/08/2024,25/08/2024,First Class,CU-1000,Nisha Grant,Consumer,United States,Dallas,Central,TEC-AC-2030,Technology,Accessories,Accessories Model 582,34.9,9.0,0.0
+159,IN-2024-100159,08/02/2024,11/02/2024,First Class,CU-1069,Manav Nair,Consumer,United States,Seattle,West,FUR-BO-2039,Furniture,Bookcases,Bookcases Model 716,613.4,9.0,0.0
+287,IN-2024-100287,07/11/2024,10/11/2024,Same Day,CU-1017,Bella Grant,Consumer,United States,Richmond,South,OFF-AR-2047,Office Supplies,Art,Art Model 490,,8.0,0.0
+142,IN-2023-100142,03/02/2023,08/02/2023,  SAME DAY ,CU-1052,Chris Grant,Corporate,United States,Houston,Central,OFF-AP-2022,Office Supplies,Appliances,Appliances Model 554,916.89,10.0,0.0
+244,IN-2023-100244,12/03/2023,17/03/2023,Second Class,CU-1064,Julia Sharma,Corporate,United States,Newark,East,TEC-MA-2004,Technology,Machines,Machines Model 839,259.6,12.0,0.0
+14,IN-2023-100014,05/08/2023,10/08/2023,Second Class,CU-1014,Manav Verma,Home Office,United States,Houston,Central,TEC-CO-2014,Technology,Copiers,Copiers Model 508,1194.2,11.0,0.0
+78,IN-2024-100078,22/05/2024,23/05/2024,First Class,CU-1078,Chris Sullivan,Consumer,United States,Jacksonville,South,OFF-PA-2018,Office Supplies,Paper,Paper Model 202,633.51,8.0,0.0
+187,IN-2024-100187,19/11/2024,25/11/2024,Second Class,CU-1007,Nisha Sharma,Home Office,United States,Los Angeles,West,OFF-AP-2007,Office Supplies,Appliances,Appliances Model 511,529.56,9.0,0.0
+180,IN-2024-100180,16/06/2024,20/06/2024,Second Class,CU-1000,Bella Grant,Home Office,United States,Boston,East,FUR-TA-2000,Furniture,Tables,Tables Model 193,1079.17,8.0,0.3
+178,IN-2024-100178,04/05/2024,06/05/2024,First Class,CU-1088,Hina Verma,Corporate,United States,Boston,East,FUR-CH-2058,Furniture,Chairs,Chairs Model 875,647.33,11.0,0.3
+201,IN-2023-100201,04/09/2023,06/09/2023,First Class,CU-1021,Julia Sullivan,Corporate,United States,San Francisco,West,TEC-MA-2021,Technology,Machines,Machines Model 914,479.29,6.0,0.1
+34,IN-2024-100034,02/09/2024,06/09/2024,First Class,CU-1034,Farah Verma,Corporate,United States,Chicago,Central,FUR-BO-2034,Furniture,Bookcases,Bookcases Model 494,1079.91,4.0,0.0
+63,IN-2024-100063,25/07/2024,01/08/2024,Second Class,CU-1063,Gopal Patel,Home Office,United States,Phoenix,West,FUR-BO-2003,Furniture,Bookcases,Bookcases Model 561,1090.66,5.0,0.3
+123,IN-2023-100123,04/07/2023,06/07/2023,Second Class,CU-1033,Farah Khan,Consumer,United States,,West,OFF-ST-2003,Office Supplies,Storage,Storage Model 258,97.21,2.0,0.15
+55,IN-2023-100055,30/03/2023,02/04/2023,Same Day,CU-1055,Hina Iyer,Home Office,United States,Detroit,Central,OFF-PA-2055,Office Supplies,Paper,Paper Model 444,39.3,6.0,0.0
+240,IN-2023-100240,27/07/2023,02/08/2023,First Class,CU-1060,Chris Grant,Consumer,United States,Richmond,South,FUR-FU-2000,Furniture,Furnishings,Furnishings Model 195,787.23,5.0,0.0
+17,IN-2024-100017,21/02/2024,23/02/2024,Same Day,CU-1017,Bella Mehta,Corporate,United States,Jacksonville,South,FUR-FU-2017,Furniture,Furnishings,Furnishings Model 520,563.09,12.0,0.0
+41,IN-2023-100041,30/06/2023,07/07/2023,Same Day,CU-1041,Lena Sullivan,Consumer,United States,Seattle,West,OFF-PA-2041,Office Supplies,Paper,Paper Model 968,150.02,3.0,0.3
+257,IN-2024-100257,12/06/2024,13/06/2024,Same Day,CU-1077,Gopal Mehta,Corporate,United States,San Francisco,West,FUR-CH-2017,Furniture,Chairs,Chairs Model 435,108.23,8.0,0.0
+74,IN-2024-100074,17/04/2024,18/04/2024,Same Day,CU-1074,Karan Coleman,Home Office,United States,,West,FUR-BO-2014,Furniture,Bookcases,Bookcases Model 621,847.97,7.0,0.3
+9,IN-2024-100009,06/01/2024,08/01/2024,Same Day,CU-1009,Chris Sullivan,Consumer,United States,Miami,South,TEC-CO-2009,Technology,Copiers,Copiers Model 981,136.03,11.0,0.0
+222,IN-2024-100222,24/11/2024,01/12/2024,Second Class,CU-1042,Chris Verma,Home Office,United States,Seattle,West,OFF-BI-2042,Office Supplies,Binders,Binders Model 665,196.36,9.0,0.1
+157,IN-2023-100157,20/10/2023,25/10/2023,Same Day,CU-1067,Aaron Mehta,Consumer,United States,Richmond,South,TEC-CO-2037,Technology,Copiers,Copiers Model 844,442.1,7.0,0.0
+124,IN-2024-100124,24/09/2024,26/09/2024,Second Class,CU-1034,Julia Rossi,Consumer,United States,Seattle,West,TEC-AC-2004,Technology,Accessories,Accessories Model 951,,10.0,0.3
+269,IN-2023-100269,26/06/2023,29/06/2023,First Class,CU-1089,Divya Coleman,Corporate,United States,Jacksonville,South,TEC-CO-2029,Technology,Copiers,Copiers Model 252,46.41,10.0,0.15
+16,IN-2023-100016,02/02/2023,09/02/2023,Second Class,CU-1016,Farah Mehta,Corporate,United States,Phoenix,West,FUR-BO-2016,Furniture,Bookcases,Bookcases Model 319,649.38,12.0,0.15
+126,IN-2023-100126,18/07/2023,21/07/2023,Same Day,CU-1036,Karan Patel,Corporate,United States,Newark,East,OFF-AR-2006,Office Supplies,Art,Art Model 896,461.34,9.0,0.1
+266,IN-2023-100266,15/04/2023,22/04/2023,Standard Class,CU-1086,Manav Coleman,Consumer,United States,New York City,East,FUR-FU-2026,Furniture,Furnishings,Furnishings Model 950,938.25,4.0,0.0
