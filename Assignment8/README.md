@@ -1,141 +1,131 @@
 # Assignment 8 - End-to-End E-Commerce Analytics Pipeline
 
-This assignment is a practical example of how a small but realistic data engineering workflow is built from scratch. It takes messy e-commerce data, cleans it, loads it into a relational database, and then runs analytical SQL queries to generate business insights.
+Week 8 Assignment - Celebal Technologies Summer Internship (Data Engineering)
 
-In simple words, this project demonstrates the full journey of data:
+## Overview
 
-1. Generate raw data
-2. Clean and validate it
-3. Store it in a structured format
-4. Query it for reporting and decision-making
+This project presents a complete e-commerce analytics pipeline built from scratch. It starts with synthetic raw data, cleans and validates the records, loads them into SQLite, and finally runs analytical SQL queries to produce business insights.
+
+The main idea behind the assignment is simple: real-world data is messy, but analytics only becomes useful when that data is transformed into something reliable, structured, and query-ready.
+
+### What the project demonstrates
+
+- data generation for customers, products, orders, and order items
+- data cleaning with explicit quality rules
+- relational storage using SQLite
+- reusable business logic through SQL views
+- reporting through SQL outputs and a terminal-based summary tool
 
 ---
 
-## Why this assignment matters
+## Why this assignment is important
 
-Real-world data is rarely clean. In production systems, data often contains:
+In production systems, data rarely arrives in perfect condition. Common issues include:
 
-- missing values
-- inconsistent formats
-- invalid dates
+- missing customer IDs
+- inconsistent date formats
+- invalid discounts or quantities
 - duplicate records
-- broken relationships between tables
+- orphaned child rows
+- return transactions mixed with normal sales
 
-This project simulates that reality and shows how a strong pipeline handles these issues responsibly instead of silently ignoring them.
-
----
-
-## Project goal
-
-The main aim of Assignment 8 is to build a compact analytics pipeline for an e-commerce business that can:
-
-- generate synthetic customer, product, order, and order-item data
-- detect and report data quality issues
-- clean the data without losing useful information
-- load the cleaned data into SQLite
-- run business-focused SQL analytics
-- produce both tabular outputs and a terminal-based report
+This assignment shows how a data engineering pipeline should respond to those problems in a controlled way instead of simply deleting suspicious rows.
 
 ---
 
-## Architecture at a glance
+## Project architecture
 
-The project follows a clean layered architecture, where each stage has a specific responsibility.
+The solution follows a clear layered architecture. Each stage has one responsibility, which keeps the pipeline easy to understand, maintain, and extend.
 
 ```mermaid
 flowchart LR
-    A[Generate raw CSV files] --> B[Clean and validate data]
-    B --> C[Write cleaned CSV files]
-    C --> D[Create SQLite database schema]
-    D --> E[Load tables with foreign key integrity]
-    E --> F[Run SQL analytics queries]
-    F --> G[Generate reports and CSV outputs]
+    A[Generate Raw Data] --> B[Clean and Validate]
+    B --> C[Store Clean Data]
+    C --> D[Create SQLite Schema]
+    D --> E[Load Tables with Integrity Checks]
+    E --> F[Run Analytical SQL Queries]
+    F --> G[Export CSV Outputs and Reports]
 ```
 
-### Architectural flow
+### Architecture breakdown
 
-- Data Generation Layer: creates realistic but imperfect datasets
-- Data Cleaning Layer: repairs, standardizes, and flags invalid records
-- Storage Layer: creates a relational SQLite database with schema and constraints
-- Analytics Layer: runs SQL queries for reporting and business intelligence
-- Reporting Layer: outputs query results as CSV files and a summary report in the terminal
+| Layer | Purpose |
+| --- | --- |
+| Data generation | Creates realistic but intentionally imperfect CSV files |
+| Data cleaning | Fixes formatting issues, flags invalid rows, and prepares trustworthy data |
+| Storage layer | Builds the SQLite database and enforces schema rules |
+| Analytics layer | Runs reusable business queries over the cleaned data |
+| Reporting layer | Produces CSV outputs, quality reports, and CLI summaries |
 
 ---
 
-## What each component does
+## Pipeline explanation
 
 ### 1. Data generation
-The script in [src/generate_data.py](src/generate_data.py) creates synthetic data for:
+The script in [src/generate_data.py](src/generate_data.py) creates synthetic data for the core business entities:
 
 - customers
 - products
 - orders
 - order items
 
-The generated data intentionally contains errors such as:
+It deliberately injects issues such as malformed dates, negative quantities, invalid discount values, missing customer IDs, and orphaned records. This makes the assignment closer to a real data engineering scenario instead of a perfectly clean demo dataset.
 
-- missing customer IDs
-- malformed dates
-- negative quantities
-- invalid discounts
-- orphaned order items
-- future-dated orders
+### 2. Data cleaning and validation
+The script in [src/clean_data.py](src/clean_data.py) performs the transformation from raw data to clean data.
 
-This makes the project realistic and helps demonstrate data quality handling.
+It:
 
-### 2. Data cleaning and quality validation
-The script in [src/clean_data.py](src/clean_data.py) performs the cleaning process.
+- parses and standardizes date values
+- normalizes product and customer text fields
+- clips invalid discounts into a valid range
+- marks return transactions clearly
+- separates rejected order items for inspection
+- generates a data quality report in Markdown and JSON
 
-It handles:
+This stage is important because it preserves useful data while making the dataset safe for analysis.
 
-- date parsing and normalization
-- standardizing product names and categories
-- converting invalid values into safe defaults
-- flagging returns and malformed rows
-- separating rejected records into a dedicated output file
-- generating a data quality report in Markdown and JSON formats
-
-This stage is especially important because it transforms messy raw data into trustworthy analytical data.
-
-### 3. Database loading
-The script in [src/load_db.py](src/load_db.py) creates a SQLite database from the cleaned CSV files.
+### 3. Database creation and loading
+The script in [src/load_db.py](src/load_db.py) creates the SQLite database from the cleaned CSV files.
 
 It:
 
 - reads the schema from [sql/schema.sql](sql/schema.sql)
-- creates the tables with constraints and relationships
-- loads the data in the correct dependency order
+- creates customers, products, orders, and order_items tables
+- loads the tables in dependency order
 - enables foreign key enforcement
-- creates a reusable view called `item_revenue` for centralized revenue logic
+- defines the reusable `item_revenue` view for consistent revenue logic
 
-This is the bridge between raw cleaned files and analytical querying.
+This step converts cleaned files into a relational model that is ready for query execution.
 
 ### 4. SQL analytics
-The SQL files in [sql/](sql/) contain analytical queries that answer business questions such as:
+The SQL files in [sql/](sql/) contain the actual business analysis.
 
-- which products generate the most revenue
+They answer questions such as:
+
+- which products contribute the most revenue
 - which customers are the most valuable
-- how revenue changes over time
+- how sales change across time periods
 - which regions perform best
-- what proportion of orders are canceled or returned
+- how returns and cancellations affect performance
 
-These queries demonstrate common SQL patterns such as joins, aggregations, grouping, ranking, and window functions.
+The queries demonstrate standard analytical SQL techniques like joins, grouping, ranking, aggregation, and reporting patterns.
 
-### 5. Reporting layer
-The script in [src/run_queries.py](src/run_queries.py) executes the SQL queries and saves each result as a CSV file.
+### 5. Reporting and output generation
+The script in [src/run_queries.py](src/run_queries.py) executes the SQL queries and saves the results into CSV files inside [reports/query_output](reports/query_output).
 
-The script in [src/report_cli.py](src/report_cli.py) provides an interactive summary report in the terminal, with metrics such as:
+The script in [src/report_cli.py](src/report_cli.py) provides an interactive report in the terminal with:
 
 - total orders
-- total revenue
+- revenue
 - unique customers
 - average order value
 - top products
-- period-based breakdowns
+- daily, weekly, or monthly breakdowns
 
 ---
 
-## Folder structure
+## Repository structure
 
 ```text
 Assignment8/
@@ -165,7 +155,7 @@ Assignment8/
 
 ---
 
-## Setup instructions
+## Setup
 
 ### 1. Create a virtual environment
 
@@ -173,15 +163,15 @@ Assignment8/
 python -m venv .venv
 ```
 
-### 2. Activate the environment
+### 2. Activate it
 
-On Windows:
+Windows:
 
 ```bash
 .venv\Scripts\activate
 ```
 
-On macOS/Linux:
+macOS / Linux:
 
 ```bash
 source .venv/bin/activate
@@ -195,9 +185,9 @@ pip install -r requirements.txt
 
 ---
 
-## How to run the full pipeline
+## How to run the pipeline
 
-Run the scripts from the project root:
+Run the following commands from the project root:
 
 ```bash
 python src/generate_data.py
@@ -206,30 +196,30 @@ python src/load_db.py
 python src/run_queries.py
 ```
 
-This will generate:
+After execution, the project will generate:
 
 - raw data in [data/raw](data/raw)
 - cleaned data in [data/clean](data/clean)
-- a SQLite database in [data/ecommerce.db](data/ecommerce.db)
-- reports in [reports/](reports)
+- SQLite database in [data/ecommerce.db](data/ecommerce.db)
+- quality and query reports in [reports](reports)
 
 ---
 
-## Optional reporting commands
+## Optional commands
 
-### Interactive CLI report
+### Interactive summary report
 
 ```bash
 python src/report_cli.py
 ```
 
-You can also pass date range and granularity options:
+Example with custom date range and granularity:
 
 ```bash
 python src/report_cli.py --type monthly --from 2025-01-01 --to 2025-06-30
 ```
 
-### Run a single query group
+### Run a specific query group
 
 ```bash
 python src/run_queries.py q09
@@ -237,33 +227,26 @@ python src/run_queries.py q09
 
 ---
 
-## Important design choices
+## Key design decisions
 
-### Data quality over perfect data
-The pipeline does not simply delete bad rows. Instead, it:
+### Keep useful data, not just clean data
+The pipeline does not delete everything that looks suspicious. Instead, it keeps legitimate records, isolates rejected rows, and records data-quality issues clearly.
 
-- preserves useful information
-- flags suspicious values
-- stores rejected records separately
-- reports issues clearly
+### Centralize business logic
+Revenue is calculated through the `item_revenue` view, which prevents the same formula from being repeated across multiple queries.
 
-This is a much more professional approach than blindly dropping problematic rows.
-
-### Centralized business logic
-Revenue calculation is handled in the database view `item_revenue`, which means the logic is defined in one place and reused consistently by all queries.
-
-### Relational integrity
-The schema enforces relationships between tables so that the database remains consistent and meaningful.
+### Enforce structure
+The SQLite schema uses primary keys, foreign keys, and check constraints so that the analytical layer works on reliable relational data.
 
 ---
 
-## Output files
+## Deliverables
 
-The project produces several useful outputs:
+This assignment produces a complete set of outputs:
 
 - cleaned CSV files
-- rejected rows file for review
-- data quality reports in Markdown and JSON
+- rejected records file for review
+- Markdown and JSON data quality reports
 - SQL query outputs as CSV files
 - terminal-based analytical summaries
 
@@ -281,16 +264,14 @@ pytest -v
 
 ## Troubleshooting
 
-- Make sure you run the commands from the Assignment 8 project root
-- Ensure the virtual environment is activated
-- If you want to regenerate everything from scratch, delete the [data](data) and [reports](reports) folders and rerun the pipeline
+- Run all commands from the Assignment 8 root folder
+- Make sure the virtual environment is activated before running scripts
+- To regenerate everything from scratch, delete [data](data) and [reports](reports), then rerun the pipeline
 
 ---
 
-## Final takeaway
+## Final summary
 
-Assignment 8 is not just about writing SQL or cleaning CSV files. It is a complete example of how data flows through a modern analytics workflow:
+Assignment 8 is a complete mini data engineering workflow. It shows how raw data moves through generation, cleaning, storage, analysis, and reporting before becoming useful business insight.
 
-from messy raw input -> structured storage -> meaningful business insights.
-
-That makes it an excellent project for understanding the practical side of data engineering, analytics, and data quality management.
+That makes it a strong example of practical data pipeline design, SQL analytics, and data quality management.
