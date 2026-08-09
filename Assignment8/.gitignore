@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+data/raw/*.csv
+data/clean/*.csv
+data/*.db
+reports/query_output/
