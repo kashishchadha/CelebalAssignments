@@ -396,5 +396,5 @@ Executing the pipeline produces the following concrete artifacts:
 
 <p align="center">
   <b>Celebal Technologies Data Engineering Internship — Assignment 8</b><br>
-  <i>Built with ❤️ using Python, SQLite, Pandas, & Pytest</i>
+  
 </p>
