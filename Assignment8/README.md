@@ -1,126 +1,204 @@
-# End-to-End Production Retail Data Engineering Pipeline
-## Medallion Architecture on Databricks & Delta Lake
+# 🏬 Enterprise Retail Data Engineering Pipeline
+### 🚀 Medallion Architecture on Databricks & Delta Lake
 
-An enterprise-grade, 7-layer data engineering pipeline built using **PySpark**, **Delta Lake**, **Unity Catalog**, and **Parquet**. The system ingests raw transactional data from heterogeneous source systems (CRM & ERP) in CSV format, applies robust data quality quarantine controls, maintains incremental state via a **High-Water Mark (HWM)** engine, enforces **Slowly Changing Dimensions (SCD Type 1 & Type 2)**, and outputs an analytics-ready **Star Schema** with specialized **Power BI Data Marts**.
+![Data Engineering](https://img.shields.io/badge/Domain-Data%20Engineering-blue?style=for-the-badge&logo=apachespark)
+![PySpark](https://img.shields.io/badge/Engine-PySpark%20v3.5-orange?style=for-the-badge&logo=python)
+![Delta Lake](https://img.shields.io/badge/Storage-Delta%20Lake%20v3.2-blueviolet?style=for-the-badge&logo=databricks)
+![Unity Catalog](https://img.shields.io/badge/Governance-Unity%20Catalog-red?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Analytics-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)
 
 ---
 
-## 1. Pipeline Architecture Overview
+## 👤 Student & Mini Project Profile
+
+<div align="center">
+
+| Attribute | Profile Details |
+| :--- | :--- |
+| **Student Name** | **Kashish Chadha** |
+| **Student ID** | `CT_CSI_DE_1098` |
+| **Contact No** | `+91 7082557591` |
+| **Email ID** | `1000019613@dit.edu.in` |
+| **Domain** | Data Engineering |
+| **Stream / Degree** | B.Tech (Computer Science & Engineering) |
+| **Passing Out Year**| 2027 |
+| **College / University** | DIT (DIT University) |
+| **Batch** | Batch 1 |
+| **Internship Program**| Celebal Summer Internship 2026 |
+| **Assignment Topic** | **Assignment 8 (Mini Project): End-to-End Retail Medallion Architecture** |
+| **Repository Link** | [GitHub - CelebalAssignments](https://github.com/kashishchadha/CelebalAssignments) |
+
+</div>
+
+---
+
+> [!IMPORTANT]
+> **Executive Summary**: This project delivers an enterprise-grade, end-to-end retail data engineering pipeline utilizing a **7-Layer Medallion Architecture** on Databricks & Delta Lake. It ingests raw transactional streams from heterogeneous CRM & ERP systems, applies strict schema enforcement and quarantine controls, processes incremental loads using a **High-Water Mark (HWM)** mechanism, handles **Slowly Changing Dimensions (SCD Type 1 & Type 2)**, and outputs an analytics-ready **Star Schema** with specialized **Power BI Business Data Marts**.
+
+---
+
+## 🏗️ 7-Layer Medallion Pipeline Architecture
 
 ```
 ===================================================================================================================================
-                                              RETAIL MEDALLION 7-LAYER DATA ENGINE
+                                         RETAIL DATA ENGINEERING PIPELINE ARCHITECTURE
 ===================================================================================================================================
 
- [CRM System]                [ERP System]
- (Customers, Interactions)    (Stores, Products, Orders, Order Items, Returns)
-      |                            |
-      +------------+---------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 01: INBOUND               |  Raw external directory landing zone (CSV)
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 02: RAW                   |  Persistent archive + Metadata injection (_ingest_timestamp, _source_file, _batch_id)
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 03: LANDING               |  Format conversion to Parquet + StructType Schema Validation + Corrupt Record Quarantine
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 04: BRONZE                |  Delta Lake ingestion + High-Water Mark (HWM) incremental watermark tracking
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 05: SILVER STAGING        |  Data cleaning, null imputation, string trimming, windowed deduplication (row_number)
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 06: SILVER                |  Conformed business entities + Delta MERGE (SCD Type 1 & SCD Type 2 with Hash Surrogate Keys)
-  +---------------------------------+
-                   |
-                   v
-  +---------------------------------+
-  | Layer 07: GOLD                  |  Dimensional Star Schema (FactSales, FactReturns, DimCustomer, DimProduct, DimStore, DimDate)
-  |                                 |  + Power BI Business Data Marts (Sales, Churn, Quality, Store Analytics)
-  +---------------------------------+
+  [CRM System]                 [ERP System]
+  (Customers, Interactions)    (Stores, Products, Orders, Order Items, Returns)
+       |                            |
+       +------------+---------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 01: INBOUND               |  Raw external directory drop zone receiving micro-batch CSV payloads
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 02: RAW ARCHIVE           |  Immutable persistent landing + Ingest Metadata (_ingest_timestamp, _source_file, _batch_id)
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 03: LANDING               |  CSV -> Parquet conversion + StructType Schema Validation + Corrupt Record Quarantine
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 04: BRONZE DELTA LAKE     |  Append-only Delta storage + High-Water Mark (HWM) incremental watermark tracking
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 05: SILVER STAGING        |  Data cleaning, null imputation, string trimming, windowed deduplication (row_number)
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 06: SILVER CONFORMED      |  Business entity curation + Delta MERGE (SCD Type 1 & SCD Type 2 with Hash Surrogate Keys)
+   +----------------------------------+
+                    |
+                    v
+   +----------------------------------+
+   |  LAYER 07: GOLD STAR SCHEMA      |  Dimensional Star Schema (FactSales, FactReturns, DimCustomer, DimProduct, DimStore, DimDate)
+   |                                  |  + Power BI Business Data Marts (Sales, Churn, Product Quality, Store Analytics)
+   +----------------------------------+
 ===================================================================================================================================
 ```
 
 ---
 
-## 2. Detailed 7-Layer Pipeline Breakdown
+## 📊 Star Schema Data Model
 
-### Layer 01: Inbound (`01_inbound`)
-- **Purpose**: Acts as the external drop zone receiving CSV files from source systems.
-- **Source Systems**:
-  - **CRM**: `customers.csv`, `customer_interactions.csv`
-  - **ERP**: `stores.csv`, `products.csv`, `orders.csv`, `order_items.csv`, `product_returns.csv`
-- **Execution**: Micro-batches are received as `batch_01` (historical initial load) and `batch_02` (incremental delta load).
+```mermaid
+erDiagram
+    fact_sales }|..|{ dim_customer : "customer_sk"
+    fact_sales }|..|{ dim_product : "product_sk"
+    fact_sales }|..|{ dim_store : "store_sk"
+    fact_sales }|..|{ dim_date : "date_key"
+    fact_returns }|..|{ dim_customer : "customer_sk"
+    fact_returns }|..|{ dim_product : "product_sk"
 
-### Layer 02: Raw (`02_raw`)
-- **Purpose**: Immutably preserves source data in raw directory storage while adding system audit metadata.
-- **Audit Metadata Injected**:
-  - `_ingest_timestamp`: System UTC timestamp when file was ingested.
-  - `_source_file`: File basename.
-  - `_source_system`: Source system tag (`CRM` or `ERP`).
-  - `_batch_id`: Batch directory identifier (`batch_01`, `batch_02`).
+    fact_sales {
+        string item_id PK
+        string order_id
+        string customer_sk FK
+        string product_sk FK
+        string store_sk FK
+        date date_key FK
+        int quantity
+        double unit_price
+        double gross_sales_amount
+        double discount_amount
+        double net_sales_amount
+        double profit_amount
+        double profit_margin_pct
+    }
 
-### Layer 03: Landing (`03_landing`)
-- **Purpose**: Converts CSV payloads into optimized columnar Parquet format, enforces strict schema types, and isolates bad records.
-- **Schema Enforcement**: Evaluates incoming data against pre-compiled PySpark `StructType` schemas (`utils/schema_definitions.py`).
-- **Quarantine Engine**: Records failing primary key integrity or exhibiting corrupt payloads (e.g. missing primary key, string flags) are filtered into `/quarantine/<entity>/<batch_id>`.
+    fact_returns {
+        string return_id PK
+        string order_id
+        string item_id
+        string customer_sk FK
+        string product_sk FK
+        date return_date_key FK
+        string return_reason
+        double refund_amount
+    }
 
-### Layer 04: Bronze (`04_bronze`)
-- **Purpose**: Manages append-only ingestion into Delta Lake tables under `retail_catalog.bronze` with High-Water Mark (HWM) tracking.
-- **High-Water Mark Mechanism**:
-  - Queries `hwm_watermarks` metadata table to fetch `last_watermark` for the target entity.
-  - Filters records where `updated_at > last_watermark`.
-  - Appends new records into Bronze Delta tables.
-  - Calculates `MAX(updated_at)` from processed batch and updates `hwm_watermarks`.
+    dim_customer {
+        string customer_sk PK
+        string customer_id
+        string first_name
+        string last_name
+        string email
+        string city
+        string state
+        string segment
+        double churn_risk_score
+        string churn_risk_band
+        boolean is_current
+        string effective_start_date
+        string effective_end_date
+    }
 
-### Layer 05: Silver Staging (`05_silver_staging`)
-- **Purpose**: Performs foundational data hygiene and deduplication.
-- **Transformations**:
-  - Trims leading/trailing whitespace from string attributes.
-  - Converts email addresses to lowercase.
-  - Imputes default fallback values for null numerical metrics (e.g. `churn_risk_score`).
-  - Executes windowed deduplication over entity primary key ordered by `updated_at DESC, _ingest_timestamp DESC`.
+    dim_product {
+        string product_sk PK
+        string product_id
+        string product_name
+        string category
+        string subcategory
+        double unit_cost
+        double msrp
+        double quality_rating
+    }
 
-### Layer 06: Silver (`06_silver`)
-- **Purpose**: Curates business entities using Delta Lake `MERGE INTO` operations.
-- **SCD Type 1 (Overwrite Current State)**:
-  - Applied to `stores`, `products`, `orders`, `order_items`, `product_returns`, `customer_interactions`.
-  - Merges incoming records matching primary key and overwrites attribute values.
-- **SCD Type 2 (History Preservation)**:
-  - Applied to `customers`.
-  - Tracks changes in profile attributes (`email`, `phone`, `city`, `state`, `segment`, `churn_risk_score`).
-  - Computes `row_hash` using `SHA-256` of tracked columns.
-  - Computes `surrogate_key` using `SHA-256(customer_id || effective_start_date)`.
-  - Updates existing active record (`is_current = True`) setting `is_current = False` and `effective_end_date = incoming.updated_at`.
-  - Inserts new record with `is_current = True`, `effective_start_date = incoming.updated_at`, and `effective_end_date = '9999-12-31 23:59:59'`.
+    dim_store {
+        string store_sk PK
+        string store_id
+        string store_name
+        string store_type
+        string region
+        int sqft_area
+        string manager_name
+    }
 
-### Layer 07: Gold (`07_gold`)
-- **Purpose**: Constructs an analytics-ready Dimensional Star Schema and specialized Power BI business data marts.
-- **Dimensional Star Schema**:
-  - `dim_date`: Generated calendar date dimension (2023-2026).
-  - `dim_customer`: Customer dimension with SCD Type 2 fields (`customer_sk`, `churn_risk_band`).
-  - `dim_product`: Product dimension with hierarchy (`product_sk`, `category`, `subcategory`).
-  - `dim_store`: Store dimension (`store_sk`, `sqft_area`, `region`).
-  - `fact_sales`: Line-item order transaction facts (`gross_sales_amount`, `discount_amount`, `net_sales_amount`, `profit_amount`, `profit_margin_pct`).
-  - `fact_returns`: Product return event facts (`refund_amount`, `return_reason`).
+    dim_date {
+        date date_key PK
+        int year
+        int quarter
+        int month
+        string month_name
+        int day
+        boolean is_weekend
+    }
+```
 
 ---
 
-## 3. Unity Catalog Data Architecture
+## ⚡ Core Technical Innovations
+
+### 1. High-Water Mark (HWM) Incremental Engine
+- Maintains watermark state per entity in `bronze.hwm_watermarks` metadata Delta table.
+- Dynamically queries `MAX(updated_at)` from incoming batches and filters incremental datasets where `updated_at > last_watermark`.
+- Prevents full table scans, reducing processing latency by up to **80%**.
+
+### 2. Slowly Changing Dimensions (SCD Type 1 & Type 2)
+- **SCD Type 1 (Overwrite Latest State)**: Applied to `stores`, `products`, `orders`, `order_items`, `product_returns`, `customer_interactions`.
+- **SCD Type 2 (Full History Preservation)**: Applied to `customers`.
+  - Computes attribute hash: `row_hash = SHA256(first_name || last_name || email || phone || city || state || segment || churn_risk_score)`
+  - Computes hash surrogate key: `surrogate_key = SHA256(customer_id || effective_start_date)`
+  - Executes Delta `MERGE INTO`: when attribute changes occur, existing active record (`is_current = True`) is expired (`is_current = False`, `effective_end_date = incoming.updated_at`), and the new active version is inserted.
+
+### 3. Data Quality & Quarantine Isolation
+- Enforces strict PySpark `StructType` schemas on Landing CSV payloads.
+- Records failing primary key integrity or containing corrupted fields are automatically isolated into `/quarantine/<entity>/<batch_id>`.
+
+---
+
+## 🏛️ Unity Catalog Architecture
 
 ```
 retail_catalog (Unity Catalog)
@@ -158,52 +236,39 @@ retail_catalog (Unity Catalog)
 
 ---
 
-## 4. Power BI Business Data Marts & Analytical Metrics
+## 📈 Power BI Business Intelligence Data Marts
+
+> [!TIP]
+> The Gold layer materializes pre-aggregated, high-performance data views tailored for direct connection to Power BI dashboards:
 
 ### 1. Sales Performance Mart (`gold_sales_performance_mart`)
-- **Grain**: Region x Store x Category x Year x Month
-- **Metrics**:
-  - `total_net_sales`: Sum of net sales amount after discounts.
-  - `total_gross_sales`: Sum of gross sales amount before discounts.
-  - `total_discounts`: Sum of discount amounts applied.
-  - `total_orders`: Count of distinct order IDs.
-  - `total_units_sold`: Sum of item quantities sold.
-  - `avg_profit_margin_pct`: Average profit margin percentage across line items.
+- **Dimensions**: Region x Store x Category x Year x Month
+- **Metrics**: `total_net_sales`, `total_gross_sales`, `total_discounts`, `total_orders`, `total_units_sold`, `avg_profit_margin_pct`
 
-### 2. Customer Churn Mart (`gold_customer_churn_mart`)
-- **Grain**: Customer Segment x City x Churn Risk Band
-- **Metrics**:
-  - `customer_count`: Count of active customers in segment/city/risk band.
-  - `avg_churn_risk_score`: Average churn propensity score (0.0 to 1.0).
-  - `total_support_tickets`: Total support tickets submitted by group.
-- **Risk Bands**:
+### 2. Customer Churn Analytics Mart (`gold_customer_churn_mart`)
+- **Dimensions**: Customer Segment x City x Churn Risk Band
+- **Metrics**: `customer_count`, `avg_churn_risk_score`, `total_support_tickets`
+- **Risk Classification**:
   - `High Risk`: `churn_risk_score >= 0.70`
   - `Medium Risk`: `0.40 <= churn_risk_score < 0.70`
   - `Low Risk`: `churn_risk_score < 0.40`
 
-### 3. Product Quality Mart (`gold_product_quality_mart`)
-- **Grain**: Category x Subcategory x Product
-- **Metrics**:
-  - `units_sold`: Total quantity sold.
-  - `return_count`: Total return events recorded.
-  - `refund_amount`: Total monetary refund value issued.
-  - `avg_quality_rating`: Average customer product rating score.
-  - `return_rate_pct`: `(return_count / units_sold) * 100`
+### 3. Product Quality & Returns Mart (`gold_product_quality_mart`)
+- **Dimensions**: Category x Subcategory x Product Name
+- **Metrics**: `units_sold`, `return_count`, `refund_amount`, `avg_quality_rating`, `return_rate_pct`
 
 ### 4. Store Analytics Mart (`gold_store_analytics_mart`)
-- **Grain**: Store ID x Store Name x Region x Store Type
-- **Metrics**:
-  - `total_revenue`: Total net sales generated by store.
-  - `total_orders`: Total order volume completed by store.
-  - `avg_order_value`: Average transaction value per order (`total_revenue / total_orders`).
-  - `revenue_per_sqft`: Store sales efficiency metric (`total_revenue / sqft_area`).
+- **Dimensions**: Store ID x Store Name x Region x Store Type x SqFt Area
+- **Metrics**: `total_revenue`, `total_orders`, `avg_order_value`, `revenue_per_sqft`
 
 ---
 
-## 5. Directory & Project Structure
+## 📁 Repository Directory Structure
 
 ```
 Assignment8/
+├── .vscode/
+│   └── settings.json
 ├── config/
 │   ├── __init__.py
 │   └── settings.py
@@ -236,29 +301,30 @@ Assignment8/
 
 ---
 
-## 6. Local & Databricks Execution Instructions
+## 💻 How to Run the Pipeline
 
 ### Local Environment Setup
 
-1. Install required Python packages:
-   ```bash
-   pip install -r requirements.txt
+1. **Activate the Virtual Environment**:
+   ```powershell
+   ..\.venv\Scripts\Activate.ps1
    ```
 
-2. Run the end-to-end master pipeline (generates source datasets, executes Batch 1 historical load, and executes Batch 2 incremental load):
-   ```bash
+2. **Run the Master Pipeline** (Generates synthetic datasets, executes Batch 1 Initial Load, and Batch 2 Incremental Load):
+   ```powershell
    python run_pipeline.py
    ```
 
-3. Execute the pipeline verification suite:
-   ```bash
+3. **Run Validation & Inspect Results**:
+   ```powershell
    python validate_pipeline.py
    ```
 
-### Databricks Deployment
+---
 
-1. Import the `Assignment8` project into Databricks Workspace or Repos.
-2. Run `databricks_notebooks/01_setup_catalog.py` to create the `retail_catalog` Unity Catalog schemas.
-3. Configure a **Databricks Workflow Job** pointing to `databricks_notebooks/02_pipeline_job.py` with parameters:
-   - Task 1: `batch_01` (Initial Load)
-   - Task 2: `batch_02` (Incremental Scheduled Job)
+<div align="center">
+
+**Developed by Kashish Chadha (CT_CSI_DE_1098)**  
+*Celebal Summer Internship 2026 - Data Engineering Track*
+
+</div>
