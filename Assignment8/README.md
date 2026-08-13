@@ -447,7 +447,7 @@ The pipeline was executed and validated on local PySpark and Delta Lake:
 
 <div align="center">
 
-**Developed with ❤️ by Kashish Chadha (CT_CSI_DE_1098)**  
+**Developed by Kashish Chadha (CT_CSI_DE_1098)**  
 *B.Tech CSE (2027) — DIT University*  
 *Celebal Summer Internship 2026 — Data Engineering Track*
 
