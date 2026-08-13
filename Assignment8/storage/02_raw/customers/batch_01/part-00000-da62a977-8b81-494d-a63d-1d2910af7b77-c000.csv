@@ -1,0 +1,203 @@
+customer_id,first_name,last_name,email,phone,city,state,country,segment,churn_risk_score,created_at,updated_at,_ingest_timestamp,_source_file,_source_system,_batch_id
+CUST-0001,First_1,Last_1,user_1@example.com,+1-555-859-0001,Los Angeles,CA,USA,Home Office,0.25,2024-01-01 10:00:00,2024-01-01 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0002,First_2,Last_2,user_2@example.com,+1-555-204-0002,Chicago,IL,USA,Consumer,0.52,2024-01-24 10:00:00,2024-01-24 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0003,First_3,Last_3,user_3@example.com,+1-555-195-0003,New York,NY,USA,Corporate,0.24,2024-01-01 10:00:00,2024-01-01 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0004,First_4,Last_4,user_4@example.com,+1-555-303-0004,New York,NY,USA,VIP,0.23,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0005,First_5,Last_5,user_5@example.com,+1-555-990-0005,Phoenix,AZ,USA,Consumer,0.66,2024-01-26 10:00:00,2024-01-26 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0006,First_6,Last_6,user_6@example.com,+1-555-532-0006,Chicago,IL,USA,Home Office,0.27,2024-01-23 10:00:00,2024-01-23 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0007,First_7,Last_7,user_7@example.com,+1-555-881-0007,Houston,TX,USA,Home Office,0.13,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0008,First_8,Last_8,user_8@example.com,+1-555-467-0008,Seattle,WA,USA,Home Office,0.53,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0009,First_9,Last_9,user_9@example.com,+1-555-570-0009,New York,NY,USA,Consumer,0.83,2024-01-24 10:00:00,2024-01-24 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0010,First_10,Last_10,user_10@example.com,+1-555-665-0010,Seattle,WA,USA,Home Office,0.71,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0011,First_11,Last_11,user_11@example.com,+1-555-296-0011,Dallas,TX,USA,Consumer,0.09,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0012,First_12,Last_12,user_12@example.com,+1-555-396-0012,Houston,TX,USA,Consumer,0.73,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0013,First_13,Last_13,user_13@example.com,+1-555-384-0013,Los Angeles,CA,USA,VIP,0.56,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0014,First_14,Last_14,user_14@example.com,+1-555-479-0014,Dallas,TX,USA,Home Office,0.22,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0015,First_15,Last_15,user_15@example.com,+1-555-799-0015,Phoenix,AZ,USA,Consumer,0.54,2024-01-23 10:00:00,2024-01-23 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0016,First_16,Last_16,user_16@example.com,+1-555-846-0016,Chicago,IL,USA,Corporate,0.18,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0017,First_17,Last_17,user_17@example.com,+1-555-755-0017,Seattle,WA,USA,Corporate,0.6,2024-01-09 10:00:00,2024-01-09 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0018,First_18,Last_18,user_18@example.com,+1-555-941-0018,New York,NY,USA,Consumer,0.69,2024-01-08 10:00:00,2024-01-08 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0019,First_19,Last_19,user_19@example.com,+1-555-167-0019,Seattle,WA,USA,Corporate,0.78,2024-01-09 10:00:00,2024-01-09 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0020,First_20,Last_20,user_20@example.com,+1-555-771-0020,Dallas,TX,USA,VIP,0.37,2024-01-07 10:00:00,2024-01-07 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0021,First_21,Last_21,user_21@example.com,+1-555-371-0021,Miami,FL,USA,Corporate,0.25,2024-01-05 10:00:00,2024-01-05 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0022,First_22,Last_22,user_22@example.com,+1-555-698-0022,Phoenix,AZ,USA,VIP,0.77,2024-01-24 10:00:00,2024-01-24 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0023,First_23,Last_23,user_23@example.com,+1-555-324-0023,Seattle,WA,USA,Corporate,0.46,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0024,First_24,Last_24,user_24@example.com,+1-555-148-0024,Los Angeles,CA,USA,Consumer,0.17,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0025,First_25,Last_25,user_25@example.com,+1-555-796-0025,Chicago,IL,USA,VIP,0.53,2024-01-26 10:00:00,2024-01-26 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0026,First_26,Last_26,user_26@example.com,+1-555-710-0026,Seattle,WA,USA,VIP,0.47,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0027,First_27,Last_27,user_27@example.com,+1-555-838-0027,New York,NY,USA,Consumer,0.6,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0028,First_28,Last_28,user_28@example.com,+1-555-756-0028,Phoenix,AZ,USA,Home Office,0.14,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0029,First_29,Last_29,user_29@example.com,+1-555-564-0029,Seattle,WA,USA,Consumer,0.81,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0030,First_30,Last_30,user_30@example.com,+1-555-880-0030,Phoenix,AZ,USA,Corporate,0.46,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0031,First_31,Last_31,user_31@example.com,+1-555-740-0031,Los Angeles,CA,USA,Home Office,0.72,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0032,First_32,Last_32,user_32@example.com,+1-555-482-0032,Houston,TX,USA,Corporate,0.48,2024-01-05 10:00:00,2024-01-05 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0033,First_33,Last_33,user_33@example.com,+1-555-431-0033,New York,NY,USA,VIP,0.07,2024-01-20 10:00:00,2024-01-20 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0034,First_34,Last_34,user_34@example.com,+1-555-951-0034,Dallas,TX,USA,Home Office,0.24,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0035,First_35,Last_35,user_35@example.com,+1-555-680-0035,Houston,TX,USA,Consumer,0.12,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0036,First_36,Last_36,user_36@example.com,+1-555-170-0036,Miami,FL,USA,Corporate,0.15,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0037,First_37,Last_37,user_37@example.com,+1-555-662-0037,Miami,FL,USA,Corporate,0.26,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0038,First_38,Last_38,user_38@example.com,+1-555-316-0038,Seattle,WA,USA,Corporate,0.62,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0039,First_39,Last_39,user_39@example.com,+1-555-765-0039,Seattle,WA,USA,Home Office,0.4,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0040,First_40,Last_40,user_40@example.com,+1-555-353-0040,Miami,FL,USA,Corporate,0.1,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0041,First_41,Last_41,user_41@example.com,+1-555-667-0041,New York,NY,USA,Corporate,0.52,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0042,First_42,Last_42,user_42@example.com,+1-555-824-0042,New York,NY,USA,Consumer,0.23,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0043,First_43,Last_43,user_43@example.com,+1-555-438-0043,New York,NY,USA,Consumer,0.46,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0044,First_44,Last_44,user_44@example.com,+1-555-597-0044,Phoenix,AZ,USA,Corporate,0.48,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0045,First_45,Last_45,user_45@example.com,+1-555-903-0045,Miami,FL,USA,VIP,0.7,2024-01-08 10:00:00,2024-01-08 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0046,First_46,Last_46,user_46@example.com,+1-555-199-0046,Houston,TX,USA,VIP,0.33,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0047,First_47,Last_47,user_47@example.com,+1-555-984-0047,Seattle,WA,USA,Consumer,0.59,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0048,First_48,Last_48,user_48@example.com,+1-555-512-0048,Los Angeles,CA,USA,Home Office,0.69,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0049,First_49,Last_49,user_49@example.com,+1-555-296-0049,Los Angeles,CA,USA,Corporate,0.48,2024-01-08 10:00:00,2024-01-08 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0050,First_50,Last_50,user_50@example.com,+1-555-287-0050,Chicago,IL,USA,Home Office,0.42,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0051,First_51,Last_51,user_51@example.com,+1-555-927-0051,Los Angeles,CA,USA,Consumer,0.09,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0052,First_52,Last_52,user_52@example.com,+1-555-871-0052,New York,NY,USA,Corporate,0.18,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0053,First_53,Last_53,user_53@example.com,+1-555-318-0053,Miami,FL,USA,VIP,0.77,2024-01-16 10:00:00,2024-01-16 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0054,First_54,Last_54,user_54@example.com,+1-555-102-0054,Chicago,IL,USA,VIP,0.26,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0055,First_55,Last_55,user_55@example.com,+1-555-533-0055,Miami,FL,USA,VIP,0.17,2024-01-10 10:00:00,2024-01-10 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0056,First_56,Last_56,user_56@example.com,+1-555-159-0056,Phoenix,AZ,USA,Consumer,0.65,2024-01-07 10:00:00,2024-01-07 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0057,First_57,Last_57,user_57@example.com,+1-555-698-0057,New York,NY,USA,VIP,0.45,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0058,First_58,Last_58,user_58@example.com,+1-555-620-0058,Chicago,IL,USA,Consumer,0.73,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0059,First_59,Last_59,user_59@example.com,+1-555-169-0059,Los Angeles,CA,USA,Corporate,0.37,2024-01-20 10:00:00,2024-01-20 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0060,First_60,Last_60,user_60@example.com,+1-555-708-0060,Houston,TX,USA,Consumer,0.55,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0061,First_61,Last_61,user_61@example.com,+1-555-697-0061,Seattle,WA,USA,Home Office,0.8,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0062,First_62,Last_62,user_62@example.com,+1-555-833-0062,Houston,TX,USA,Home Office,0.24,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0063,First_63,Last_63,user_63@example.com,+1-555-787-0063,Seattle,WA,USA,Home Office,0.42,2024-01-05 10:00:00,2024-01-05 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0064,First_64,Last_64,user_64@example.com,+1-555-569-0064,Los Angeles,CA,USA,Consumer,0.11,2024-01-01 10:00:00,2024-01-01 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0065,First_65,Last_65,user_65@example.com,+1-555-371-0065,Houston,TX,USA,Corporate,0.8,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0066,First_66,Last_66,user_66@example.com,+1-555-350-0066,Los Angeles,CA,USA,Home Office,0.28,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0067,First_67,Last_67,user_67@example.com,+1-555-656-0067,Miami,FL,USA,Home Office,0.54,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0068,First_68,Last_68,user_68@example.com,+1-555-936-0068,New York,NY,USA,Home Office,0.8,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0069,First_69,Last_69,user_69@example.com,+1-555-999-0069,Los Angeles,CA,USA,Corporate,0.26,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0070,First_70,Last_70,user_70@example.com,+1-555-666-0070,Los Angeles,CA,USA,Corporate,0.27,2024-01-24 10:00:00,2024-01-24 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0071,First_71,Last_71,user_71@example.com,+1-555-451-0071,Houston,TX,USA,Corporate,0.6,2024-01-23 10:00:00,2024-01-23 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0072,First_72,Last_72,user_72@example.com,+1-555-600-0072,Phoenix,AZ,USA,Home Office,0.77,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0073,First_73,Last_73,user_73@example.com,+1-555-749-0073,New York,NY,USA,VIP,0.71,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0074,First_74,Last_74,user_74@example.com,+1-555-441-0074,New York,NY,USA,Corporate,0.56,2024-01-01 10:00:00,2024-01-01 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0075,First_75,Last_75,user_75@example.com,+1-555-859-0075,Phoenix,AZ,USA,VIP,0.49,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0076,First_76,Last_76,user_76@example.com,+1-555-109-0076,Seattle,WA,USA,Consumer,0.11,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0077,First_77,Last_77,user_77@example.com,+1-555-136-0077,Chicago,IL,USA,Home Office,0.52,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0078,First_78,Last_78,user_78@example.com,+1-555-230-0078,Chicago,IL,USA,Consumer,0.3,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0079,First_79,Last_79,user_79@example.com,+1-555-466-0079,New York,NY,USA,Corporate,0.6,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0080,First_80,Last_80,user_80@example.com,+1-555-898-0080,Los Angeles,CA,USA,VIP,0.83,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0081,First_81,Last_81,user_81@example.com,+1-555-342-0081,Chicago,IL,USA,Corporate,0.83,2024-01-30 10:00:00,2024-01-30 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0082,First_82,Last_82,user_82@example.com,+1-555-522-0082,Chicago,IL,USA,Consumer,0.19,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0083,First_83,Last_83,user_83@example.com,+1-555-521-0083,Dallas,TX,USA,Corporate,0.26,2024-01-26 10:00:00,2024-01-26 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0084,First_84,Last_84,user_84@example.com,+1-555-993-0084,Los Angeles,CA,USA,Consumer,0.74,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0085,First_85,Last_85,user_85@example.com,+1-555-936-0085,Houston,TX,USA,VIP,0.33,2024-01-07 10:00:00,2024-01-07 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0086,First_86,Last_86,user_86@example.com,+1-555-124-0086,Houston,TX,USA,Corporate,0.37,2024-01-08 10:00:00,2024-01-08 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0087,First_87,Last_87,user_87@example.com,+1-555-171-0087,Phoenix,AZ,USA,Home Office,0.33,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0088,First_88,Last_88,user_88@example.com,+1-555-963-0088,Seattle,WA,USA,Home Office,0.8,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0089,First_89,Last_89,user_89@example.com,+1-555-367-0089,Los Angeles,CA,USA,Corporate,0.51,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0090,First_90,Last_90,user_90@example.com,+1-555-211-0090,Phoenix,AZ,USA,VIP,0.33,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0091,First_91,Last_91,user_91@example.com,+1-555-720-0091,Dallas,TX,USA,Consumer,0.36,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0092,First_92,Last_92,user_92@example.com,+1-555-145-0092,Houston,TX,USA,VIP,0.05,2024-01-09 10:00:00,2024-01-09 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0093,First_93,Last_93,user_93@example.com,+1-555-541-0093,Houston,TX,USA,Consumer,0.81,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0094,First_94,Last_94,user_94@example.com,+1-555-421-0094,Dallas,TX,USA,Consumer,0.63,2024-01-20 10:00:00,2024-01-20 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0095,First_95,Last_95,user_95@example.com,+1-555-416-0095,Phoenix,AZ,USA,VIP,0.31,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0096,First_96,Last_96,user_96@example.com,+1-555-230-0096,Phoenix,AZ,USA,Corporate,0.39,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0097,First_97,Last_97,user_97@example.com,+1-555-866-0097,Seattle,WA,USA,Corporate,0.54,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0098,First_98,Last_98,user_98@example.com,+1-555-661-0098,Phoenix,AZ,USA,Consumer,0.29,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0099,First_99,Last_99,user_99@example.com,+1-555-904-0099,Houston,TX,USA,Home Office,0.42,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0100,First_100,Last_100,user_100@example.com,+1-555-318-0100,Miami,FL,USA,VIP,0.68,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0101,First_101,Last_101,user_101@example.com,+1-555-186-0101,Chicago,IL,USA,Home Office,0.46,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0102,First_102,Last_102,user_102@example.com,+1-555-938-0102,Dallas,TX,USA,Corporate,0.59,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0103,First_103,Last_103,user_103@example.com,+1-555-303-0103,Houston,TX,USA,Corporate,0.07,2024-01-26 10:00:00,2024-01-26 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0104,First_104,Last_104,user_104@example.com,+1-555-725-0104,Houston,TX,USA,Consumer,0.41,2024-01-16 10:00:00,2024-01-16 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0105,First_105,Last_105,user_105@example.com,+1-555-813-0105,Houston,TX,USA,VIP,0.45,2024-01-23 10:00:00,2024-01-23 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0106,First_106,Last_106,user_106@example.com,+1-555-771-0106,Houston,TX,USA,Consumer,0.76,2024-01-05 10:00:00,2024-01-05 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0107,First_107,Last_107,user_107@example.com,+1-555-535-0107,Los Angeles,CA,USA,Corporate,0.19,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0108,First_108,Last_108,user_108@example.com,+1-555-670-0108,Miami,FL,USA,Corporate,0.78,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0109,First_109,Last_109,user_109@example.com,+1-555-236-0109,Los Angeles,CA,USA,VIP,0.58,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0110,First_110,Last_110,user_110@example.com,+1-555-873-0110,Dallas,TX,USA,VIP,0.54,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0111,First_111,Last_111,user_111@example.com,+1-555-661-0111,Seattle,WA,USA,VIP,0.77,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0112,First_112,Last_112,user_112@example.com,+1-555-365-0112,Miami,FL,USA,Corporate,0.72,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0113,First_113,Last_113,user_113@example.com,+1-555-896-0113,Phoenix,AZ,USA,VIP,0.55,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0114,First_114,Last_114,user_114@example.com,+1-555-179-0114,Phoenix,AZ,USA,Home Office,0.24,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0115,First_115,Last_115,user_115@example.com,+1-555-653-0115,Dallas,TX,USA,Consumer,0.16,2024-01-11 10:00:00,2024-01-11 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0116,First_116,Last_116,user_116@example.com,+1-555-810-0116,Houston,TX,USA,Corporate,0.62,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0117,First_117,Last_117,user_117@example.com,+1-555-517-0117,Los Angeles,CA,USA,Home Office,0.48,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0118,First_118,Last_118,user_118@example.com,+1-555-311-0118,Seattle,WA,USA,VIP,0.36,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0119,First_119,Last_119,user_119@example.com,+1-555-883-0119,New York,NY,USA,VIP,0.43,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0120,First_120,Last_120,user_120@example.com,+1-555-871-0120,Dallas,TX,USA,VIP,0.73,2024-01-10 10:00:00,2024-01-10 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0121,First_121,Last_121,user_121@example.com,+1-555-865-0121,Seattle,WA,USA,Corporate,0.44,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0122,First_122,Last_122,user_122@example.com,+1-555-597-0122,Phoenix,AZ,USA,Consumer,0.36,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0123,First_123,Last_123,user_123@example.com,+1-555-269-0123,Seattle,WA,USA,VIP,0.79,2024-01-24 10:00:00,2024-01-24 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0124,First_124,Last_124,user_124@example.com,+1-555-503-0124,New York,NY,USA,Consumer,0.12,2024-01-30 10:00:00,2024-01-30 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0125,First_125,Last_125,user_125@example.com,+1-555-987-0125,Seattle,WA,USA,VIP,0.2,2024-01-05 10:00:00,2024-01-05 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0126,First_126,Last_126,user_126@example.com,+1-555-435-0126,Phoenix,AZ,USA,Corporate,0.41,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0127,First_127,Last_127,user_127@example.com,+1-555-488-0127,Dallas,TX,USA,Home Office,0.65,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0128,First_128,Last_128,user_128@example.com,+1-555-954-0128,Seattle,WA,USA,Consumer,0.43,2024-01-09 10:00:00,2024-01-09 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0129,First_129,Last_129,user_129@example.com,+1-555-458-0129,New York,NY,USA,Corporate,0.57,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0130,First_130,Last_130,user_130@example.com,+1-555-131-0130,New York,NY,USA,Corporate,0.21,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0131,First_131,Last_131,user_131@example.com,+1-555-256-0131,New York,NY,USA,Corporate,0.15,2024-01-20 10:00:00,2024-01-20 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0132,First_132,Last_132,user_132@example.com,+1-555-323-0132,Los Angeles,CA,USA,VIP,0.61,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0133,First_133,Last_133,user_133@example.com,+1-555-720-0133,Dallas,TX,USA,Consumer,0.67,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0134,First_134,Last_134,user_134@example.com,+1-555-418-0134,Chicago,IL,USA,Consumer,0.51,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0135,First_135,Last_135,user_135@example.com,+1-555-793-0135,Phoenix,AZ,USA,VIP,0.37,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0136,First_136,Last_136,user_136@example.com,+1-555-706-0136,Houston,TX,USA,Corporate,0.13,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0137,First_137,Last_137,user_137@example.com,+1-555-800-0137,Phoenix,AZ,USA,Consumer,0.69,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0138,First_138,Last_138,user_138@example.com,+1-555-645-0138,New York,NY,USA,VIP,0.58,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0139,First_139,Last_139,user_139@example.com,+1-555-763-0139,Los Angeles,CA,USA,Home Office,0.06,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0140,First_140,Last_140,user_140@example.com,+1-555-601-0140,Seattle,WA,USA,Consumer,0.4,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0141,First_141,Last_141,user_141@example.com,+1-555-948-0141,Dallas,TX,USA,VIP,0.62,2024-01-21 10:00:00,2024-01-21 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0142,First_142,Last_142,user_142@example.com,+1-555-851-0142,Seattle,WA,USA,Home Office,0.54,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0143,First_143,Last_143,user_143@example.com,+1-555-546-0143,Miami,FL,USA,Home Office,0.31,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0144,First_144,Last_144,user_144@example.com,+1-555-188-0144,Houston,TX,USA,Home Office,0.76,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0145,First_145,Last_145,user_145@example.com,+1-555-575-0145,Houston,TX,USA,VIP,0.32,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0146,First_146,Last_146,user_146@example.com,+1-555-432-0146,Miami,FL,USA,Corporate,0.44,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0147,First_147,Last_147,user_147@example.com,+1-555-364-0147,Dallas,TX,USA,Home Office,0.27,2024-01-26 10:00:00,2024-01-26 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0148,First_148,Last_148,user_148@example.com,+1-555-110-0148,Phoenix,AZ,USA,Corporate,0.12,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0149,First_149,Last_149,user_149@example.com,+1-555-668-0149,Seattle,WA,USA,Corporate,0.6,2024-01-16 10:00:00,2024-01-16 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0150,First_150,Last_150,user_150@example.com,+1-555-911-0150,Miami,FL,USA,Consumer,0.12,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0151,First_151,Last_151,user_151@example.com,+1-555-808-0151,Houston,TX,USA,Corporate,0.29,2024-01-13 10:00:00,2024-01-13 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0152,First_152,Last_152,user_152@example.com,+1-555-666-0152,Dallas,TX,USA,Home Office,0.39,2024-01-16 10:00:00,2024-01-16 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0153,First_153,Last_153,user_153@example.com,+1-555-819-0153,Dallas,TX,USA,VIP,0.27,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0154,First_154,Last_154,user_154@example.com,+1-555-223-0154,Phoenix,AZ,USA,Corporate,0.3,2024-01-08 10:00:00,2024-01-08 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0155,First_155,Last_155,user_155@example.com,+1-555-321-0155,Chicago,IL,USA,VIP,0.27,2024-01-07 10:00:00,2024-01-07 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0156,First_156,Last_156,user_156@example.com,+1-555-952-0156,Phoenix,AZ,USA,Corporate,0.29,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0157,First_157,Last_157,user_157@example.com,+1-555-409-0157,Dallas,TX,USA,Consumer,0.62,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0158,First_158,Last_158,user_158@example.com,+1-555-146-0158,Chicago,IL,USA,Consumer,0.49,2024-01-09 10:00:00,2024-01-09 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0159,First_159,Last_159,user_159@example.com,+1-555-989-0159,Chicago,IL,USA,VIP,0.13,2024-01-21 10:00:00,2024-01-21 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0160,First_160,Last_160,user_160@example.com,+1-555-391-0160,New York,NY,USA,VIP,0.43,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0161,First_161,Last_161,user_161@example.com,+1-555-152-0161,Dallas,TX,USA,Home Office,0.8,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0162,First_162,Last_162,user_162@example.com,+1-555-941-0162,Miami,FL,USA,Consumer,0.37,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0163,First_163,Last_163,user_163@example.com,+1-555-744-0163,Los Angeles,CA,USA,Consumer,0.17,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0164,First_164,Last_164,user_164@example.com,+1-555-354-0164,Phoenix,AZ,USA,Consumer,0.5,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0165,First_165,Last_165,user_165@example.com,+1-555-710-0165,Seattle,WA,USA,Corporate,0.67,2024-01-20 10:00:00,2024-01-20 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0166,First_166,Last_166,user_166@example.com,+1-555-553-0166,Seattle,WA,USA,Home Office,0.74,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0167,First_167,Last_167,user_167@example.com,+1-555-682-0167,Seattle,WA,USA,Consumer,0.54,2024-01-10 10:00:00,2024-01-10 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0168,First_168,Last_168,user_168@example.com,+1-555-881-0168,Los Angeles,CA,USA,Corporate,0.55,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0169,First_169,Last_169,user_169@example.com,+1-555-183-0169,Phoenix,AZ,USA,Corporate,0.24,2024-01-22 10:00:00,2024-01-22 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0170,First_170,Last_170,user_170@example.com,+1-555-102-0170,Los Angeles,CA,USA,VIP,0.41,2024-01-06 10:00:00,2024-01-06 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0171,First_171,Last_171,user_171@example.com,+1-555-133-0171,Miami,FL,USA,Corporate,0.28,2024-01-10 10:00:00,2024-01-10 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0172,First_172,Last_172,user_172@example.com,+1-555-980-0172,Phoenix,AZ,USA,VIP,0.11,2024-01-23 10:00:00,2024-01-23 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0173,First_173,Last_173,user_173@example.com,+1-555-370-0173,Houston,TX,USA,Corporate,0.39,2024-01-30 10:00:00,2024-01-30 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0174,First_174,Last_174,user_174@example.com,+1-555-252-0174,Houston,TX,USA,Home Office,0.71,2024-01-21 10:00:00,2024-01-21 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0175,First_175,Last_175,user_175@example.com,+1-555-269-0175,Los Angeles,CA,USA,Home Office,0.53,2024-01-02 10:00:00,2024-01-02 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0176,First_176,Last_176,user_176@example.com,+1-555-227-0176,Phoenix,AZ,USA,VIP,0.6,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0177,First_177,Last_177,user_177@example.com,+1-555-378-0177,Seattle,WA,USA,VIP,0.4,2024-01-31 10:00:00,2024-01-31 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0178,First_178,Last_178,user_178@example.com,+1-555-542-0178,New York,NY,USA,Home Office,0.53,2024-01-29 10:00:00,2024-01-29 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0179,First_179,Last_179,user_179@example.com,+1-555-334-0179,New York,NY,USA,Consumer,0.85,2024-01-03 10:00:00,2024-01-03 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0180,First_180,Last_180,user_180@example.com,+1-555-141-0180,Phoenix,AZ,USA,Corporate,0.43,2024-01-19 10:00:00,2024-01-19 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0181,First_181,Last_181,user_181@example.com,+1-555-384-0181,Miami,FL,USA,Corporate,0.85,2024-01-30 10:00:00,2024-01-30 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0182,First_182,Last_182,user_182@example.com,+1-555-933-0182,Seattle,WA,USA,VIP,0.83,2024-01-21 10:00:00,2024-01-21 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0183,First_183,Last_183,user_183@example.com,+1-555-518-0183,Miami,FL,USA,Home Office,0.31,2024-01-12 10:00:00,2024-01-12 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0184,First_184,Last_184,user_184@example.com,+1-555-264-0184,Los Angeles,CA,USA,Home Office,0.38,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0185,First_185,Last_185,user_185@example.com,+1-555-778-0185,Miami,FL,USA,VIP,0.7,2024-01-10 10:00:00,2024-01-10 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0186,First_186,Last_186,user_186@example.com,+1-555-190-0186,New York,NY,USA,Home Office,0.25,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0187,First_187,Last_187,user_187@example.com,+1-555-513-0187,Los Angeles,CA,USA,Consumer,0.58,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0188,First_188,Last_188,user_188@example.com,+1-555-155-0188,Miami,FL,USA,Corporate,0.46,2024-01-14 10:00:00,2024-01-14 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0189,First_189,Last_189,user_189@example.com,+1-555-552-0189,Miami,FL,USA,Consumer,0.21,2024-01-21 10:00:00,2024-01-21 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0190,First_190,Last_190,user_190@example.com,+1-555-394-0190,Chicago,IL,USA,VIP,0.75,2024-01-30 10:00:00,2024-01-30 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0191,First_191,Last_191,user_191@example.com,+1-555-129-0191,Miami,FL,USA,Corporate,0.62,2024-01-04 10:00:00,2024-01-04 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0192,First_192,Last_192,user_192@example.com,+1-555-114-0192,Phoenix,AZ,USA,VIP,0.12,2024-01-18 10:00:00,2024-01-18 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0193,First_193,Last_193,user_193@example.com,+1-555-220-0193,Los Angeles,CA,USA,Corporate,0.45,2024-01-15 10:00:00,2024-01-15 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0194,First_194,Last_194,user_194@example.com,+1-555-822-0194,Phoenix,AZ,USA,Home Office,0.38,2024-01-17 10:00:00,2024-01-17 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0195,First_195,Last_195,user_195@example.com,+1-555-349-0195,Miami,FL,USA,VIP,0.49,2024-01-16 10:00:00,2024-01-16 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0196,First_196,Last_196,user_196@example.com,+1-555-713-0196,Seattle,WA,USA,Corporate,0.74,2024-01-07 10:00:00,2024-01-07 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0197,First_197,Last_197,user_197@example.com,+1-555-908-0197,Phoenix,AZ,USA,VIP,0.32,2024-01-25 10:00:00,2024-01-25 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0198,First_198,Last_198,user_198@example.com,+1-555-102-0198,Phoenix,AZ,USA,Home Office,0.63,2024-01-27 10:00:00,2024-01-27 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0199,First_199,Last_199,user_199@example.com,+1-555-252-0199,Miami,FL,USA,VIP,0.48,2024-01-28 10:00:00,2024-01-28 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0200,First_200,Last_200,user_200@example.com,+1-555-665-0200,Dallas,TX,USA,VIP,0.41,2024-01-11 10:00:00,2024-01-11 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CORRUPT-001,,,invalid_email_at_domain,,,,,,INVALID_SCORE,2024-01-01,2024-01-01,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01
+CUST-0001,First_1,Last_1,user_1@example.com,+1-555-859-0001,Los Angeles,CA,USA,Home Office,0.25,2024-01-01 10:00:00,2024-01-01 10:00:00,2026-08-13T19:21:32.359+05:30,customers.csv,CRM,batch_01

@@ -1,0 +1,2 @@
+store_id,store_name,store_type,city,region,sqft_area,manager_name,opened_date,updated_at
+STR-001,Store New York Mega Flagship,Superstore,New York,NY,95000,Manager_1_Renamed,2023-01-01,2024-03-01 10:00:00

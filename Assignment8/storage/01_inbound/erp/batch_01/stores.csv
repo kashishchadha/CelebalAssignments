@@ -1,0 +1,11 @@
+store_id,store_name,store_type,city,region,sqft_area,manager_name,opened_date,updated_at
+STR-001,Store Los Angeles #1,Outlet,Los Angeles,CA,26232,Manager_1,2021-04-10,2024-01-01 10:00:00
+STR-002,Store Chicago #2,Express,Chicago,IL,47302,Manager_2,2021-06-12,2024-01-01 10:00:00
+STR-003,Store Houston #3,Flagship,Houston,TX,50123,Manager_3,2022-12-22,2024-01-01 10:00:00
+STR-004,Store Phoenix #4,Outlet,Phoenix,AZ,35221,Manager_4,2022-10-01,2024-01-01 10:00:00
+STR-005,Store Dallas #5,Express,Dallas,TX,62277,Manager_5,2022-02-02,2024-01-01 10:00:00
+STR-006,Store Seattle #6,Flagship,Seattle,WA,15680,Manager_6,2022-11-18,2024-01-01 10:00:00
+STR-007,Store Miami #7,Outlet,Miami,FL,62175,Manager_7,2022-04-26,2024-01-01 10:00:00
+STR-008,Store New York #8,Flagship,New York,NY,32367,Manager_8,2022-06-04,2024-01-01 10:00:00
+STR-009,Store Los Angeles #9,Superstore,Los Angeles,CA,71489,Manager_9,2022-12-08,2024-01-01 10:00:00
+STR-010,Store Chicago #10,Outlet,Chicago,IL,28538,Manager_10,2021-12-03,2024-01-01 10:00:00

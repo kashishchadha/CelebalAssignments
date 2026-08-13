@@ -1,0 +1,301 @@
+interaction_id,customer_id,channel,sentiment,support_tickets_count,interaction_timestamp,_ingest_timestamp,_source_file,_source_system,_batch_id
+INT-00001,CUST-0083,Mobile App,Negative,3,2024-01-14 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00002,CUST-0060,In-Store,Negative,3,2024-01-27 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00003,CUST-0181,Mobile App,Neutral,0,2024-01-25 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00004,CUST-0033,In-Store,Positive,3,2024-02-03 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00005,CUST-0026,Web,Negative,1,2024-02-04 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00006,CUST-0105,Web,Neutral,2,2024-02-11 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00007,CUST-0087,Phone Support,Negative,0,2024-02-10 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00008,CUST-0085,Phone Support,Neutral,3,2024-02-14 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00009,CUST-0139,Web,Positive,2,2024-01-04 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00010,CUST-0059,Web,Negative,0,2024-01-06 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00011,CUST-0114,In-Store,Positive,0,2024-01-12 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00012,CUST-0084,In-Store,Neutral,3,2024-01-04 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00013,CUST-0038,Phone Support,Negative,1,2024-01-17 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00014,CUST-0044,Phone Support,Negative,1,2024-01-12 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00015,CUST-0128,Mobile App,Neutral,2,2024-02-07 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00016,CUST-0118,Web,Neutral,2,2024-01-18 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00017,CUST-0174,Web,Neutral,2,2024-02-04 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00018,CUST-0151,Phone Support,Negative,2,2024-01-21 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00019,CUST-0117,Phone Support,Neutral,0,2024-01-20 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00020,CUST-0061,In-Store,Negative,2,2024-01-26 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00021,CUST-0180,Phone Support,Neutral,0,2024-01-19 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00022,CUST-0145,Web,Negative,3,2024-02-14 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00023,CUST-0074,In-Store,Positive,1,2024-01-16 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00024,CUST-0159,Mobile App,Negative,0,2024-01-18 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00025,CUST-0161,In-Store,Neutral,0,2024-02-11 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00026,CUST-0149,Mobile App,Positive,2,2024-01-25 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00027,CUST-0084,Mobile App,Positive,2,2024-01-27 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00028,CUST-0136,Mobile App,Neutral,3,2024-02-02 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00029,CUST-0076,Phone Support,Positive,1,2024-01-22 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00030,CUST-0194,Phone Support,Negative,2,2024-01-16 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00031,CUST-0024,In-Store,Negative,0,2024-01-26 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00032,CUST-0117,In-Store,Negative,3,2024-01-25 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00033,CUST-0164,Mobile App,Neutral,0,2024-01-24 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00034,CUST-0159,Mobile App,Negative,0,2024-02-05 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00035,CUST-0163,In-Store,Negative,3,2024-01-31 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00036,CUST-0030,Web,Neutral,3,2024-01-09 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00037,CUST-0030,Mobile App,Neutral,3,2024-01-07 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00038,CUST-0095,Phone Support,Negative,1,2024-02-13 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00039,CUST-0107,Phone Support,Negative,3,2024-02-11 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00040,CUST-0072,In-Store,Positive,3,2024-01-04 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00041,CUST-0114,Web,Negative,2,2024-01-16 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00042,CUST-0140,Web,Neutral,2,2024-02-11 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00043,CUST-0049,Web,Negative,1,2024-01-09 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00044,CUST-0165,Web,Positive,2,2024-02-11 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00045,CUST-0063,Mobile App,Positive,1,2024-01-10 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00046,CUST-0151,In-Store,Positive,0,2024-01-14 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00047,CUST-0071,In-Store,Positive,0,2024-01-10 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00048,CUST-0170,Web,Neutral,1,2024-01-02 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00049,CUST-0151,Mobile App,Neutral,0,2024-01-21 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00050,CUST-0033,Web,Negative,0,2024-01-28 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00051,CUST-0122,Web,Neutral,1,2024-01-29 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00052,CUST-0158,In-Store,Neutral,0,2024-01-04 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00053,CUST-0016,Phone Support,Negative,0,2024-01-31 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00054,CUST-0126,Web,Positive,2,2024-02-16 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00055,CUST-0156,Mobile App,Neutral,2,2024-01-10 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00056,CUST-0098,In-Store,Neutral,3,2024-02-09 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00057,CUST-0026,Mobile App,Neutral,3,2024-02-14 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00058,CUST-0059,Phone Support,Neutral,3,2024-01-27 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00059,CUST-0187,Phone Support,Neutral,2,2024-01-07 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00060,CUST-0096,Phone Support,Positive,0,2024-01-11 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00061,CUST-0022,Web,Negative,2,2024-01-06 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00062,CUST-0034,In-Store,Negative,0,2024-02-05 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00063,CUST-0106,Phone Support,Negative,0,2024-01-24 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00064,CUST-0074,In-Store,Positive,1,2024-02-08 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00065,CUST-0040,Mobile App,Positive,2,2024-02-13 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00066,CUST-0143,In-Store,Negative,1,2024-01-24 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00067,CUST-0110,Web,Negative,2,2024-02-06 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00068,CUST-0008,In-Store,Neutral,2,2024-01-12 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00069,CUST-0002,Phone Support,Positive,1,2024-01-12 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00070,CUST-0190,Web,Negative,1,2024-02-10 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00071,CUST-0097,In-Store,Positive,2,2024-01-28 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00072,CUST-0080,Web,Positive,1,2024-01-22 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00073,CUST-0041,Web,Neutral,3,2024-02-09 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00074,CUST-0170,Phone Support,Neutral,2,2024-01-29 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00075,CUST-0056,In-Store,Neutral,0,2024-02-02 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00076,CUST-0073,Phone Support,Negative,2,2024-02-14 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00077,CUST-0012,Web,Positive,1,2024-01-15 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00078,CUST-0078,In-Store,Neutral,2,2024-01-14 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00079,CUST-0031,Phone Support,Positive,1,2024-01-02 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00080,CUST-0098,Mobile App,Negative,2,2024-02-05 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00081,CUST-0019,Web,Neutral,0,2024-01-27 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00082,CUST-0118,Phone Support,Negative,3,2024-01-05 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00083,CUST-0182,In-Store,Positive,3,2024-02-10 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00084,CUST-0006,Phone Support,Negative,2,2024-01-21 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00085,CUST-0023,Mobile App,Neutral,3,2024-01-28 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00086,CUST-0135,In-Store,Negative,2,2024-01-06 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00087,CUST-0057,Web,Negative,0,2024-01-22 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00088,CUST-0136,In-Store,Neutral,1,2024-02-02 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00089,CUST-0061,In-Store,Positive,1,2024-01-07 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00090,CUST-0155,Web,Positive,3,2024-01-11 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00091,CUST-0119,Phone Support,Negative,2,2024-02-07 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00092,CUST-0161,Phone Support,Positive,3,2024-01-21 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00093,CUST-0114,In-Store,Negative,0,2024-02-10 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00094,CUST-0091,In-Store,Neutral,3,2024-02-02 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00095,CUST-0010,In-Store,Positive,0,2024-01-04 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00096,CUST-0158,Phone Support,Neutral,0,2024-02-09 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00097,CUST-0116,Mobile App,Neutral,3,2024-02-07 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00098,CUST-0129,Phone Support,Positive,2,2024-01-10 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00099,CUST-0183,Mobile App,Positive,1,2024-01-07 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00100,CUST-0182,Mobile App,Neutral,2,2024-01-30 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00101,CUST-0073,In-Store,Negative,0,2024-01-25 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00102,CUST-0162,Web,Neutral,0,2024-02-11 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00103,CUST-0143,In-Store,Neutral,1,2024-02-13 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00104,CUST-0086,Mobile App,Neutral,2,2024-01-07 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00105,CUST-0168,Phone Support,Positive,0,2024-02-15 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00106,CUST-0080,In-Store,Positive,0,2024-02-05 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00107,CUST-0166,In-Store,Positive,2,2024-02-12 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00108,CUST-0080,In-Store,Neutral,1,2024-01-12 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00109,CUST-0058,Web,Neutral,0,2024-01-09 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00110,CUST-0130,Web,Negative,2,2024-02-05 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00111,CUST-0197,Phone Support,Positive,1,2024-02-09 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00112,CUST-0047,Mobile App,Negative,3,2024-02-15 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00113,CUST-0012,Mobile App,Neutral,2,2024-01-27 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00114,CUST-0193,Mobile App,Neutral,3,2024-01-29 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00115,CUST-0050,Phone Support,Neutral,2,2024-01-25 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00116,CUST-0200,Phone Support,Positive,1,2024-01-26 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00117,CUST-0155,Web,Negative,3,2024-01-09 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00118,CUST-0096,Web,Neutral,0,2024-02-05 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00119,CUST-0196,Phone Support,Negative,1,2024-01-11 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00120,CUST-0112,Phone Support,Neutral,0,2024-01-06 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00121,CUST-0107,In-Store,Positive,3,2024-01-04 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00122,CUST-0021,Web,Neutral,0,2024-01-24 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00123,CUST-0183,Mobile App,Positive,0,2024-02-11 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00124,CUST-0074,Mobile App,Negative,3,2024-02-01 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00125,CUST-0115,Web,Positive,2,2024-02-09 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00126,CUST-0056,Phone Support,Positive,2,2024-01-11 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00127,CUST-0061,Web,Positive,3,2024-01-20 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00128,CUST-0164,Web,Positive,3,2024-02-10 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00129,CUST-0153,Mobile App,Negative,1,2024-02-04 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00130,CUST-0075,In-Store,Positive,3,2024-01-28 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00131,CUST-0048,Web,Negative,2,2024-02-13 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00132,CUST-0018,Web,Neutral,3,2024-02-04 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00133,CUST-0012,In-Store,Neutral,0,2024-02-10 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00134,CUST-0092,Mobile App,Negative,0,2024-01-05 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00135,CUST-0198,In-Store,Positive,0,2024-02-08 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00136,CUST-0091,Mobile App,Negative,3,2024-02-04 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00137,CUST-0179,Mobile App,Positive,0,2024-02-01 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00138,CUST-0184,In-Store,Positive,0,2024-01-30 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00139,CUST-0052,In-Store,Negative,3,2024-01-03 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00140,CUST-0140,Web,Negative,1,2024-01-31 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00141,CUST-0074,In-Store,Neutral,0,2024-01-23 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00142,CUST-0095,Phone Support,Neutral,2,2024-01-28 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00143,CUST-0048,Phone Support,Neutral,2,2024-02-02 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00144,CUST-0022,Phone Support,Negative,1,2024-01-28 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00145,CUST-0140,Web,Positive,2,2024-01-19 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00146,CUST-0170,Phone Support,Negative,3,2024-01-19 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00147,CUST-0043,In-Store,Neutral,0,2024-02-15 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00148,CUST-0187,Phone Support,Neutral,0,2024-01-24 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00149,CUST-0020,Phone Support,Neutral,1,2024-02-13 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00150,CUST-0008,Phone Support,Positive,1,2024-01-11 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00151,CUST-0018,In-Store,Neutral,3,2024-01-17 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00152,CUST-0146,Mobile App,Negative,3,2024-01-04 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00153,CUST-0095,Web,Negative,1,2024-01-25 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00154,CUST-0136,In-Store,Negative,2,2024-01-24 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00155,CUST-0064,Mobile App,Neutral,3,2024-01-08 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00156,CUST-0144,In-Store,Negative,3,2024-01-08 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00157,CUST-0055,Phone Support,Positive,0,2024-02-09 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00158,CUST-0035,Mobile App,Negative,3,2024-01-06 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00159,CUST-0023,In-Store,Negative,0,2024-02-13 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00160,CUST-0141,In-Store,Positive,1,2024-02-04 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00161,CUST-0093,Web,Positive,1,2024-02-02 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00162,CUST-0061,In-Store,Negative,2,2024-02-01 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00163,CUST-0120,Web,Positive,2,2024-02-05 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00164,CUST-0102,Phone Support,Negative,3,2024-02-16 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00165,CUST-0197,Web,Positive,2,2024-01-28 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00166,CUST-0165,Phone Support,Negative,2,2024-01-06 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00167,CUST-0033,Mobile App,Positive,3,2024-02-06 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00168,CUST-0129,Mobile App,Neutral,1,2024-01-04 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00169,CUST-0042,Mobile App,Neutral,2,2024-01-22 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00170,CUST-0021,In-Store,Positive,2,2024-01-17 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00171,CUST-0158,Mobile App,Negative,1,2024-02-04 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00172,CUST-0044,In-Store,Negative,0,2024-02-13 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00173,CUST-0008,In-Store,Negative,1,2024-01-06 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00174,CUST-0197,Web,Neutral,2,2024-02-06 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00175,CUST-0165,Mobile App,Negative,3,2024-01-21 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00176,CUST-0077,Web,Positive,3,2024-01-30 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00177,CUST-0107,Mobile App,Neutral,1,2024-02-01 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00178,CUST-0081,In-Store,Neutral,1,2024-02-15 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00179,CUST-0195,Web,Neutral,1,2024-01-25 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00180,CUST-0120,Phone Support,Positive,1,2024-01-08 18:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00181,CUST-0025,Phone Support,Negative,3,2024-01-04 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00182,CUST-0064,In-Store,Positive,1,2024-01-11 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00183,CUST-0128,Phone Support,Neutral,3,2024-02-03 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00184,CUST-0006,Phone Support,Positive,1,2024-01-06 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00185,CUST-0150,Web,Neutral,3,2024-01-23 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00186,CUST-0153,Phone Support,Neutral,0,2024-02-12 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00187,CUST-0028,In-Store,Negative,2,2024-01-28 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00188,CUST-0196,Web,Neutral,0,2024-01-26 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00189,CUST-0146,In-Store,Negative,2,2024-02-05 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00190,CUST-0019,Phone Support,Negative,2,2024-01-26 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00191,CUST-0160,Web,Positive,0,2024-02-14 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00192,CUST-0101,In-Store,Positive,1,2024-01-24 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00193,CUST-0155,Web,Positive,0,2024-02-02 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00194,CUST-0036,Phone Support,Negative,3,2024-02-15 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00195,CUST-0039,Mobile App,Neutral,2,2024-02-09 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00196,CUST-0042,In-Store,Negative,2,2024-01-27 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00197,CUST-0130,Phone Support,Negative,2,2024-02-03 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00198,CUST-0122,In-Store,Negative,0,2024-01-02 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00199,CUST-0107,Web,Negative,3,2024-02-07 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00200,CUST-0068,Mobile App,Negative,0,2024-02-12 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00201,CUST-0150,Phone Support,Positive,1,2024-01-31 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00202,CUST-0009,Web,Positive,0,2024-02-07 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00203,CUST-0113,Mobile App,Neutral,1,2024-01-21 23:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00204,CUST-0106,Phone Support,Negative,0,2024-02-03 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00205,CUST-0181,Mobile App,Negative,2,2024-01-10 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00206,CUST-0170,Phone Support,Neutral,1,2024-02-01 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00207,CUST-0118,In-Store,Negative,2,2024-02-04 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00208,CUST-0157,Mobile App,Neutral,2,2024-01-31 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00209,CUST-0058,Mobile App,Negative,3,2024-01-20 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00210,CUST-0082,In-Store,Neutral,0,2024-01-31 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00211,CUST-0147,Phone Support,Neutral,2,2024-02-14 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00212,CUST-0198,Web,Neutral,0,2024-01-10 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00213,CUST-0089,In-Store,Negative,3,2024-01-30 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00214,CUST-0055,In-Store,Negative,2,2024-01-14 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00215,CUST-0036,Mobile App,Positive,0,2024-01-08 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00216,CUST-0172,Mobile App,Positive,0,2024-02-03 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00217,CUST-0106,Phone Support,Positive,1,2024-01-23 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00218,CUST-0002,Phone Support,Negative,3,2024-02-05 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00219,CUST-0123,In-Store,Neutral,2,2024-02-11 16:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00220,CUST-0166,Mobile App,Negative,0,2024-01-04 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00221,CUST-0045,Web,Neutral,3,2024-01-27 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00222,CUST-0048,Web,Neutral,0,2024-01-19 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00223,CUST-0086,Phone Support,Positive,3,2024-01-20 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00224,CUST-0070,In-Store,Positive,3,2024-01-13 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00225,CUST-0166,Mobile App,Positive,2,2024-01-18 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00226,CUST-0076,Mobile App,Positive,3,2024-02-07 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00227,CUST-0110,Web,Neutral,0,2024-02-02 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00228,CUST-0048,In-Store,Positive,0,2024-01-10 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00229,CUST-0067,Phone Support,Neutral,2,2024-01-25 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00230,CUST-0078,Web,Neutral,2,2024-02-08 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00231,CUST-0178,Web,Neutral,2,2024-01-16 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00232,CUST-0041,In-Store,Negative,0,2024-01-27 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00233,CUST-0164,Mobile App,Positive,1,2024-01-19 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00234,CUST-0123,In-Store,Neutral,3,2024-01-11 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00235,CUST-0194,Mobile App,Positive,0,2024-02-05 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00236,CUST-0135,In-Store,Positive,0,2024-01-30 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00237,CUST-0016,Mobile App,Negative,1,2024-02-06 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00238,CUST-0043,Phone Support,Positive,1,2024-01-22 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00239,CUST-0184,Web,Negative,3,2024-02-08 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00240,CUST-0015,Phone Support,Neutral,0,2024-01-30 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00241,CUST-0144,In-Store,Negative,0,2024-01-31 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00242,CUST-0102,Mobile App,Negative,0,2024-01-17 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00243,CUST-0012,Web,Negative,0,2024-01-28 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00244,CUST-0018,In-Store,Neutral,1,2024-01-31 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00245,CUST-0197,Phone Support,Neutral,3,2024-01-10 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00246,CUST-0115,Web,Negative,1,2024-01-25 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00247,CUST-0168,Mobile App,Negative,3,2024-01-23 13:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00248,CUST-0136,Mobile App,Positive,0,2024-01-10 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00249,CUST-0077,Phone Support,Negative,3,2024-01-31 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00250,CUST-0059,In-Store,Positive,2,2024-01-17 00:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00251,CUST-0049,Phone Support,Negative,0,2024-01-08 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00252,CUST-0062,Web,Negative,0,2024-01-14 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00253,CUST-0115,Web,Positive,0,2024-02-09 07:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00254,CUST-0103,Mobile App,Positive,1,2024-01-29 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00255,CUST-0129,In-Store,Negative,2,2024-01-19 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00256,CUST-0061,Mobile App,Neutral,2,2024-01-20 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00257,CUST-0071,Mobile App,Negative,3,2024-01-05 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00258,CUST-0143,In-Store,Negative,3,2024-02-01 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00259,CUST-0135,Phone Support,Neutral,1,2024-01-22 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00260,CUST-0077,Phone Support,Positive,1,2024-01-25 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00261,CUST-0077,Phone Support,Positive,3,2024-02-15 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00262,CUST-0107,Mobile App,Neutral,1,2024-02-06 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00263,CUST-0066,Web,Neutral,2,2024-01-14 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00264,CUST-0024,Mobile App,Positive,2,2024-02-05 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00265,CUST-0097,Web,Positive,1,2024-02-14 05:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00266,CUST-0195,Mobile App,Neutral,1,2024-02-08 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00267,CUST-0086,Mobile App,Positive,0,2024-01-20 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00268,CUST-0192,Mobile App,Neutral,1,2024-01-31 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00269,CUST-0142,Phone Support,Neutral,2,2024-01-21 19:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00270,CUST-0079,Phone Support,Neutral,0,2024-01-17 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00271,CUST-0185,Mobile App,Neutral,2,2024-01-31 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00272,CUST-0106,Mobile App,Negative,1,2024-01-04 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00273,CUST-0005,Phone Support,Neutral,1,2024-01-18 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00274,CUST-0051,Phone Support,Negative,1,2024-01-22 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00275,CUST-0128,In-Store,Neutral,3,2024-02-06 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00276,CUST-0186,Phone Support,Neutral,1,2024-02-12 09:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00277,CUST-0188,Mobile App,Negative,3,2024-01-23 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00278,CUST-0048,Web,Negative,0,2024-02-05 06:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00279,CUST-0020,Web,Neutral,1,2024-02-12 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00280,CUST-0162,Mobile App,Positive,1,2024-01-15 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00281,CUST-0130,Web,Negative,3,2024-01-30 21:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00282,CUST-0169,Web,Negative,3,2024-02-01 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00283,CUST-0004,In-Store,Negative,2,2024-01-03 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00284,CUST-0005,Phone Support,Positive,0,2024-02-03 08:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00285,CUST-0025,Mobile App,Positive,2,2024-02-03 14:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00286,CUST-0091,Web,Neutral,3,2024-01-18 22:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00287,CUST-0118,Mobile App,Neutral,0,2024-02-06 17:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00288,CUST-0168,Web,Neutral,3,2024-02-11 11:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00289,CUST-0097,Web,Negative,0,2024-02-06 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00290,CUST-0180,Phone Support,Neutral,2,2024-01-11 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00291,CUST-0145,Web,Positive,1,2024-01-08 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00292,CUST-0178,In-Store,Positive,0,2024-02-07 01:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00293,CUST-0176,Web,Positive,2,2024-01-19 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00294,CUST-0005,Mobile App,Negative,3,2024-01-15 04:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00295,CUST-0020,Mobile App,Negative,3,2024-01-20 15:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00296,CUST-0174,Phone Support,Negative,1,2024-02-04 20:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00297,CUST-0177,In-Store,Positive,0,2024-01-07 02:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00298,CUST-0112,In-Store,Negative,3,2024-01-15 12:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00299,CUST-0199,In-Store,Neutral,3,2024-01-21 10:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01
+INT-00300,CUST-0059,Phone Support,Neutral,1,2024-01-24 03:00:00,2026-08-13T19:21:32.866+05:30,customer_interactions.csv,CRM,batch_01

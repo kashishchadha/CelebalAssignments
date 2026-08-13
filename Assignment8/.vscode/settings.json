@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/Assignment8",
+        "./Assignment8"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/Assignment8",
+        "./Assignment8"
+    ]
+}

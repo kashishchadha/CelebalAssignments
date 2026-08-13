@@ -1,0 +1,61 @@
+product_id,product_name,category,subcategory,unit_cost,msrp,quality_rating,updated_at,_ingest_timestamp,_source_file,_source_system,_batch_id
+PROD-0001,Smartphones Item 1,Electronics,Smartphones,22.87,32.3,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0002,Smartphones Item 2,Electronics,Smartphones,303.04,422.64,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0003,Smartphones Item 3,Electronics,Smartphones,153.01,219.21,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0004,Smartphones Item 4,Electronics,Smartphones,451.56,787.13,5.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0005,Smartphones Item 5,Electronics,Smartphones,290.26,377.85,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0006,Laptops Item 1,Electronics,Laptops,78.03,107.73,4.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0007,Laptops Item 2,Electronics,Laptops,41.0,59.89,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0008,Laptops Item 3,Electronics,Laptops,247.27,308.14,3.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0009,Laptops Item 4,Electronics,Laptops,130.83,206.06,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0010,Laptops Item 5,Electronics,Laptops,105.82,133.78,3.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0011,Tablets Item 1,Electronics,Tablets,474.92,664.57,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0012,Tablets Item 2,Electronics,Tablets,404.0,564.68,3.7,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0013,Tablets Item 3,Electronics,Tablets,409.58,702.72,4.9,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0014,Tablets Item 4,Electronics,Tablets,76.7,106.8,4.9,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0015,Tablets Item 5,Electronics,Tablets,108.42,150.54,4.9,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0016,Headphones Item 1,Electronics,Headphones,484.68,666.37,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0017,Headphones Item 2,Electronics,Headphones,250.59,387.29,3.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0018,Headphones Item 3,Electronics,Headphones,194.27,328.3,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0019,Headphones Item 4,Electronics,Headphones,65.81,101.24,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0020,Headphones Item 5,Electronics,Headphones,277.36,446.28,4.1,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0021,Men Wear Item 1,Apparel,Men Wear,476.97,704.47,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0022,Men Wear Item 2,Apparel,Men Wear,224.84,309.11,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0023,Men Wear Item 3,Apparel,Men Wear,411.29,689.9,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0024,Men Wear Item 4,Apparel,Men Wear,254.66,402.36,3.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0025,Men Wear Item 5,Apparel,Men Wear,332.74,542.08,4.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0026,Women Wear Item 1,Apparel,Women Wear,46.24,82.97,4.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0027,Women Wear Item 2,Apparel,Women Wear,206.39,310.4,4.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0028,Women Wear Item 3,Apparel,Women Wear,348.94,532.55,4.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0029,Women Wear Item 4,Apparel,Women Wear,186.17,323.43,4.1,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0030,Women Wear Item 5,Apparel,Women Wear,322.71,403.71,4.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0031,Footwear Item 1,Apparel,Footwear,332.22,469.43,4.3,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0032,Footwear Item 2,Apparel,Footwear,31.71,56.77,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0033,Footwear Item 3,Apparel,Footwear,205.81,339.92,4.9,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0034,Footwear Item 4,Apparel,Footwear,220.92,266.5,3.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0035,Footwear Item 5,Apparel,Footwear,260.23,393.28,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0036,Accessories Item 1,Apparel,Accessories,291.87,428.31,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0037,Accessories Item 2,Apparel,Accessories,388.45,603.32,4.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0038,Accessories Item 3,Apparel,Accessories,179.03,217.47,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0039,Accessories Item 4,Apparel,Accessories,213.83,379.98,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0040,Accessories Item 5,Apparel,Accessories,470.93,605.15,3.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0041,Furniture Item 1,Home,Furniture,233.11,308.67,4.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0042,Furniture Item 2,Home,Furniture,243.32,355.95,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0043,Furniture Item 3,Home,Furniture,166.27,229.48,4.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0044,Furniture Item 4,Home,Furniture,66.39,113.49,4.3,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0045,Furniture Item 5,Home,Furniture,341.8,443.87,5.0,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0046,Kitchenware Item 1,Home,Kitchenware,129.52,168.98,3.3,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0047,Kitchenware Item 2,Home,Kitchenware,284.33,504.71,3.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0048,Kitchenware Item 3,Home,Kitchenware,208.47,273.24,4.3,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0049,Kitchenware Item 4,Home,Kitchenware,221.75,269.98,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0050,Kitchenware Item 5,Home,Kitchenware,106.69,165.94,3.8,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0051,Bedding Item 1,Home,Bedding,355.32,470.26,4.5,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0052,Bedding Item 2,Home,Bedding,406.28,502.79,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0053,Bedding Item 3,Home,Bedding,437.27,573.78,3.7,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0054,Bedding Item 4,Home,Bedding,234.2,317.91,4.7,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0055,Bedding Item 5,Home,Bedding,268.58,425.29,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0056,Decor Item 1,Home,Decor,309.54,480.47,3.7,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0057,Decor Item 2,Home,Decor,424.3,666.33,4.6,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0058,Decor Item 3,Home,Decor,355.93,490.64,4.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0059,Decor Item 4,Home,Decor,51.53,65.98,3.2,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
+PROD-0060,Decor Item 5,Home,Decor,159.64,209.1,4.4,2024-01-01 10:00:00,2026-08-13T19:21:33.756+05:30,products.csv,ERP,batch_01
