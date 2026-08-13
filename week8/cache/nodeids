@@ -1,0 +1,16 @@
+[
+  "tests/test_edge_cases.py::test_blank_and_literal_null_customer_ids_become_missing",
+  "tests/test_edge_cases.py::test_database_rejects_discount_above_100",
+  "tests/test_edge_cases.py::test_database_rejects_orphan_order_id",
+  "tests/test_edge_cases.py::test_database_rejects_zero_quantity",
+  "tests/test_edge_cases.py::test_dd_mm_yyyy_dates_are_converted",
+  "tests/test_edge_cases.py::test_discount_above_100_is_clipped",
+  "tests/test_edge_cases.py::test_future_order_date_is_reported_not_dropped",
+  "tests/test_edge_cases.py::test_invalid_emails_are_listed",
+  "tests/test_edge_cases.py::test_negative_discount_is_clipped_to_zero",
+  "tests/test_edge_cases.py::test_negative_quantity_is_kept_and_flagged_as_return",
+  "tests/test_edge_cases.py::test_orphan_order_id_is_detected",
+  "tests/test_edge_cases.py::test_orphan_order_id_is_moved_to_rejected_file",
+  "tests/test_edge_cases.py::test_product_names_are_normalised",
+  "tests/test_edge_cases.py::test_zero_quantity_row_is_dropped"
+]
